@@ -15,6 +15,7 @@ const GlobanStyle = createGlobalStyle`
     
     body{
         margin: 0;
+        min-height: 100vh;
         font-family: ${({ theme }) => theme.fonts.primaryFont};
         color: ${({ theme }) => theme.colors.textColor};
         background: ${({ theme }) => theme.colors.backgroundColor};
@@ -146,25 +147,25 @@ const GlobanStyle = createGlobalStyle`
 
     @media screen and (max-width: 1023px) {
         div.header--visible {
-        transform: translateY(0px)
+            transform: translateY(0px)
         }
     }
 
     @media screen and (min-width: 1024px) {
         ::-webkit-scrollbar {
-        width: .4em;
+            width: .4em;
         }
 
         ::-webkit-scrollbar-track {
-        background: ${({ theme }) => theme.colors.black};
+            background: ${({ theme }) => theme.colors.backgroundColor};
         }
 
         ::-webkit-scrollbar-thumb {
-        background: ${({ theme }) => theme.colors.whites[2]};
+            background: ${({ theme }) => theme.colors.ligthColor};
         }
 
         ::-webkit-scrollbar-thumb:hover {
-        background: ${({ theme }) => theme.colors.white};
+            background: ${({ theme }) => theme.colors.ligthColor};
         }
     }
 `

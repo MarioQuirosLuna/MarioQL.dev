@@ -11,18 +11,19 @@ export const Background = styled.div`
 `
 
 export const Container = styled.div`
-  width: 100%;
-  max-width: 850px;
-  padding: 0 20px;
-  margin: 0 auto;
+	justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
 
-  @media screen and (min-width: 1024px) {
-    padding: 0;
-  }
+    @media screen and (min-width: 1024px) {
+      padding: 0;
+    }
 `
 
 export const Blur = styled.div`
-  backdrop-filter: blur(20px);
-  background: ${({ theme }) => theme.colors.blacks[2]};
-  ${setPosition('fixed', 20)};
+	backdrop-filter: blur(20px);
+	background: ${({ theme }) => theme.colors.blurColor};
+	${setPosition('fixed', 20)};
 `

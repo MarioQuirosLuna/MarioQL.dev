@@ -2,6 +2,7 @@ const colors = {
 	darks: [
 		'rgb(19,6,45)',
 		'rgba(19,6,45,1)',
+		'rgba(11,3,28,0.8)',
 		'#13062D'
 	],
 	purples: [
@@ -17,6 +18,7 @@ const colors = {
 	whites: [
 		'rgb(255, 255, 255)',
 		'rgba(255, 255, 255, 1)',
+		'rgba(255,253,253,0.1)',
 		'#FFFFFF'
 	],
 	blacks: [
@@ -29,13 +31,16 @@ const colors = {
 const theme = {
 	colors: {
 		backgroundColor: colors.darks[0],
+		blurColor:       colors.darks[2],
 		foregroundColor: colors.purples[0],
 		textColor:       colors.greys[0],
+		ligthColor:  	 colors.whites[2],
 		...colors
 	},
 	fonts: {
-		primaryFont: 'Century Schoolbook',
-		secondaryFont: 'Cookie'
+		primaryFont:  '\'Purple Purse\', cursive',
+		secondaryFont: '\'Besley\', serif',
+		thirdFont: '\'Imbue\', serif'
 	},
 	sizes: {
 		xl: '2.5em',

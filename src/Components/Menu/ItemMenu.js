@@ -5,14 +5,10 @@ import { Link } from 'react-router-dom'
 
 const ItemMenu = (props) => {
 
-	const { url, label } = props
+	const { url, label, isFooter } = props
 
 	return (
-		<>
-			<div>
-				<Link to={url} >{ label } <FontAwesomeIcon icon={faArrowLeft}/></Link>
-			</div>
-		</>
+		<Link to={url} className={`slideUp ${isFooter ? 'delay-6' : 'duration-3'}`}>{ label } <FontAwesomeIcon icon={faArrowLeft}/></Link>
 	)
 }
 
