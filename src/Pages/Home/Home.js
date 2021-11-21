@@ -31,8 +31,7 @@ const Home = () => {
 					</Hero>
 					<SocialMedia>
 						{
-							socialMediaIcons.map((icon, index) => 							<MediaIcon key={index} icon={icon}/>
-							)
+							socialMediaIcons.map((icon, index) => <MediaIcon key={index} icon={icon}/> )
 						}
 					</SocialMedia>
 				</Container>

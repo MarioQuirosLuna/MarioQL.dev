@@ -11,22 +11,34 @@ export const HeaderBackground = styled.div`
 
     ${({ isDark }) => 
 		isDark && css`
-        background: ${({ theme }) => theme.colors.textColor};
+        background: ${({ theme }) => theme.colors.backgroundTransparentColor};
     `}
 `
 
-export const Navbar = styled.div`
-
-`
-
 export const NavbarButton = styled.div`
+    display: flex;
+    @media screen and (max-width: 1023px) {
+        height: 70px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 20;
+        transition: all 300ms ease-out;
+        transform: translateY(-70px);
+    }
+
+    @media screen and (min-width: 1024px) {
+        justify-content: end;
+    }
 
 `
 
 export const BurguerButton = styled.div`
-    width: 50px;
+    width: 30px;
     height: 50px;
     margin-left: auto;
+    margin-right: 1em;
     position: relative;
     z-index: 30;
     outline: none;
@@ -35,48 +47,51 @@ export const BurguerButton = styled.div`
     i{
         width: 100%;
         height: 3px;
+        border-radius: 5px;
         position: absolute;
-        transition: all 0.4s ease-out;
+        transition: all 0.8s ease-out;
         background: ${({ theme }) => theme.colors.textColor};
 
         &:first-child{
             top: 10px;
-            width: 60%;
         }
         &:nth-child(2){
             top: 20px;
-            width: 80%;
         }
         &:nth-child(3){
             top: 30px;
         }
-        &:nth-child(4){
-            top: 40px;
-            width: 80%;
-        }
         &:last-child{
-            top: 50px;
-            width: 60%;
+            top: 40px;
         }
     }
 
     &.active{
         i{
+            height: 5px;
             &:first-child{
-                right: 0;
+                transform: rotateZ(180deg);
             }
             &:nth-child(2){
-                right: 0;
+                transform:  rotateZ(180deg);
             }
             &:nth-child(3){
-                
-            }
-            &:nth-child(4){
-                right: 0;
+                transform: rotateZ(180deg);
             }
             &:last-child{
-                right: 0;
+                
+                transform: rotateZ(180deg);
             }
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 50px;
+        margin-top: 2em;
+        margin-right: 2em;
+        position: fixed;
+        i{
+            height: 5px;
         }
     }
 `

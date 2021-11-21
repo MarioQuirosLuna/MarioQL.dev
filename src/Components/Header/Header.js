@@ -4,7 +4,7 @@ import useScroll from '../../Hooks/useScroll'
 
 import HamburgerMenu from '../Menu/HamburgerMenu'
 
-import { BurguerButton, HeaderBackground, MenuContainer, Navbar, NavbarButton, NavbarMenu } from './Header.styles'
+import { BurguerButton, HeaderBackground, MenuContainer, NavbarButton, NavbarMenu } from './Header.styles'
 
 const Header = () => {
 	const { menu, setMenu } = useContext(MenuContext)
@@ -18,23 +18,21 @@ const Header = () => {
 	return (
 		<>
 			<HeaderBackground className={header ? 'header--visible' : ''} isDark={background}/>
-			<Navbar>
-				<NavbarButton>
+			<div>
+				<NavbarButton className={header ? 'header--visible' : ''}>
 					<BurguerButton 
 						onClick={handleClick} 
 						onKeyPress={handleClick} 
 						role='button'
 						tabIndex='0'
 						className={`fadeIn ${menu ? 'active' : ''}`}>
-						<i /><i /><i /><i /><i />
+						<i /><i /><i /><i />		
 					</BurguerButton>
 				</NavbarButton>
-			</Navbar>
+			</div>
 			<NavbarMenu menu={menu}>
-				<MenuContainer>
-					<HamburgerMenu menu={menu}>
-
-					</HamburgerMenu>
+				<MenuContainer >
+					<HamburgerMenu menu={menu} />
 				</MenuContainer>
 			</NavbarMenu>
 		</>

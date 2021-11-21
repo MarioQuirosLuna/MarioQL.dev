@@ -1,7 +1,7 @@
 const colors = {
 	darks: [
 		'rgb(19,6,45)',
-		'rgba(19,6,45,1)',
+		'rgba(19,6,45,0.8)',
 		'rgba(11,3,28,0.8)',
 		'#13062D'
 	],
@@ -31,6 +31,7 @@ const colors = {
 const theme = {
 	colors: {
 		backgroundColor: colors.darks[0],
+		backgroundTransparentColor: colors.darks[1],
 		blurColor:       colors.darks[2],
 		foregroundColor: colors.purples[0],
 		textColor:       colors.greys[0],

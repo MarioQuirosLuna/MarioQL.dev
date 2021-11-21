@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuContainer, MenuItem } from './HamburguerMenu.styled'
+import { MenuContainerStyled, MenuItemStyled } from './HamburguerMenu.styled'
 import ItemMenu from './ItemMenu'
 
 const HamburgerMenu = (props) => {
@@ -11,14 +11,14 @@ const HamburgerMenu = (props) => {
 	]
 
 	return (
-		<MenuContainer>	
+		<MenuContainerStyled>	
 			{
-				optionsMenu.map(option => 
-					<MenuItem key={option.url}>
-						<ItemMenu key={option.url} url={option.url} label={option.label}/>
-					</MenuItem> )
+				optionsMenu.map((option, index) => 
+					<MenuItemStyled key={option.url}>
+						<ItemMenu key={option.url} url={option.url} label={option.label} index={(index+2 > 8) ? 8 : index+2} />
+					</MenuItemStyled> )
 			}
-		</MenuContainer>
+		</MenuContainerStyled>
 	)
 }
 
