@@ -85,6 +85,10 @@ export const BurguerButton = styled.div`
         }
     }
 
+    @media screen and (min-width: 768px) {
+        width: 50px;
+    }
+
     @media screen and (min-width: 1024px) {
         width: 50px;
         margin-top: 2em;

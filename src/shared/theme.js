@@ -35,7 +35,7 @@ const theme = {
 		blurColor:       colors.darks[2],
 		foregroundColor: colors.purples[0],
 		textColor:       colors.greys[0],
-		ligthColor:  	 colors.whites[2],
+		lightColor:  	 colors.whites[2],
 		...colors
 	},
 	fonts: {

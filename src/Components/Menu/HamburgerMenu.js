@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuContainerStyled, MenuItemStyled } from './HamburguerMenu.styled'
+import { MenuContainerStyled, MenuItemStyled } from './HamburgerMenu.styled'
 import ItemMenu from './ItemMenu'
 
 const HamburgerMenu = (props) => {

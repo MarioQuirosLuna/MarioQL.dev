@@ -22,7 +22,7 @@ function App() {
 						<Route path='/' element={ 
 							<PageWrapper component={
 								<Home />
-							} />
+							} isHome />
 						} />
 						<Route path='portfolio' element={
 							<PageWrapper component={

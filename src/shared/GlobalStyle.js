@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import { fadeIn, slideUp } from './animations'
 
-const GlobanStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     
     ::selection {
         background: ${({ theme }) => theme.colors.backgroundColor};
@@ -136,13 +136,13 @@ const GlobanStyle = createGlobalStyle`
         }
 
         ::-webkit-scrollbar-thumb {
-            background: ${({ theme }) => theme.colors.ligthColor};
+            background: ${({ theme }) => theme.colors.textColor};
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: ${({ theme }) => theme.colors.ligthColor};
+            background: ${({ theme }) => theme.colors.textColor};
         }
     }
 `
 
-export default GlobanStyle
+export default GlobalStyle

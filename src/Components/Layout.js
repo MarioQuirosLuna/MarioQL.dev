@@ -7,14 +7,14 @@ import { Blur } from '../shared/utils'
 const Layout = (props) => {
 
 	const { menu } = useContext(MenuContext)
-	const { children } = props
+	const { children, isHome } = props
 
 	return (
 		<div>
 			{ menu && <Blur />}
 			<Header />
 			{children}
-			{ <Footer />}
+			{ !isHome && <Footer />}
 		</div>
 	)
 }
