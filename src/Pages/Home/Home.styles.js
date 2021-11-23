@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Hero = styled.div`
-    margin: 2em 0 0 0;
+    margin: 2em auto 0 auto;
+    width: 70vw;
     & > img{
         width: 200px;
         padding: 0.5em;
@@ -12,7 +13,7 @@ export const Hero = styled.div`
     }
 
     @media screen and (min-width: 768px) {
-        margin: 8em 0 0 0;
+        margin: 8em auto 0 auto;
         & > img{
             width: 400px;
             padding: 1em;
@@ -24,8 +25,8 @@ export const Hero = styled.div`
 export const HeroTitle = styled.div`
     @media screen and (min-width: 768px){
         padding: 0 3em;
-        h1 {
-            margin: 0;
+        h1 {    
+            margin: auto;
             font-size: 3.5em;
         }
 
@@ -37,7 +38,13 @@ export const HeroTitle = styled.div`
 
 export const HeroDescription = styled.div`
     margin: 1em 0;
-
+    
+    @media screen and (max-width: 768px){
+        min-height: 6em;
+    }
+    @media screen and (max-width: 1024px){
+        min-height: 10em;
+    }
 `
 
 export const SocialMedia = styled.footer`
@@ -58,7 +65,13 @@ export const SocialMedia = styled.footer`
 export const MediaIcon =styled(FontAwesomeIcon)`
     font-size: 3em;
     margin: 0.2em;
+    color: ${({ theme }) => theme.colors.textTransparentColor};
     cursor: pointer;
+
+    &:hover {
+        color: ${({ theme }) => theme.colors.textColor};
+        border-bottom: 1px solid ${({ theme }) => theme.colors.textColor};
+    }
 
     @media screen and (min-width: 768px) {
         font-size: 6em;

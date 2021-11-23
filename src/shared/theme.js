@@ -3,7 +3,10 @@ const colors = {
 		'rgb(19,6,45)',
 		'rgba(19,6,45,0.8)',
 		'rgba(11,3,28,0.8)',
-		'#13062D'
+		'#13062D',
+		'rgba(10,6,20,1)',
+		'rgba(10,6,20,0.8)',
+		'#0A0614'
 	],
 	purples: [
 		'rgb(165,165,227)',
@@ -13,6 +16,7 @@ const colors = {
 	greys: [
 		'rgb(204,204,204)',
 		'rgba(204,204,204,1)',
+		'rgba(204,204,204,0.6)',
 		'#CCCCCC'
 	],
 	whites: [
@@ -30,18 +34,21 @@ const colors = {
 
 const theme = {
 	colors: {
-		backgroundColor: colors.darks[0],
-		backgroundTransparentColor: colors.darks[1],
-		blurColor:       colors.darks[2],
+		backgroundColor: colors.darks[4],
+		backgroundSecondaryColor: colors.darks[0],
+		backgroundTransparentColor: colors.darks[5],
+		blurColor:       colors.darks[5],
 		foregroundColor: colors.purples[0],
 		textColor:       colors.greys[0],
+		textTransparentColor: colors.greys[2],
 		lightColor:  	 colors.whites[2],
 		...colors
 	},
 	fonts: {
-		primaryFont:  '\'Purple Purse\', cursive',
+		primaryFont:  '\'Comfortaa\', sans-serif',
 		secondaryFont: '\'Besley\', serif',
-		thirdFont: '\'Imbue\', serif'
+		thirdFont: '\'Imbue\', serif',
+		fourthFont: '\'Purple Purse\', cursive'
 	},
 	sizes: {
 		xl: '2.5em',

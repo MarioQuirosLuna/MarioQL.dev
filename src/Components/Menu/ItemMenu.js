@@ -5,10 +5,10 @@ import { Item, SpaceStyled } from './HamburgerMenu.styled'
 
 const ItemMenu = (props) => {
 
-	const { url, label, index } = props
+	const { url, label } = props
 
 	return (
-		<Item to={url} className={`slideUp duration-5 delay-${index}`}>{ label }<SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/></Item>
+		<Item to={url} className={'slideLeft duration-5 delay-1'}>{ label }<SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/></Item>
 	)
 }
 

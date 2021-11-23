@@ -50,7 +50,7 @@ export const BurguerButton = styled.div`
         border-radius: 5px;
         position: absolute;
         transition: all 0.8s ease-out;
-        background: ${({ theme }) => theme.colors.textColor};
+        background: ${({ theme }) => theme.colors.textTransparentColor};
 
         &:first-child{
             top: 10px;
@@ -66,21 +66,28 @@ export const BurguerButton = styled.div`
         }
     }
 
+    &:hover{
+        i{
+            background: ${({ theme }) => theme.colors.textColor}; 
+        }   
+    }
+    
     &.active{
         i{
             height: 5px;
+            background: ${({ theme }) => theme.colors.textColor};          
             &:first-child{
-                transform: rotateZ(180deg);
+                transform: rotate(45deg) translate(12px, 12px);
             }
             &:nth-child(2){
-                transform:  rotateZ(180deg);
+                transform:  rotate(45deg) translateY(5px);
             }
             &:nth-child(3){
-                transform: rotateZ(180deg);
+                transform: rotate(-45deg) translateY(-5px);
             }
             &:last-child{
                 
-                transform: rotateZ(180deg);
+                transform: rotate(-45deg) translate(12px, -12px);
             }
         }
     }

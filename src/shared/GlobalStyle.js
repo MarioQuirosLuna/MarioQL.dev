@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { fadeIn, slideUp } from './animations'
+import { blink, fadeIn, slideLeft, slideUp } from './animations'
 
 const GlobalStyle = createGlobalStyle`
     
@@ -18,11 +18,12 @@ const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
         font-family: ${({ theme }) => theme.fonts.primaryFont};
         color: ${({ theme }) => theme.colors.textColor};
-        /* ${({ theme }) => theme.colors.backgroundColor} */
         background: linear-gradient(to bottom,
-        ${({ theme }) => theme.colors.backgroundColor},
-        ${({ theme }) => theme.colors.backgroundTransparentColor}
-        ),url("https://previews.123rf.com/images/piotrkt/piotrkt1712/piotrkt171220410/92921391-real-java-script-code-developing-screen-programing-workflow-abstract-algorithm-concept-closeup-of-ja.jpg");
+            ${({ theme }) => theme.colors.backgroundColor},
+            ${({ theme }) => theme.colors.backgroundColor},
+            ${({ theme }) => theme.colors.backgroundColor},
+            ${({ theme }) => theme.colors.backgroundSecondaryColor}
+            );
         background-position: center; 
         background-size: cover; 
     }
@@ -60,6 +61,14 @@ const GlobalStyle = createGlobalStyle`
         animation: ${slideUp} 1s ease-in forwards;
     }
 
+    .slideLeft{
+        animation: ${slideLeft} 1s ease-in forwards;
+    }
+
+    .cursor {
+        border-left: 0.1em solid ${({ theme }) => theme.colors.textColor};
+        animation: ${blink} 0.7s steps(1) infinite;
+    }
     .delay-1 {
         animation-delay: 100ms;
     }

@@ -19,3 +19,19 @@ export const slideUp = keyframes`
 		transform: translateY(0);
 	}
 `
+
+export const slideLeft = keyframes`
+	0% {
+		transform: translateX(200%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+`
+
+export const blink = keyframes`
+	50% {
+	  border-color: transparent;
+	}
+`

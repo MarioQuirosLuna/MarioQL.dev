@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Container } from '../../shared/utils'
 import { Hero, HeroTitle, HeroDescription, SocialMedia, MediaIcon } from './Home.styles'
 
 import Photo from '../../img/Profile_400x400.jpg'
 import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Typing from '../../shared/components/Typing'
 
 const Home = () => {
 
@@ -16,21 +17,31 @@ const Home = () => {
 
 	return (
 		<>
-			<main isHome>
-				<Container>
+			<main>
+				<Container>					
 					<Hero>
-						<HeroTitle className="overflow--hidden">
-							<h1 className="slideUp">Hi i&apos;m Mario Quir&oacute;s Luna</h1>
-							<HeroDescription className="slideUp delay-2">
-								<h3>Software developer</h3>
-								<h3>Web technologies are my passion</h3>
+						<HeroTitle className="overflow--hidden">		
+							<h1>Hi i&apos;m Mario Quir&oacute;s Luna</h1>
+							<HeroDescription className="">		
+								<Typing 
+									heading="" 
+									messages={[
+										'Software developer',
+										'I love Web technologies',
+										'Responsive web design',
+										'I like programming'
+									]} />								
 							</HeroDescription>
 						</HeroTitle>
 						<img src={Photo} alt="heroImage" className="FadeIn" />
 					</Hero>
-					<SocialMedia className={'fadeIn duration-4 delay-2'}>
+					<SocialMedia className={'fadeIn duration-4 delay-2'}> 
 						{
-							socialMediaIcons.map((icon, index) => <a href={icon.url} target="_blank" rel="noreferrer" ><MediaIcon key={index} icon={icon.icon}/></a> )
+							socialMediaIcons.map((icon, index) => (
+								<a key={icon.url} href={icon.url} target="_blank" rel="noreferrer" >
+									<MediaIcon key={index} icon={icon.icon}/>
+								</a> )
+							)
 						}
 					</SocialMedia>
 				</Container>
