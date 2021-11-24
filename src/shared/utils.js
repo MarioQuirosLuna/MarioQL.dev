@@ -23,7 +23,10 @@ export const Container = styled.div`
 `
 
 export const Blur = styled.div`
-	backdrop-filter: blur(20px);
+    filter: blur(4px);
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
 	background: ${({ theme }) => theme.colors.blurColor};
 	${setPosition('fixed', 20)};
 `

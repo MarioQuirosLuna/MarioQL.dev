@@ -32,7 +32,7 @@ const Header = () => {
 			</div>
 			<NavbarMenu menu={menu}>
 				<MenuContainer >
-					<HamburgerMenu menu={menu} />
+					<HamburgerMenu menu={menu} handleClick={handleClick} />
 				</MenuContainer>
 			</NavbarMenu>
 		</>

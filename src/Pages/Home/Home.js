@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 import { Container } from '../../shared/utils'
 import { Hero, HeroTitle, HeroDescription, SocialMedia, MediaIcon } from './Home.styles'
 
 import Photo from '../../img/Profile_400x400.jpg'
 import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 import Typing from '../../shared/components/Typing'
 
 const Home = () => {
@@ -24,10 +25,9 @@ const Home = () => {
 							<h1>Hi i&apos;m Mario Quir&oacute;s Luna</h1>
 							<HeroDescription className="">		
 								<Typing 
-									heading="" 
 									messages={[
 										'Software developer',
-										'I love Web technologies',
+										'I love web technologies',
 										'Responsive web design',
 										'I like programming'
 									]} />								

@@ -29,6 +29,15 @@ export const slideLeft = keyframes`
 		transform: translateX(0);
 	}
 `
+export const slideRight = keyframes`
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(200%);
+	}
+`
 
 export const blink = keyframes`
 	50% {

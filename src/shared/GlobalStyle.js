@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { blink, fadeIn, slideLeft, slideUp } from './animations'
+import { blink, fadeIn, slideLeft, slideRight, slideUp } from './animations'
 
 const GlobalStyle = createGlobalStyle`
     
@@ -53,6 +53,10 @@ const GlobalStyle = createGlobalStyle`
         overflow: hidden;
     }
 
+    .opacity{
+        opacity: 0
+    }
+
     .fadeIn {
         animation: ${fadeIn} 800ms ease-in forwards;
     }
@@ -62,7 +66,11 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .slideLeft{
-        animation: ${slideLeft} 1s ease-in forwards;
+        animation: ${slideLeft} 1s ease-in-out forwards;
+    }
+
+    .slideRight{
+        animation: ${slideRight} 1s ease-in-out forwards;
     }
 
     .cursor {

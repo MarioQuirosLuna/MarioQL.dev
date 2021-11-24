@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 
 import PageWrapper from '../Pages/PageWrapper'
@@ -22,27 +22,25 @@ function App() {
 						<Route path='/' element={ 
 							<PageWrapper component={
 								<Home />
-							} isHome />
+							} isHome />					
 						} />
-						<Route path='portfolio' element={
+						<Route path='/portfolio' element={
 							<PageWrapper component={
 								<Portfolio />
 							} /> 
 						} />
-						<Route path='blog' element={
+						<Route path='/blog' element={
 							<PageWrapper component={
 								<Blog />
 							} /> 
 						} />
-						<Route path='about' element={
+						<Route path='/about' element={
 							<PageWrapper component={
 								<About />
 							} /> 
 						} />
 						<Route path='*' element={
-							<PageWrapper component={ 
-								<main> NotFound </main> 
-							} /> 
+							<Navigate to="/"/>
 						} />
 					</Routes>
 				</BrowserRouter>

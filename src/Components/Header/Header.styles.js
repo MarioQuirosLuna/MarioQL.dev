@@ -108,7 +108,7 @@ export const BurguerButton = styled.div`
 `
 
 export const NavbarMenu = styled.nav`
-    display: ${({ menu }) => (menu ? 'flex' : 'none')};
+    display: flex;
     user-select: none;
 
     @media screen and (min-width: 1024px) {
@@ -131,7 +131,6 @@ export const MenuContainer = styled.div`
         display: inline-flex;
         align-items: center;
         justify-content: flex-end;
-        transform: translateY(200%);
     }
 
     @media screen and (min-width: 1024px) {

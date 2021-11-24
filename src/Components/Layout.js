@@ -3,6 +3,7 @@ import MenuContext from '../Context/MenuContext'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import { Blur } from '../shared/utils'
+import ChangeVisibility from '../shared/components/ChangeOpacity'
 
 const Layout = (props) => {
 
@@ -11,9 +12,11 @@ const Layout = (props) => {
 
 	return (
 		<div>
-			{ menu && <Blur />}
+			<ChangeVisibility component={
+				<Blur className={menu ? 'slideLeft' : 'slideRight'} />
+			}/>
 			<Header />
-			{children}
+			{ children }
 			{ !isHome && <Footer />}
 		</div>
 	)
