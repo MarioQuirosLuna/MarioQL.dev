@@ -8,7 +8,7 @@ import ChangeVisibility from '../shared/components/ChangeOpacity'
 const Layout = (props) => {
 
 	const { menu } = useContext(MenuContext)
-	const { children, isHome } = props
+	const { children } = props
 
 	return (
 		<div>
@@ -17,7 +17,7 @@ const Layout = (props) => {
 			}/>
 			<Header />
 			{ children }
-			{ !isHome && <Footer />}
+			<Footer />
 		</div>
 	)
 }

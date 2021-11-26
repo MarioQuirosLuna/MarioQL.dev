@@ -1,10 +1,20 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import setFont from '../../shared/mixins/setFont'
 
 export const MenuContainerStyled = styled.ul`
-	${({ theme }) => setFont(theme.sizes.l, 600)}
+	font-size: 10vw;
 
+	@media screen and (min-width: 500px) {
+		font-size: 4vw;
+	}
+
+	@media screen and (min-width: 1024px) {
+		font-size: 2.5vw;
+	}
+
+	@media screen and (min-width: 1440px) {
+		font-size: 1.5vw;
+	}
 `
 
 export const SpaceStyled = styled.div`

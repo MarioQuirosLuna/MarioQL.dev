@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
             ${({ theme }) => theme.colors.backgroundColor},
             ${({ theme }) => theme.colors.backgroundColor},
             ${({ theme }) => theme.colors.backgroundColor},
+            ${({ theme }) => theme.colors.backgroundSecondaryColor},
             ${({ theme }) => theme.colors.backgroundSecondaryColor}
             );
         background-position: center; 

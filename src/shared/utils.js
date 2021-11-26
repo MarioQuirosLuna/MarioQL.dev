@@ -14,11 +14,15 @@ export const Container = styled.div`
 	justify-content: center;
     text-align: center;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 5vw;
     margin: 0 auto;
 
     @media screen and (min-width: 1024px) {
-      padding: 0;
+      padding: 0 10vw;
+    }
+
+    @media screen and (min-width: 1440px) {
+      padding: 0 15vw;
     }
 `
 

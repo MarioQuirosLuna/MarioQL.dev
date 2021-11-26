@@ -10,7 +10,7 @@ const colors = {
 	],
 	purples: [
 		'rgb(165,165,227)',
-		'rgba(165,165,227,1)',
+		'rgba(165,165,227,0.3)',
 		'#A6A5E3'
 	],
 	greys: [
@@ -42,13 +42,11 @@ const theme = {
 		textColor:       colors.greys[0],
 		textTransparentColor: colors.greys[2],
 		lightColor:  	 colors.whites[2],
+		tagsColor: 		 colors.purples[1],
 		...colors
 	},
 	fonts: {
-		primaryFont:  '\'Comfortaa\', sans-serif',
-		secondaryFont: '\'Besley\', serif',
-		thirdFont: '\'Imbue\', serif',
-		fourthFont: '\'Purple Purse\', cursive'
+		primaryFont:  '\'Comfortaa\', cursive'
 	},
 	sizes: {
 		xl: '2.5em',

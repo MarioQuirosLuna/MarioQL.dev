@@ -13,7 +13,7 @@ const initialState = {
   
 const Typing = (props) => {
 
-	const { messages } = props
+	const { messages = ['Phrase default'] } = props
 	const [state, setState] = useState(initialState)
   
 	const changeSpeed = (state) => {

@@ -118,10 +118,10 @@ export const NavbarMenu = styled.nav`
 `
 
 export const MenuContainer = styled.div`
-    padding-right: 30px;
     position: fixed;
-    top: 70px;
+    top: 80px;
     right: 0;
+    padding-right: 5px;
     bottom: 0;
     z-index: 30;
     text-align: right;
@@ -134,7 +134,6 @@ export const MenuContainer = styled.div`
     }
 
     @media screen and (min-width: 1024px) {
-        padding-right: 80px;
         top: 120px;
         right: unset;
     }
