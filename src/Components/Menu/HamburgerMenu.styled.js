@@ -28,6 +28,7 @@ export const MenuItemStyled = styled.li`
 
 export const Item = styled(Link)`
 	font-size: 1em;
+	opacity: 0;
 
 	@media screen and (min-width: 768px){
 		font-size: 2em;

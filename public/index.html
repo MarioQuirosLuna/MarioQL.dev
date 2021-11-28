@@ -5,7 +5,7 @@
     <link rel="icon"  href="%PUBLIC_URL%/logo.png" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google" content="notranslate" />
-    <link rel="preload" href="/dist/static/fonts/Comfortaa-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://cdn.sanity.io" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -13,6 +13,12 @@
     />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Mario Quir&oacute;s Luna</title>
+    <style>
+      @font-face{
+        font-family: Comfortaa;
+        src: local('Comfortaa'), url('./fonts/Comfortaa-Medium.ttf') format('truetype');
+      }
+    </style>
   </head>
   <body id="body">
     <div id="root"></div>

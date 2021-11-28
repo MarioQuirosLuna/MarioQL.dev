@@ -31,7 +31,7 @@ const Header = () => {
 				</NavbarButton>
 			</div>
 			<NavbarMenu menu={menu}>
-				<MenuContainer >
+				<MenuContainer className={menu ? 'slideLeft':'slideRight'} >
 					<HamburgerMenu menu={menu} handleClick={handleClick} />
 				</MenuContainer>
 			</NavbarMenu>

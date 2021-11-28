@@ -41,12 +41,7 @@ export const Item = styled.div`
 export const Content = styled.div`
     display: flex;
     padding: 0 4vw;
-
-    img{
-        object-fit: contain;
-        max-width: 4em;
-        max-height: 4em;
-    }
+    align-items: center;
 
     @media screen and (min-width: 768px){
         padding: 0 2vw;

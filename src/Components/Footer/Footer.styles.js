@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+export const ContainerFooter = styled.div`
+    opacity: 0;
+`
+
 export const SocialMedia = styled.footer`
     width: 70vw;
     height: 20vw;

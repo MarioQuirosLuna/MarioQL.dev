@@ -6,6 +6,7 @@ export const Hero = styled.div`
     align-items: center;
     text-align: center;
     justify-content: space-around;
+
     & > img{
         width: 60vw;
         padding: 1vw;

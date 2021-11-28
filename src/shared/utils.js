@@ -16,6 +16,7 @@ export const Container = styled.div`
     width: 100%;
     padding: 0 5vw;
     margin: 0 auto;
+    opacity: 0;
 
     @media screen and (min-width: 1024px) {
       padding: 0 10vw;
@@ -33,4 +34,17 @@ export const Blur = styled.div`
 
 	background: ${({ theme }) => theme.colors.blurColor};
 	${setPosition('fixed', 20)};
+`
+
+export const IconStyled = styled.div`
+    max-width: 32px;
+    max-height: 32px;
+    margin: 0.3em 0.5em;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 `

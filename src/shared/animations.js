@@ -10,6 +10,16 @@ export const fadeIn = keyframes`
 	}
 `
 
+export const fadeOut = keyframes`
+	100% {
+		opacity: 0;
+	}
+
+	0% {
+		opacity: 1;
+	}
+`
+
 export const slideUp = keyframes`
 	0% {
 		transform: translateY(200%);

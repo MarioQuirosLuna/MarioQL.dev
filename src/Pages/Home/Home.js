@@ -19,7 +19,7 @@ const Home = () => {
 	return (
 		<>
 			<main>
-				<Container>					
+				<Container className="fadeIn">					
 					<Hero>
 						<HeroTitle className="overflow--hidden">		
 							<h1>Hi i&apos;m Mario Quir&oacute;s Luna</h1>

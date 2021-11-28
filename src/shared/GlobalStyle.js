@@ -1,8 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
-import { blink, fadeIn, slideLeft, slideRight, slideUp } from './animations'
+import { blink, fadeIn, fadeOut, slideLeft, slideRight, slideUp } from './animations'
 
 const GlobalStyle = createGlobalStyle`
-    
     ::selection {
         background: ${({ theme }) => theme.colors.backgroundColor};
         color: ${({ theme }) => theme.colors.textColor};
@@ -13,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
         -webkit-tap-highlight-color: transparent;
     }
     
-    body{
+    body{ 
         margin: 0;
         min-height: 100vh;
         font-family: ${({ theme }) => theme.fonts.primaryFont};
@@ -59,7 +58,11 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .fadeIn {
-        animation: ${fadeIn} 800ms ease-in forwards;
+        animation: ${fadeIn} 1s ease-in forwards;
+    }
+
+    .fadeOut {
+        animation: ${fadeOut} 1s ease-in forwards;
     }
 
     .slideUp {

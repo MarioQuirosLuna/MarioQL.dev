@@ -1,5 +1,5 @@
 import React from 'react'
-import { Copyright, MediaIcon, SocialMedia } from './Footer.styles'
+import { ContainerFooter, Copyright, MediaIcon, SocialMedia } from './Footer.styles'
 
 import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -12,7 +12,7 @@ const Footer = () => {
 	]
 
 	return (
-		<>
+		<ContainerFooter className="fadeIn">
 			<SocialMedia className={'fadeIn duration-4 delay-2'}> 
 				{
 					socialMediaIcons.map((icon, index) => (
@@ -25,7 +25,7 @@ const Footer = () => {
 			<Copyright>
                     &copy; {new Date().getFullYear()} Mario Quir&oacute;s Luna
 			</Copyright>
-		</>
+		</ContainerFooter>
 	)
 }
 

@@ -4,6 +4,7 @@ import { Content, Item, Section } from './StackTechnologies.styles'
 import LogoHtml from '../../img/Icons/html.png'
 import LogoCss from '../../img/Icons/css-3.png'
 import LogoPhp from '../../img/Icons/php.png'
+import { IconStyled } from '../../shared/utils'
 
 const StackTechnologies = () => {
 
@@ -50,8 +51,12 @@ const StackTechnologies = () => {
 						return (
 							<Item key={ability.tag}>
 								<Content>
-									<h5>{ability.tag}</h5>
-									<img src={ability.icon} alt="" />
+									<div>
+										<h5>{ability.tag}</h5>
+									</div>
+									<IconStyled>
+										<img src='' alt="" />
+									</IconStyled>
 								</Content>
 							</Item>
 						)
@@ -66,8 +71,12 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<h5>{technology.tag}</h5>
-									<img src={technology.icon} alt="" />
+									<div>
+										<h5>{technology.tag}</h5>
+									</div>
+									<IconStyled>
+										<img src={technology.icon} alt="" />
+									</IconStyled>
 								</Content>
 							</Item>	
 						)
@@ -79,8 +88,12 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<h5>{technology.tag}</h5>
-									<img src={technology.icon} alt="" />
+									<div>
+										<h5>{technology.tag}</h5>
+									</div>
+									<IconStyled>
+										<img src={technology.icon} alt="" />
+									</IconStyled>
 								</Content>
 							</Item>	
 						)
@@ -92,8 +105,12 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<h5>{technology.tag}</h5>
-									<img src={technology.icon} alt="" />
+									<div>
+										<h5>{technology.tag}</h5>
+									</div>
+									<IconStyled>
+										<img src={technology.icon} alt="" />
+									</IconStyled>
 								</Content>
 							</Item>	
 						)
