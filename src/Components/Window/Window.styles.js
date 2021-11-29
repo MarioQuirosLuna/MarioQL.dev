@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const WindowContainer = styled.div`
     width: 100%;
-    width: 250px;
+    min-width: 250px;
     max-width: 400px;
     height: 250px;
     overflow: hidden;
