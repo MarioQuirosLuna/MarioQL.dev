@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Content, Item, Section } from './StackTechnologies.styles'
+import { Content, Item, Section, Text } from './StackTechnologies.styles'
 
 import { IconStyled } from '../../shared/utils'
 import StateContext from '../../Context/AppContext'
@@ -17,9 +17,9 @@ const StackTechnologies = () => {
 						return (
 							<Item key={ability.tag}>
 								<Content>
-									<div>
+									<Text>
 										<h5>{ability.tag}</h5>
-									</div>
+									</Text>
 									<IconStyled>
 										<img src={ability.icon} alt="icon" />
 									</IconStyled>
@@ -37,9 +37,9 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<div>
+									<Text>
 										<h5>{technology.tag}</h5>
-									</div>
+									</Text>
 									<IconStyled>
 										<img src={technology.icon} alt="icon" />
 									</IconStyled>
@@ -54,9 +54,9 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<div>
+									<Text>
 										<h5>{technology.tag}</h5>
-									</div>
+									</Text>
 									<IconStyled>
 										<img src={technology.icon} alt="icon" />
 									</IconStyled>
@@ -71,9 +71,9 @@ const StackTechnologies = () => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
-									<div>
+									<Text>
 										<h5>{technology.tag}</h5>
-									</div>
+									</Text>
 									<IconStyled>
 										<img src={technology.icon} alt="icon" />
 									</IconStyled>

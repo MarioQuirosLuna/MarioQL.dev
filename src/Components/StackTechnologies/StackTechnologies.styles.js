@@ -47,3 +47,11 @@ export const Content = styled.div`
         padding: 0 2vw;
     }
 `
+
+export const Text = styled.div`
+    @media screen and (max-width: 500px){
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+`
