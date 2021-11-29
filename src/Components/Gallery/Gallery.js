@@ -4,7 +4,7 @@ import { ContainerGallery, ContainerProjects } from './Gallery.styles'
 
 const Gallery = (props) => {
 
-	const { projects=[] } = props
+	const { projects = [] } = props
 
 	return (
 		<ContainerGallery>
@@ -14,7 +14,7 @@ const Gallery = (props) => {
 					projects
 					&& projects.map((project) => {
 						return(
-							<Window key={project.nameProject} nameProject={project.nameProject} images={project.image} technologiesProject={projects.technologiesProject} />
+							<Window key={project.nameProject} project={project} />
 						)
 					})
 				}
