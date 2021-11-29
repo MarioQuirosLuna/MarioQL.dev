@@ -23,7 +23,7 @@ const About = () => {
 							</p>
 						</Presentation>
 						<StackTechnologies />	
-						<p>Wanting to learn many more tools and technologies</p>						
+						<p>Eager to learn many more tools and technologies.</p>						
 					</ContainerAbout>
 				</Container>
 			</main>
