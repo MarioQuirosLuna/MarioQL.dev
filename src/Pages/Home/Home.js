@@ -1,33 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import { Container } from '../../shared/utils'
 import { Hero, HeroTitle, HeroDescription } from './Home.styles'
 
-import Photo from '../../img/Profile_400x400.jpg'
-
 import Typing from '../../shared/components/Typing'
+import StateContext from '../../Context/AppContext'
 
 const Home = () => {
-
-	const phrases = [
-		'Software developer',
-		'I love web technologies',
-		'Responsive web design',
-		'I like programming'
-	]
+	const { state } = useContext(StateContext)
 
 	return (
 		<>
 			<main>
-				<Container className="fadeIn">					
+				<Container className="fadeIn">
 					<Hero>
 						<HeroTitle className="overflow--hidden">		
-							<h1>Hi i&apos;m Mario Quir&oacute;s Luna</h1>
-							<HeroDescription className="">		
-								<Typing messages={phrases} />								
+							<h1>Hi i&apos;m { state.author.name }</h1>
+							<HeroDescription className="">
+								<Typing messages={state.author.phrases} />
 							</HeroDescription>
 						</HeroTitle>
-						<img src={Photo} alt="heroImage" className="FadeIn" />
+						<img src={ state.author.image } alt="heroImage" className="FadeIn" />
 					</Hero>
 				</Container>
 			</main>

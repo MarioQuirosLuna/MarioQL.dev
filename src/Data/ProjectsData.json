@@ -1,0 +1,156 @@
+[
+    {
+        "nameProject": "MarioQL.dev",
+        "images": [
+            {
+                "image": ""
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "React",
+                "icon": ""
+            },
+            {
+                "technology": "Style-components",
+                "icon": ""
+            },
+            {
+                "technology": "json",
+                "icon": ""
+            }
+        ],
+        "description": "",
+        "repository": "https://github.com/MarioQuirosLuna/MarioQL.dev",
+        "liveUrl": ""
+    },
+    {
+        "nameProject": "Backend-SewingShop",
+        "images": [
+            {
+                "image": "https://user-images.githubusercontent.com/37676736/143899902-979a9fa7-e651-4bae-a2d0-9ffe7480a1e0.png"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "Node",
+                "icon": ""
+            },
+            {
+                "technology": "Express",
+                "icon": ""
+            },
+            {
+                "technology": "Mongo",
+                "icon": ""
+            },
+            {
+                "technology": "Cloudinary",
+                "icon": ""
+            },
+            {
+                "technology": "JWT/bcrypt",
+                "icon": ""
+            }
+        ],
+        "description": "It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show the products that she made",
+        "repository": "https://github.com/MarioQuirosLuna/Backend-SewingShop",
+        "liveUrl": "https://backend-sewingshop.herokuapp.com/api/products"
+    },
+    {
+        "nameProject": "Frontend-SewingShop",
+        "images": [
+            {
+                "image": "https://user-images.githubusercontent.com/37676736/143901661-77a60b68-db66-4ebc-810c-caf82925b6e5.png"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "React",
+                "icon": ""
+            },
+            {
+                "technology": "Axios",
+                "icon": ""
+            },
+            {
+                "technology": "Bootstrap5",
+                "icon": ""
+            }
+        ],
+        "description": "It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show and manage the products that she made.",
+        "repository": "https://github.com/MarioQuirosLuna/Frontend-SewingShop",
+        "liveUrl": "https://tallerdecosturacintyaluna.vercel.app/"
+    },
+    {
+        "nameProject": "Pokedex-React",
+        "images": [
+            {
+                "image": "https://user-images.githubusercontent.com/37676736/143902928-4c907986-222f-47c6-bf92-212e5555a429.png"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "React",
+                "icon": ""
+            }
+        ],
+        "description": "This was my first project with react, which I used as an introduction to this technology.",
+        "repository": "https://github.com/MarioQuirosLuna/Pokedex-React",
+        "liveUrl": "https://pokedex-react-nine.vercel.app/"
+    },
+    {
+        "nameProject": "PaginaWeb-Hospital",
+        "images": [
+            {
+                "image": "https://user-images.githubusercontent.com/37676736/130338393-c4d12293-eb38-4731-9ae9-173331b2befd.png"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "Java",
+                "icon": ""
+            },
+            {
+                "technology": "NetCore5",
+                "icon": ""
+            },
+            {
+                "technology": "MSSQL",
+                "icon": ""
+            }
+        ],
+        "description": "Third project of the course Languages for commercial applications of the Business Informatics career of the UCR. (Movil/Web)",
+        "repository": "https://github.com/MarioQuirosLuna/PaginaWeb-Hospital",
+        "liveUrl": ""
+    },
+    {
+        "nameProject": "CleaningProducts",
+        "images": [
+            {
+                "image": "https://user-images.githubusercontent.com/37676736/143906889-3b735cec-026f-4841-b028-c9ed775efd5f.jpg"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "Php",
+                "icon": ""
+            },
+            {
+                "technology": "JavaScript",
+                "icon": ""
+            },
+            {
+                "technology": "Css",
+                "icon": ""
+            },
+            {
+                "technology": "MySql",
+                "icon": ""
+            }
+        ],
+        "description": "Second project of the course Languages for commercial applications of the Business Informatics career of the UCR.",
+        "repository": "https://github.com/MarioQuirosLuna/MarioQuirosLuna-PaginaWeb-CleaningProducts",
+        "liveUrl": ""
+    }
+]

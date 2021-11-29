@@ -1,53 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Content, Item, Section } from './StackTechnologies.styles'
 
-import LogoHtml from '../../img/Icons/html.png'
-import LogoCss from '../../img/Icons/css-3.png'
-import LogoPhp from '../../img/Icons/php.png'
 import { IconStyled } from '../../shared/utils'
+import StateContext from '../../Context/AppContext'
 
 const StackTechnologies = () => {
 
-	const abilities = [
-		{ tag:'Autodidact', icon: '' },
-		{ tag:'Leadership', icon: '' },
-		{ tag:'Teamwork', icon: '' },
-		{ tag:'Communication', icon: '' },
-		{ tag:'Collaborative', icon: '' },
-		{ tag:'Enthusiastic', icon: '' },
-		{ tag:'Empathic', icon: '' }
-	]
-
-	const PrimaryTechnologies = [
-		{ tag: 'HTML', icon: LogoHtml },
-		{ tag: 'CSS', icon: LogoCss },
-		{ tag: 'Javascript', icon: '' },
-		{ tag: 'Java', icon: '' },
-		{ tag: 'PHP', icon: LogoPhp },
-		{ tag: 'C#', icon: '' }
-	]
-
-	const SecondaryTechnology = [
-		{ tag: 'React', icon: '' },
-		{ tag: 'Styled-components', icon: '' },
-		{ tag: 'Bootstrap', icon: '' },
-		{ tag: 'Node', icon: '' },
-		{ tag: 'Express', icon: '' },
-		{ tag: '.Net', icon: '' }
-	]
-
-	const DataBaseTechnology = [ 
-		{ tag: 'MySQL', icon: '' },
-		{ tag: 'MSSQL', icon: '' },
-		{ tag: 'Mongo', icon: '' }
-	]
+	const { state } = useContext(StateContext)
 
 	return (
 		<div>
 			<Section>
 				<h2>My abilities</h2>
 				{
-					abilities.map((ability) => {
+					state.stack.abilities.map((ability) => {
 						return (
 							<Item key={ability.tag}>
 								<Content>
@@ -55,7 +21,7 @@ const StackTechnologies = () => {
 										<h5>{ability.tag}</h5>
 									</div>
 									<IconStyled>
-										<img src='' alt="" />
+										<img src={ability.icon} alt="icon" />
 									</IconStyled>
 								</Content>
 							</Item>
@@ -67,7 +33,7 @@ const StackTechnologies = () => {
 				<h2>My Stack</h2>
 				<h4>Languages</h4>
 				{
-					PrimaryTechnologies.map((technology) => {
+					state.stack.primaryTechnologies.map((technology) => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
@@ -75,7 +41,7 @@ const StackTechnologies = () => {
 										<h5>{technology.tag}</h5>
 									</div>
 									<IconStyled>
-										<img src={technology.icon} alt="" />
+										<img src={technology.icon} alt="icon" />
 									</IconStyled>
 								</Content>
 							</Item>	
@@ -84,7 +50,7 @@ const StackTechnologies = () => {
 				}
 				<h4>Frameworks and libraries</h4>
 				{
-					SecondaryTechnology.map((technology) => {
+					state.stack.secondaryTechnologies.map((technology) => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
@@ -92,7 +58,7 @@ const StackTechnologies = () => {
 										<h5>{technology.tag}</h5>
 									</div>
 									<IconStyled>
-										<img src={technology.icon} alt="" />
+										<img src={technology.icon} alt="icon" />
 									</IconStyled>
 								</Content>
 							</Item>	
@@ -101,7 +67,7 @@ const StackTechnologies = () => {
 				}
 				<h4>Database</h4>
 				{
-					DataBaseTechnology.map((technology) => {
+					state.stack.dataBaseTechnologies.map((technology) => {
 						return (
 							<Item key={technology.tag}>
 								<Content>
@@ -109,7 +75,7 @@ const StackTechnologies = () => {
 										<h5>{technology.tag}</h5>
 									</div>
 									<IconStyled>
-										<img src={technology.icon} alt="" />
+										<img src={technology.icon} alt="icon" />
 									</IconStyled>
 								</Content>
 							</Item>	

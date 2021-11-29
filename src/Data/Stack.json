@@ -1,0 +1,98 @@
+{
+    "abilities": [
+        { 
+            "tag":"Autodidact",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Leadership",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Teamwork",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Communication",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Collaborative",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Enthusiastic",
+            "icon": "" 
+        },
+		{ 
+            "tag": "Empathic",
+            "icon": "" 
+        }
+    ],
+    "primaryTechnologies": [
+        {
+            "tag": "HTML",
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
+        },
+        {
+            "tag": "CSS",
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/css-3.png"
+        },
+        {
+            "tag": "Javascript",
+            "icon": ""
+        },
+        {
+            "tag": "Java",
+            "icon": ""
+        },
+        {
+            "tag": "PHP",
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/php.png"
+        },
+        {
+            "tag": "C#",
+            "icon": ""
+        }
+    ],
+    "secondaryTechnologies": [
+        {
+            "tag": "React",
+            "icon": ""
+        },
+        {
+            "tag": "Styled-components",
+            "icon": ""
+        },
+        {
+            "tag": "Bootstrap",
+            "icon": ""
+        },
+        {
+            "tag": "Node",
+            "icon": ""
+        },
+        {
+            "tag": "Express",
+            "icon": ""
+        },
+        {
+            "tag": ".Net",
+            "icon": ""
+        }
+    ],
+    "dataBaseTechnologies": [
+        {
+            "tag": "MySQL",
+            "icon": ""
+        },
+        {
+            "tag": "MSSQL",
+            "icon": ""
+        },
+        {
+            "tag": "Mongo",
+            "icon": ""
+        }
+    ]
+}

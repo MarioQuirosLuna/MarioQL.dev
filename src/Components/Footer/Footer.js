@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { ContainerFooter, Copyright, MediaIcon, SocialMedia } from './Footer.styles'
 
 import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import StateContext from '../../Context/AppContext'
 
 const Footer = () => {
 
+	const { state } = useContext(StateContext)
+
 	const socialMediaIcons = [
-		{ 'icon': faTwitterSquare, 'url':'https://twitter.com/MarioQuirosL' },
-		{ 'icon': faLinkedin, 'url':'https://www.linkedin.com/in/mario-quir%C3%B3s-luna-Dev-b99050206/' },
-		{ 'icon': faGithubSquare, 'url':'https://github.com/MarioQuirosLuna' }
+		{ 'icon': faTwitterSquare, 'url': state.author.twitter.url },
+		{ 'icon': faLinkedin, 'url': state.author.linkedin.url },
+		{ 'icon': faGithubSquare, 'url': state.author.github.url }
 	]
 
 	return (
@@ -23,7 +26,7 @@ const Footer = () => {
 				}
 			</SocialMedia>
 			<Copyright>
-                    &copy; {new Date().getFullYear()} Mario Quir&oacute;s Luna
+                    &copy; {new Date().getFullYear()} {state.author.name}
 			</Copyright>
 		</ContainerFooter>
 	)
