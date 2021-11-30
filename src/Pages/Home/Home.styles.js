@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Hero = styled.div`
     display: inline-block;
-    margin-top: 6em;
+    margin-top: 4em;
     align-items: center;
     text-align: center;
     justify-content: space-around;
@@ -25,9 +25,12 @@ export const Hero = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 8em;
+        
         & > img{
-            width: 35vw;
+            width: 30vw;
             padding: 1.5vw;
+            margin-left: 3em;
         }
     }
 
@@ -45,33 +48,38 @@ export const Hero = styled.div`
 `
 
 export const HeroTitle = styled.div`
+    text-align: left;
+    justify-content: space-around;
+
     h1 {    
-        font-size: 6vw;
+        font-size: ${({ theme }) => theme.sizes.movil.xl};
     }
 
     h3 {
-        font-size: 3vw;
-    }
-
-    @media screen and (min-width: 500px){
-        padding: 0 3vw;
-        h1 {    
-            font-size: 5vw;
-        }
-
-        h3 {
-            font-size: 3vw;
-        }
+        font-size: ${({ theme }) => theme.sizes.movil.s};
     }
 
     @media screen and (min-width: 768px){
         padding: 0 3vw;
         h1 {    
-            font-size: 3vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.xl};
         }
 
         h3 {
-            font-size: 2vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.l};
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        padding: 0 3vw;
+        margin-right: 3em;
+        margin-top: 6em;
+        h1 {    
+            font-size: ${({ theme }) => theme.sizes.desktop.xxl};
+        }
+
+        h3 {
+            font-size: ${({ theme }) => theme.sizes.desktop.m};
         }
     }
 `
@@ -85,8 +93,5 @@ export const HeroDescription = styled.div`
     }
     @media screen and (min-width: 768px){
         min-height: 6em;
-    }
-    @media screen and (min-width: 1024px){
-        min-height: 10em;
     }
 `

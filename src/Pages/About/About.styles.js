@@ -6,74 +6,47 @@ export const ContainerAbout = styled.div`
     display: inline-block;
 
     h1{
-        font-size: 8vw;
+        font-size: ${({ theme }) => theme.sizes.movil.xl};
     }
 
     h2{
-        font-size: 6vw;
+        font-size: ${({ theme }) => theme.sizes.movil.m};
     }
 
     p{
-        font-size: 4.8vw;
+        font-size: ${({ theme }) => theme.sizes.movil.s};
         line-height: 1.5;
-    }
-
-    @media screen and (min-width: 500px){
-        h1{
-            font-size: 6vw;
-        }
-
-        h2{
-            font-size: 3.5vw;
-        }
-
-        p{
-            font-size: 3vw;
-        }
     }
 
     @media screen and (min-width: 768px){
         h1{
-            font-size: 5vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.xl};
         }
 
         h2{
-            font-size: 2.5vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.l};
         }
 
         p{
-            font-size: 2.3vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.m};
         }
     }
 
     @media screen and (min-width: 1024px){
         
         h1{
-            font-size: 4vw;
+            font-size: ${({ theme }) => theme.sizes.desktop.xl};
         }
 
         h2{
-            font-size: 1.8vw;
+            font-size: ${({ theme }) => theme.sizes.desktop.m};
         }
 
         p{
-            font-size: 1.5vw;
+            font-size: ${({ theme }) => theme.sizes.desktop.s};
         }
     }
 
-    @media screen and (min-width: 1440px){
-        h1{
-            font-size: 3vw;
-        }
-
-        h2{
-            font-size: 1.5vw;
-        }
-
-        p{
-            font-size: 1.3vw;
-        }
-    }
 `
 
 export const Presentation = styled.section`

@@ -15,8 +15,11 @@ const Home = () => {
 				<Container className="fadeIn">
 					<Hero>
 						<HeroTitle className="overflow--hidden">		
-							<h1>Hi i&apos;m { state.author.name }</h1>
-							<HeroDescription className="">
+							
+							<h1>
+								<span>Hi i&apos;m</span><br/>{ state.author.name }
+							</h1>
+							<HeroDescription>
 								<Typing messages={state.author.phrases} />
 							</HeroDescription>
 						</HeroTitle>

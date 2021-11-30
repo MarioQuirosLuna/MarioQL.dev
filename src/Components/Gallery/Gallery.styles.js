@@ -4,18 +4,12 @@ export const ContainerGallery = styled.div`
     margin-top: 6em;
 
     h1{
-        font-size: 6vw;
-    }
-
-    @media screen and (min-width: 500px) {
-        h1{
-            font-size: 5vw;
-        }
+        font-size: ${({ theme }) => theme.sizes.movil.xl};
     }
 
     @media screen and (min-width: 768px) {
         h1{
-            font-size: 3vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.l};
         }
     }
 
@@ -23,7 +17,7 @@ export const ContainerGallery = styled.div`
         margin-top: 8em;
 
         h1{
-            font-size: 2vw;
+            font-size: ${({ theme }) => theme.sizes.ipad.s};
         }
     }
 `

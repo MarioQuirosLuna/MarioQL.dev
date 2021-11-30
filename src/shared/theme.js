@@ -50,13 +50,23 @@ const theme = {
 		primaryFont:  '\'Comfortaa\', cursive'
 	},
 	sizes: {
-		xl: '2.5em',
-		l: '1.5em',
-		m: '1.125em',
-		n: '1em',
-		s: '0.9em',
-		xs: '0.75em',
-		xxs: '0.6em',
+		movil: {
+			xl: '6vw',
+			m: '4vw',
+			s: '3.5vw'
+		},
+		ipad: {
+			xl: '5vw',
+			l: '3vw',
+			m: '2.5vw',
+			s: '2vw'
+		},
+		desktop: {
+			xxl: '3vw',
+			xl: '2.5vw',
+			m: '1.5vw',
+			s: '1vw'
+		}
 	}
 }
 

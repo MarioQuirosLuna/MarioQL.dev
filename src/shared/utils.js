@@ -19,11 +19,11 @@ export const Container = styled.div`
     opacity: 0;
 
     @media screen and (min-width: 1024px) {
-      padding: 0 10vw;
+      padding: 0 15vw;
     }
 
     @media screen and (min-width: 1440px) {
-      padding: 0 15vw;
+      padding: 0 20vw;
     }
 `
 
