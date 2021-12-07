@@ -46,9 +46,7 @@ const theme = {
 		tagsColor: 		 colors.purples[1],
 		...colors
 	},
-	fonts: {
-		primaryFont:  '\'Comfortaa\', cursive'
-	},
+	fonts: ['Merriweather', 'Raleway'],
 	sizes: {
 		movil: {
 			xl: '6vw',

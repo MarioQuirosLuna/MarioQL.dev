@@ -10,12 +10,15 @@ const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         -webkit-tap-highlight-color: transparent;
+        font-family: ${({ theme }) => theme.fonts[0]}, sans-serif;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
     }
     
     body{ 
         margin: 0;
         min-height: 100vh;
-        font-family: ${({ theme }) => theme.fonts.primaryFont};
         color: ${({ theme }) => theme.colors.textColor};
         background: linear-gradient(to bottom,
             ${({ theme }) => theme.colors.backgroundColor},
