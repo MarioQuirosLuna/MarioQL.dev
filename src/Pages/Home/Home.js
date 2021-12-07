@@ -22,8 +22,7 @@ const Home = () => {
 							<HeroDescription>
 								<Typing messages={state.author.phrases} />
 							</HeroDescription>
-						</HeroTitle>
-						<img src={ state.author.image } alt="heroImage" className="FadeIn" />
+						</HeroTitle>						
 					</Hero>
 				</Container>
 			</main>

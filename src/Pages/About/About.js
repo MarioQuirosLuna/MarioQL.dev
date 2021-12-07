@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Container } from '../../shared/utils'
-import { ContainerAbout, Presentation } from './About.styles'
+import { ContainerAbout, HeaderPresentation, Presentation, Titles } from './About.styles'
 
 import StackTechnologies from '../../Components/StackTechnologies/StackTechnologies'
 import StateContext from '../../Context/AppContext'
@@ -15,9 +15,16 @@ const About = () => {
 				<Container className="fadeIn">
 					<ContainerAbout>
 						<Presentation>
-							<h2>About</h2>
-							<h1>{state.author.name}</h1>
-							<h2>¿Who I am?</h2>
+							<HeaderPresentation>
+								<Titles>
+									<h2>About</h2>
+									<h1>{state.author.name}</h1>
+									<h2>¿Who I am?</h2>
+								</Titles>
+								<div>
+									<img src={ state.author.image } alt="heroImage" className="FadeIn" />
+								</div>
+							</HeaderPresentation>
 							<p>{state.author.whoIam}</p>
 							<p>{state.author.interests}</p>
 						</Presentation>
