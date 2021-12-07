@@ -3,11 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const ContainerFooter = styled.div`
     opacity: 0;
+    min-height: 20vh;
 `
 
 export const SocialMedia = styled.footer`
-    width: 70vw;
-    height: 20vw;
+    width: 192px;
+    height: 64px;
     padding: 2em 0;
     margin: 2em auto 2em auto;
     display: flex;
@@ -20,63 +21,25 @@ export const SocialMedia = styled.footer`
         margin: 5em auto 2em auto;
     }
 
-    @media screen and (min-width: 768px) {
-        width: 60vw;
-        height: 10vw;
-    }
-
-    @media screen and (min-width: 1024px) {
-        width: 30vw;
-        height: 8vw;
-    }
-
-    @media screen and (min-width: 1440px) {
-        width: 20vw;
-        height: 6vw;
-    }
-
 `
 
 export const MediaIcon = styled(FontAwesomeIcon)`
-    font-size: 17vw;
+    font-size: 32px;
     color: ${({ theme }) => theme.colors.textTransparentColor};
-    transition: all 0.5s linear;
+    transition: transform 0.5s ease;
     cursor: pointer;
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(0.9);
+        opacity: 0.9;
         color: ${({ theme }) => theme.colors.textColor};
-        border-bottom: 1px solid ${({ theme }) => theme.colors.textColor};
     }
     
-    @media screen and (min-width: 768px) {
-        font-size: 10vw;
-    }
-
-    @media screen and (min-width: 1024px) {
-        font-size: 6vw;
-    }
-
-    @media screen and (min-width: 1440px) {
-        font-size: 4vw;
-    }
 `
 
 export const Copyright = styled.div`
-    font-size: 4vw;
+    font-size: 16px;
     text-align: center;
     padding: 0 0 0.5em 0;
     cursor: default;
-
-    @media screen and (min-width: 768px){
-        font-size: 2.5vw;
-    }
-
-    @media screen and (min-width: 1024px){
-        font-size: 1.8vw;
-    }
-
-    @media screen and (min-width: 1440px){
-        font-size: 1.3vw;
-    }
 `

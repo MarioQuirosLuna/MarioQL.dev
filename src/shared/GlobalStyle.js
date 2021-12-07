@@ -22,13 +22,40 @@ const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.colors.textColor};
         background: linear-gradient(to bottom,
             ${({ theme }) => theme.colors.backgroundColor},
-            ${({ theme }) => theme.colors.backgroundColor},
-            ${({ theme }) => theme.colors.backgroundColor},
-            ${({ theme }) => theme.colors.backgroundSecondaryColor},
             ${({ theme }) => theme.colors.backgroundSecondaryColor}
             );
         background-position: center; 
         background-size: cover; 
+    }
+
+    h1 {    
+        font-size: ${({ theme }) => theme.sizes.movil.xl};
+        line-height: 1.2em;
+    }
+
+    h3, p {
+        font-size: ${({ theme }) => theme.sizes.movil.s};
+        line-height: 1.2em;
+    }
+
+    @media screen and (min-width: 768px){
+        h1 {    
+            font-size: ${({ theme }) => theme.sizes.ipad.xl};
+        }
+
+        h3, p {
+            font-size: ${({ theme }) => theme.sizes.ipad.l};
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        h1 {    
+            font-size: ${({ theme }) => theme.sizes.desktop.xxl};
+        }
+
+        h3, p {
+            font-size: ${({ theme }) => theme.sizes.desktop.m};
+        }
     }
 
     ul {

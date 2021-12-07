@@ -9,6 +9,13 @@ export const Background = styled.div`
     );
     ${setPosition('absolute', -100)}
 `
+export const Content = styled.section`
+    min-height: 70vh;
+`
+
+export const Body = styled.section`
+
+`
 
 export const Container = styled.div`
 	justify-content: center;

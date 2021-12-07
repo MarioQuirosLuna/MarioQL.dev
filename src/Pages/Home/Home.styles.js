@@ -2,20 +2,12 @@ import styled from 'styled-components'
 
 export const Hero = styled.div`
     display: inline-block;
-    margin-top: 4em;
+    margin-top: 8em;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 
-    @media screen and (min-width: 1024px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 8em;
-    }
-
-    @media screen and (min-width: 1440px) {
-        align-items: center;
+    @media screen and (min-width: 768px) {
         margin-top: 12em;
     }
 
@@ -25,37 +17,34 @@ export const HeroTitle = styled.div`
     text-align: left;
     justify-content: space-around;
 
-    h1 {    
-        font-size: ${({ theme }) => theme.sizes.movil.xl};
-    }
-
-    h3 {
-        font-size: ${({ theme }) => theme.sizes.movil.s};
-    }
-
     @media screen and (min-width: 768px){
         padding: 0 3vw;
-        h1 {    
-            font-size: ${({ theme }) => theme.sizes.ipad.xl};
-        }
-
-        h3 {
-            font-size: ${({ theme }) => theme.sizes.ipad.l};
-        }
     }
 
     @media screen and (min-width: 1024px){
         padding: 0 3vw;
         margin-right: 3em;
         margin-top: 6em;
-        h1 {    
-            font-size: ${({ theme }) => theme.sizes.desktop.xxl};
-        }
-
-        h3 {
-            font-size: ${({ theme }) => theme.sizes.desktop.m};
-        }
     }
+`
+
+export const TitleBanner = styled.h1`
+  font-weight: 900;
+  line-height: 1.2em;
+  
+  @media screen and (min-width: 768px) {
+    line-height: 2em;
+  }
+`
+
+export const SubtitleBanner = styled.p`
+  line-height: 1.2em;
+  font-weight: 500;
+  font-family: ${({ theme }) => theme.fonts[1]}, sans-serif;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    line-height: 2em;
+  }
 `
 
 export const HeroDescription = styled.div`

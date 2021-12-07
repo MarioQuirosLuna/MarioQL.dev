@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import MenuContext from '../Context/MenuContext'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import { Blur } from '../shared/utils'
+import { Blur, Body, Content } from '../shared/utils'
 import ChangeVisibility from '../shared/components/ChangeOpacity'
 
 const Layout = (props) => {
@@ -11,14 +11,18 @@ const Layout = (props) => {
 	const { children } = props
 
 	return (
-		<div>
+		<>
 			<ChangeVisibility component={
 				<Blur className={menu ? 'slideLeft' : 'slideRight'} />
 			}/>
-			<Header />
-			{ children }
+			<Content>
+				<Header />
+				<Body>
+					{ children }
+				</Body>
+			</Content>
 			<Footer />
-		</div>
+		</>
 	)
 }
 
