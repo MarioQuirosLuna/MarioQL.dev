@@ -4,27 +4,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export const ContainerFooter = styled.div`
     opacity: 0;
     min-height: 20vh;
+    display: flex;
+    justify-content: center;
+`
+
+export const Container = styled.div`
+    margin: auto 0 0 0;
 `
 
 export const SocialMedia = styled.footer`
-    width: 192px;
-    height: 64px;
+    width: 12em;
+    height: 4em;
     padding: 2em 0;
-    margin: 2em auto 2em auto;
+    margin: 1em auto 1em auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: ${({ theme }) => theme.colors.lightColor};
     border-radius: 5px;
-
-    @media screen and (min-width: 500px) {
-        margin: 5em auto 2em auto;
-    }
-
 `
 
 export const MediaIcon = styled(FontAwesomeIcon)`
-    font-size: 32px;
+    font-size: 2em;
     color: ${({ theme }) => theme.colors.textTransparentColor};
     transition: transform 0.5s ease;
     cursor: pointer;
@@ -38,8 +39,8 @@ export const MediaIcon = styled(FontAwesomeIcon)`
 `
 
 export const Copyright = styled.div`
-    font-size: 16px;
+    font-size: 0.7em;
     text-align: center;
-    padding: 0 0 0.5em 0;
+    padding: 0 0 0.3em 0;
     cursor: default;
 `

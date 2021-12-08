@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ContainerFooter, Copyright, MediaIcon, SocialMedia } from './Footer.styles'
+import { Container, ContainerFooter, Copyright, MediaIcon, SocialMedia } from './Footer.styles'
 
 import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import StateContext from '../../Context/AppContext'
@@ -16,18 +16,20 @@ const Footer = () => {
 
 	return (
 		<ContainerFooter className="fadeIn">
-			<SocialMedia className={'fadeIn duration-4 delay-2'}> 
-				{
-					socialMediaIcons.map((icon, index) => (
-						<a key={icon.url} href={icon.url} target="_blank" rel="noreferrer" >
-							<MediaIcon key={index} icon={icon.icon}/>
-						</a> )
-					)
-				}
-			</SocialMedia>
-			<Copyright>
+			<Container>
+				<SocialMedia className={'fadeIn duration-4 delay-2'}> 
+					{
+						socialMediaIcons.map((icon, index) => (
+							<a key={icon.url} href={icon.url} target="_blank" rel="noreferrer" >
+								<MediaIcon key={index} icon={icon.icon}/>
+							</a> )
+						)
+					}
+				</SocialMedia>
+				<Copyright>
                     &copy; {new Date().getFullYear()} {state.author.name}
-			</Copyright>
+				</Copyright>
+			</Container>
 		</ContainerFooter>
 	)
 }

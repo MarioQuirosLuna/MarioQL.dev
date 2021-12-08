@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const ContainerAbout = styled.div`
+    width: 100%;
     margin: 4em 0 0 0;
     text-align: left;
     display: inline-block;
@@ -19,10 +20,6 @@ export const ContainerAbout = styled.div`
 
 `
 
-export const Presentation = styled.section`
-    
-`
-
 export const HeaderPresentation = styled.div`
     width: 100%;
     display: flex;
@@ -31,7 +28,7 @@ export const HeaderPresentation = styled.div`
     justify-content: space-between;
 
     img{
-        width: 25vw;
+        width: 20vw;
         border-radius: 50%;
     }
 
@@ -54,41 +51,33 @@ export const Titles = styled.div`
 `
 
 export const TabList = styled.ul`
-  list-style: none;
-  display: flex;
-  gap: 0 1rem;
-  margin-bottom: 2rem;
-  @media(max-width: 767px) {
-    display: grid;
-    grid-gap: 0 0.5rem;  
+    list-style: none;
+    display: flex;
+    gap: 0 1em;
+    margin: 0.8em 0 1.2em 0;
     grid-template-columns: repeat(3, 1fr);
-  }
+    
+    @media screen and (min-width: 768px) {
+        margin: 0.5em 0 1.5em 0;
+    }
 `
 
-export const Item = styled.div`
-    display: inline-block;
-    text-align: center;
-    background-color: ${({ theme }) => theme.colors.tagsColor };
-    border-radius: 20px;
-    margin: 1vw 1vw;
-    font-size: ${({ theme }) => theme.sizes.movil.s};
-    transition: all 0.5s linear;
-    cursor: default;
+export const ItemList = styled.ul`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em 0;
+    list-style: none;
+    margin: 0 0 1em 0;
 
-    &:hover{
-        transform: scale(1.1);
-        box-shadow: 0px 0px 7px rgba(255,255,255,0.8);
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5em 1em;
     }
+`
 
-    @media screen and (min-width: 768px){
-        font-size: ${({ theme }) => theme.sizes.ipad.m};
-        margin: 0.5vw 0.5vw;
-    }
-
-    @media screen and (min-width: 1024px){
-        font-size: ${({ theme }) => theme.sizes.desktop.s};
-    }
-    
+export const Item = styled.li`
+    display: flex;
+    align-items: center;
 `
 
 export const TabItem = styled.li`

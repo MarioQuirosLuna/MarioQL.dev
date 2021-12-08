@@ -2,31 +2,31 @@
     "abilities": [
         { 
             "tag":"Autodidact",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         },
 		{ 
             "tag": "Leadership",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         },
 		{ 
             "tag": "Teamwork",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         },
 		{ 
             "tag": "Communication",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         },
 		{ 
             "tag": "Collaborative",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         },
 		{ 
             "tag": "Enthusiastic",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
 		{ 
             "tag": "Empathic",
-            "icon": "" 
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png" 
         }
     ],
     "technologies": [
@@ -40,11 +40,11 @@
         },
         {
             "tag": "Javascript",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Java",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "PHP",
@@ -52,43 +52,43 @@
         },
         {
             "tag": "C#",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "React",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Styled-components",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Bootstrap",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Node",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Express",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": ".Net",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "MySQL",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "MSSQL",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         },
         {
             "tag": "Mongo",
-            "icon": ""
+            "icon": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Icons/html.png"
         }
     ]
 }
