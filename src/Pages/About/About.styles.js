@@ -114,3 +114,8 @@ export const TabItem = styled.li`
     `};
 
 `
+
+export const ContentExtras = styled.div`
+    display: flex;
+    align-items: center;
+`

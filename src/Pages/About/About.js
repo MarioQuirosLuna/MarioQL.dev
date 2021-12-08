@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Container, LinkStyled } from '../../shared/utils'
-import { ContainerAbout, HeaderPresentation, Item, ItemList, TabList, Titles } from './About.styles'
+import { ContainerAbout, ContentExtras, HeaderPresentation, Item, ItemList, TabList, Titles } from './About.styles'
 
 import StateContext from '../../Context/AppContext'
 
@@ -47,10 +47,10 @@ const About = () => {
 								</p>
 								{
 									state.author.certifications?.map(certification => {
-										return <div key={certification.name}>
-											<LinkStyled href={certification.url} target="_blank" rel="noreferrer" >{certification.name}</LinkStyled>
+										return <ContentExtras key={certification.name}>
+											<LinkStyled href={certification.url} target="_blank" rel="noreferrer" ><p>{certification.name}</p></LinkStyled>
 											<b>&nbsp;-&nbsp;{certification.company}</b>
-										</div>
+										</ContentExtras>
 
 									})
 								}

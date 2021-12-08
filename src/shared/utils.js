@@ -31,12 +31,12 @@ export const LinkStyled = styled.a`
     }
     @media (hover: hover) {
         &:hover {
-        color: ${({ theme }) => theme.colors.purples[0]};
-        text-decoration: none;
-        &::before {
-            transition: transform 0.3s ease 0.2s;
-            transform: scale(1);
-        }
+            color: ${({ theme }) => theme.colors.purples[0]};
+            text-decoration: none;
+            &::before {
+                transition: transform 0.3s ease 0.2s;
+                transform: scale(1);
+            }
         }
     }
 `
