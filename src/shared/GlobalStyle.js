@@ -41,6 +41,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: calc(0.7em + 0.7vw);
     }
 
+    b{
+        font-weight: bold;
+    }
+
     ul {
         margin: 0;
         padding: 0;
