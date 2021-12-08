@@ -43,7 +43,7 @@ const About = () => {
 								</p>
 								<p>{state.author.studies}</p>
 								<p>
-									<b><u>Certifications and Courses extra</u></b>📝
+									<b><u>Extra Certifications and Courses</u></b>📝
 								</p>
 								{
 									state.author.certifications?.map(certification => {
