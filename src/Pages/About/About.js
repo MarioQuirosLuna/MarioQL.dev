@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Container } from '../../shared/utils'
+import { Container, LinkStyled } from '../../shared/utils'
 import { ContainerAbout, HeaderPresentation, Item, ItemList, TabList, Titles } from './About.styles'
 
 import StateContext from '../../Context/AppContext'
@@ -34,10 +34,26 @@ const About = () => {
 						<TabPanel whenActive="Profile">
 							<div className="fadeIn">
 								<p>
-									<b>¿Who I am?</b>🤔
+									<b><u>¿Who I am?</u></b>🤔
 								</p>
 								<p>{state.author.whoIam}</p>
 								<p>{state.author.interests}</p>
+								<p>
+									<b><u>Studies</u></b>📘
+								</p>
+								<p>{state.author.studies}</p>
+								<p>
+									<b><u>Certifications and Courses extra</u></b>📝
+								</p>
+								{
+									state.author.certifications?.map(certification => {
+										return <div key={certification.name}>
+											<LinkStyled href={certification.url} target="_blank" rel="noreferrer" >{certification.name}</LinkStyled>
+											<b>&nbsp;-&nbsp;{certification.company}</b>
+										</div>
+
+									})
+								}
 							</div>
 						</TabPanel>
 						<TabPanel whenActive="SoftSkills">
@@ -67,7 +83,7 @@ const About = () => {
 									})
 								}
 							</ItemList>
-							<p>{state.author.extra}</p>	
+							<p className="fadeIn">{state.author.extra}</p>	
 						</TabPanel>
 					</>
 				</TabBar>				

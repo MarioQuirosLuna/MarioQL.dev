@@ -78,6 +78,12 @@ export const ItemList = styled.ul`
 export const Item = styled.li`
     display: flex;
     align-items: center;
+
+    img{
+        width: 24px;
+        height: 24px;
+        margin: 0 0.8em 0 0;
+    }
 `
 
 export const TabItem = styled.li`

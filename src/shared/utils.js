@@ -17,6 +17,30 @@ export const Body = styled.section`
 
 `
 
+export const LinkStyled = styled.a`
+    position: relative;
+    &:before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: ${({ theme }) => theme.colors.purples[0]};
+        position: absolute;
+        bottom: -2px;
+        transition: transform 0.3s ease ;
+        transform: scale(0);
+    }
+    @media (hover: hover) {
+        &:hover {
+        color: ${({ theme }) => theme.colors.purples[0]};
+        text-decoration: none;
+        &::before {
+            transition: transform 0.3s ease 0.2s;
+            transform: scale(1);
+        }
+        }
+    }
+`
+
 export const Container = styled.div`
 	justify-content: center;
     text-align: center;

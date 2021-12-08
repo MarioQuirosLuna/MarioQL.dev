@@ -3,9 +3,15 @@
     "image": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Images/Profile_400x400.jpg",
     "logo": "https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Images/logo.png",
     "whoIam": 
-        "🧑🏻‍💻 Software developer with experience working on personal projects. 🔍 I am characterized by wanting to obtain a lot of knowledge of the things that I like, organized, self-taught, passionate about programming, 💻 technology and 🕹️ video games.",
+        "🧑🏻‍💻 Software developer with experience working on personal projects. 🔍 I am characterized by wanting to obtain a lot of knowledge of the things that I like, organized, self-taught, passionate about programming, 🖥️ technology and 🕹️ video games.",
     "interests": 
         "With great interest in finding challenges, working in teams of positive people and learning many things. 😎",
+    "studies":"Currently studying in the third year of Business Informatics at the University of Costa Rica",
+    "certifications":[{
+        "name": "Curso Gratis de Programación Básica",
+        "url": "https://platzi.com/p/mario-quiros/curso/1050-programacion-basica/diploma/detalle/",
+        "company": "Platzi"
+    }],
     "extra": "Eager to learn many more tools and technologies.",
     "twitter":{
         "username": "@MarioQuirosL",
