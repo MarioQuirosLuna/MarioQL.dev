@@ -80,7 +80,7 @@ export const IconStyled = styled.div`
     }
 `
 
-export const BtnLinkCV = styled.a`
+export const BtnLink = styled.a`
     & {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.purples[0]};

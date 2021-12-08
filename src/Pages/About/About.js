@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { BtnLinkCV, Container, LinkStyled } from '../../shared/utils'
+import { BtnLink, Container, LinkStyled } from '../../shared/utils'
 import { ContainerAbout, ContentExtras, HeaderPresentation, Item, ItemList, TabList, Titles } from './About.styles'
 
 import StateContext from '../../Context/AppContext'
@@ -24,9 +24,9 @@ const About = () => {
 						<img src={ state.author.image } alt={ state.author.name } className="FadeIn" />
 					</div>
 				</HeaderPresentation>
-				<BtnLinkCV href="" download>
+				<BtnLink href="/cv-marioql.pdf" download>
 					Download CV
-				</BtnLinkCV>
+				</BtnLink>
 				<TabBar tab="Profile">
 					<TabList>
 						<Tab tabTitle="Profile">Profile</Tab>
