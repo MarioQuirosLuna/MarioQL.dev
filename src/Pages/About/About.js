@@ -18,7 +18,7 @@ const About = () => {
 				<HeaderPresentation>
 					<Titles>
 						<p>About</p>
-						<h1>{state.author.name}</h1>
+						<h1>{state.author.name}🤓</h1>
 					</Titles>
 					<div>
 						<img src={ state.author.image } alt={ state.author.name } className="FadeIn" />
@@ -34,7 +34,7 @@ const About = () => {
 						<TabPanel whenActive="Profile">
 							<div className="fadeIn">
 								<p>
-									<b>¿Who I am?</b>
+									<b>¿Who I am?</b>🤔
 								</p>
 								<p>{state.author.whoIam}</p>
 								<p>{state.author.interests}</p>
