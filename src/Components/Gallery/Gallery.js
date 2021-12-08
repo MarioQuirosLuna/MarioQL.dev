@@ -9,7 +9,7 @@ const Gallery = () => {
 
 	return (
 		<ContainerGallery>
-			<h1>Some of the personal projects that I have done</h1>
+			<h3>Some of the personal projects that I have done</h3>
 			<ContainerProjects className="fadeIn delay-6">
 				{
 					state.projects

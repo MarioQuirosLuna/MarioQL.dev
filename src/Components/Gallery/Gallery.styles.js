@@ -24,9 +24,10 @@ export const ContainerGallery = styled.div`
 
 export const ContainerProjects = styled.div`
     display: grid;
+    margin: 2em 0 0 0;
     min-height: 250px;
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 1em;
+    column-gap: 1em;
     justify-content: center;
     opacity: 0;
 

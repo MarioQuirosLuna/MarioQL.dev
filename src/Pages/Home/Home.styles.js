@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const Hero = styled.div`
     display: inline-block;
-    margin-top: 8em;
+    margin-top: 12em;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 
     @media screen and (min-width: 768px) {
-        margin-top: 12em;
+        margin-top: 15em;
     }
 
 `
@@ -30,7 +30,7 @@ export const HeroTitle = styled.div`
 
 export const TitleBanner = styled.h1`
   font-weight: 900;
-  line-height: 1.2em;
+  font-size: calc(1.5em + 1vw);
   
   @media screen and (min-width: 768px) {
     line-height: 2em;
@@ -38,7 +38,6 @@ export const TitleBanner = styled.h1`
 `
 
 export const SubtitleBanner = styled.p`
-  line-height: 1.2em;
   font-weight: 500;
   font-family: ${({ theme }) => theme.fonts[1]}, sans-serif;
   margin: 0;
