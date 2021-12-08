@@ -5,6 +5,7 @@ import { Hero, HeroTitle, HeroDescription, SubtitleBanner, TitleBanner } from '.
 
 import Typing from '../../shared/components/Typing'
 import StateContext from '../../Context/AppContext'
+import { Cube } from '../../shared/components/BgAnimation.styles'
 
 const Home = () => {
 	const { state } = useContext(StateContext)
@@ -18,7 +19,8 @@ const Home = () => {
 					<HeroDescription>
 						<Typing messages={state.author.phrases} />
 					</HeroDescription>
-				</HeroTitle>						
+				</HeroTitle>	
+				<Cube/><Cube/><Cube/><Cube/><Cube/><Cube/>					
 			</Hero>
 		</Container>
 	)
