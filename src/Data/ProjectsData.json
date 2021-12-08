@@ -28,7 +28,7 @@
         "nameProject": "Backend-SewingShop",
         "images": [
             {
-                "image": "https://user-images.githubusercontent.com/37676736/143899902-979a9fa7-e651-4bae-a2d0-9ffe7480a1e0.png"
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Codigo_r5ims3.png"
             }
         ],
         "technologiesProject": [
@@ -61,7 +61,7 @@
         "nameProject": "Frontend-SewingShop",
         "images": [
             {
-                "image": "https://user-images.githubusercontent.com/37676736/143901661-77a60b68-db66-4ebc-810c-caf82925b6e5.png"
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/TallerdeCostura_jhuarb.png"
             }
         ],
         "technologiesProject": [
@@ -86,7 +86,7 @@
         "nameProject": "Pokedex-React",
         "images": [
             {
-                "image": "https://user-images.githubusercontent.com/37676736/143902928-4c907986-222f-47c6-bf92-212e5555a429.png"
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/PokeAPI_pffdtu.png"
             }
         ],
         "technologiesProject": [
@@ -103,7 +103,7 @@
         "nameProject": "PaginaWeb-Hospital",
         "images": [
             {
-                "image": "https://user-images.githubusercontent.com/37676736/130338393-c4d12293-eb38-4731-9ae9-173331b2befd.png"
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Hospital_cmxmpd.png"
             }
         ],
         "technologiesProject": [
@@ -128,7 +128,7 @@
         "nameProject": "CleaningProducts",
         "images": [
             {
-                "image": "https://user-images.githubusercontent.com/37676736/143906889-3b735cec-026f-4841-b028-c9ed775efd5f.jpg"
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/YourProductOnline_sc85re.png"
             }
         ],
         "technologiesProject": [
@@ -152,5 +152,31 @@
         "description": "Second project of the course Languages for commercial applications of the Business Informatics career of the UCR.",
         "repository": "https://github.com/MarioQuirosLuna/MarioQuirosLuna-PaginaWeb-CleaningProducts",
         "liveUrl": ""
+    }
+    ,
+    {
+        "nameProject": "TurismoTurrialba",
+        "images": [
+            {
+                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Tours_ri7xsc.png"
+            }
+        ],
+        "technologiesProject": [
+            {
+                "technology": "Html",
+                "icon": ""
+            },
+            {
+                "technology": "Css",
+                "icon": ""
+            },
+            {
+                "technology": "Javascript",
+                "icon": ""
+            }
+        ],
+        "description": "First web page that I elaborated, was the first project of the course Languages for commercial applications of the Business Informatics career of the UCR.",
+        "repository": "https://github.com/MarioQuirosLuna/PaginaWeb-TurismoTurrialba",
+        "liveUrl": "https://marioquirosluna.github.io/PaginaWeb-TurismoTurrialba/"
     }
 ]
