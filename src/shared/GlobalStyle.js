@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { blink, fadeIn, fadeOut, slideLeft, slideRight, slideUp } from './animations'
+import { blink, fadeIn, fadeOut, gradientAnimation, slideLeft, slideRight, slideUp } from './animations'
 
 const GlobalStyle = createGlobalStyle`
     ::selection {
@@ -21,12 +21,15 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         min-height: 100vh;
         color: ${({ theme }) => theme.colors.textColor};
-        background: linear-gradient(to bottom,
+        background: linear-gradient(-45deg,
+            ${({ theme }) => theme.colors.darks[4]},
             ${({ theme }) => theme.colors.backgroundColor},
-            ${({ theme }) => theme.colors.backgroundSecondaryColor}
+            ${({ theme }) => theme.colors.backgroundSecondaryColor},
+            ${({ theme }) => theme.colors.darks[7]}
             );
         background-position: center; 
-        background-size: cover; 
+        background-size: 400% 400%; 
+        animation: ${gradientAnimation} 15s ease infinite;
     }
 
     h1 {    

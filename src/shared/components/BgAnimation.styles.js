@@ -7,19 +7,19 @@ export const Cube = styled.div`
     left: 45vw;
     width: 10px;
     height: 10px;
-    border: solid 1px ${({ theme }) => theme.colors.purples[0]};
+    border: solid 1px ${({ theme }) => theme.colors.purples[3]};
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     animation: ${cubeAnimation} 10s ease-in forwards infinite;
     
     &:nth-child(2n) {
-        border-color: ${({ theme }) => theme.colors.whites[1]};
+        border-color: ${({ theme }) => theme.colors.greys[2]};
     }
     
     &:nth-child(2) {
         animation-delay: 2s;
         left: 20vw;
-        top: 25vh;
+        top: 40vh;
     }
     
     &:nth-child(3) {
