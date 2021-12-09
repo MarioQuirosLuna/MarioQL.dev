@@ -4,13 +4,15 @@ import { ThemeProvider } from 'styled-components'
 import PageWrapper from '../Pages/PageWrapper'
 import Home from '../Pages/Home/Home'
 import Portfolio from '../Pages/Portfolio/Portfolio'
+import PortfolioDetails from '../Pages/Portfolio/PortfolioDetails'
 import Blog from '../Pages/Blog/Blog'
 import About from '../Pages/About/About'
 
-import theme from '../shared/theme'
-import GlobalStyle from '../shared/GlobalStyle'
 import { MenuContextProvider } from '../Context/MenuContext'
 import { StateContextProvider } from '../Context/AppContext'
+
+import theme from '../shared/theme'
+import GlobalStyle from '../shared/GlobalStyle'
 
 function App() {
 
@@ -29,6 +31,11 @@ function App() {
 							<Route path='/portfolio' element={
 								<PageWrapper component={
 									<Portfolio />
+								} /> 
+							} />
+							<Route path='/portfolio/:projectDetail' element={
+								<PageWrapper component={
+									<PortfolioDetails />
 								} /> 
 							} />
 							<Route path='/blog' element={

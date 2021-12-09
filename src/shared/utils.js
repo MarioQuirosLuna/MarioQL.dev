@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import setPosition from './mixins/setPosition'
 
@@ -101,5 +102,40 @@ export const BtnLink = styled.a`
             text-decoration: none;
             transform: scale(1.05);
         }
+    }
+`
+
+export const BtnLinkReactRouter = styled(Link)`
+    & {
+        background-color: transparent;
+        color: ${({ theme }) => theme.colors.purples[0]};
+        padding: 0.5em;
+        margin: 0 0 1em 0;
+        cursor: pointer;
+        border: 3px solid ${({ theme }) => theme.colors.purples[0]};
+        border-radius: 3em;
+        display: inline-flex;
+        font-weight: 700;
+        overflow: hidden;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    @media(hover: hover) {
+        &:hover {
+            text-decoration: none;
+            transform: scale(1.05);
+        }
+    }
+`
+
+export const Item = styled.li`
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 24px;
+        height: 24px;
+        margin: 0 0.8em 0 0;
     }
 `

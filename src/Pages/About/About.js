@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
-import { BtnLink, Container, LinkStyled } from '../../shared/utils'
-import { ContainerAbout, ContentExtras, HeaderPresentation, Item, ItemList, TabList, Titles } from './About.styles'
 
 import StateContext from '../../Context/AppContext'
 
 import TabBar from './AboutContext'
 import TabPanel from './TabPanel'
 import Tab from './Tab'
+
+import { BtnLink, Container, Item, LinkStyled } from '../../shared/utils'
+import { ContainerAbout, ContentExtras, HeaderPresentation, ItemList, TabList, Titles } from './About.styles'
 
 const About = () => {
 
@@ -76,11 +77,11 @@ const About = () => {
 						<TabPanel whenActive="Technologies">
 							<ItemList className="fadeIn">
 								{
-									state.stack.technologies.map((ability) => {
+									state.stack.technologies.map((technology) => {
 										return (
-											<Item key={ability.tag}>
-												<img src={ability.icon} alt={ability.tag} />
-												<p>{ability.tag}</p>
+											<Item key={technology.tag}>
+												<img src={technology.icon} alt={technology.tag} />
+												<p>{technology.tag}</p>
 											</Item>
 										)
 									})

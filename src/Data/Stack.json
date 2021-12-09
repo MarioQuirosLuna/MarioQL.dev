@@ -71,6 +71,10 @@
             "icon": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png"
         },
         {
+            "tag": "Express",
+            "icon": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png"
+        },
+        {
             "tag": ".NetCore",
             "icon": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/NET_Core_jfsgq5.png"
         },

@@ -25,6 +25,7 @@ export const ContainerItem = styled.div`
 
     @media screen and (min-width: 768px){
         display: flex;
+        padding: 2em 0 2em 0;
     }
 `
 
