@@ -10,7 +10,7 @@ export const ContainerAbout = styled.div`
         line-height: 1.5;
     }
 
-    b{
+    u{
         line-height: 3em;
     }
 

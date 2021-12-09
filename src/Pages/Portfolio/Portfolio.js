@@ -15,10 +15,12 @@ const Portfolio = () => {
 	return (
 		<Container className="fadeIn">
 			<Gallery>
-				<h3>Some of the personal projects that I have done</h3>
+				<h3>
+					<u>Some of the personal projects that I have done</u>
+				</h3>
 				{
-					state.projects?.map((project) => (
-						<PortfolioItem key={project.nameProject} project={project}/>
+					state.projects?.map((project, index) => (
+						<PortfolioItem key={project.nameProject} project={project} align={index} />
 					))
 				}
 			</Gallery>

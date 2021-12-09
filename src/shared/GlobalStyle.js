@@ -38,10 +38,10 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h3, p {
-        font-size: calc(0.7em + 0.7vw);
+        font-size: calc(0.6em + 0.5vw);
     }
 
-    b{
+    b, u{
         font-weight: bold;
     }
 

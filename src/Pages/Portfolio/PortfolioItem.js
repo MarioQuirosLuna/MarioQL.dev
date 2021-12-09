@@ -1,32 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { ButtonContainer, ContainerItem, Image, ItemText, TitleItem } from './Portfolio.styles'
-import { BtnLink } from '../../shared/utils'
+import ImagePortfolio from './ImagePortfolio'
+import TextPortfolio from './TextPortfolio'
 
-const PortfolioItem = ({ project }) => {
+import { ContainerItem } from './Portfolio.styles'
+
+const PortfolioItem = ({ project, align }) => {
+
 	return (
-		<ContainerItem>
-			<Image src={project.images[0].image} alt={project.nameProject} />
-			<ItemText>
-				<TitleItem>
-					<h3>
-						<b>{project.nameProject}</b>
-					</h3>
-				</TitleItem>
-				<p>{project.description}</p>
-				<ButtonContainer>
-					<BtnLink href="" >
-                        Details
-					</BtnLink>
-					<BtnLink href={project.liveUrl} target="_blank" rel="noopener" >
-                        Online 
-					</BtnLink>
-					<BtnLink href={project.repository} target="_blank" rel="noopener" >
-                        Code
-					</BtnLink>
-				</ButtonContainer>
-			</ItemText>
+		<ContainerItem id="dataPortfolio">
+			{align % 2 ===0 && window.screen.width>1023 ? 
+				<>
+					<TextPortfolio 
+						nameProject={project.nameProject} 
+						description={project.description}
+						liveUrl={project.liveUrl}
+						repository={project.repository}
+					/>
+					<ImagePortfolio 
+						src={project.images[0].image}
+						alt={project.nameProject}
+					/>
+				</>:<>										
+					<ImagePortfolio
+						src={project.images[0].image}
+						alt={project.nameProject}
+					/>
+					<TextPortfolio 
+						nameProject={project.nameProject} 
+						description={project.description}
+						liveUrl={project.liveUrl}
+						repository={project.repository}
+					/>
+				</>
+			}
 		</ContainerItem>
 	)
 }

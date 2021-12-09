@@ -37,16 +37,16 @@ const About = () => {
 						<TabPanel whenActive="Profile">
 							<div className="fadeIn">
 								<p>
-									<b><u>¿Who I am?</u></b>🤔
+									<u>¿Who I am?</u>🤔
 								</p>
 								<p>{state.author.whoIam}</p>
 								<p>{state.author.interests}</p>
 								<p>
-									<b><u>Studies</u></b>📘
+									<u>Studies</u>📘
 								</p>
 								<p>{state.author.studies}</p>
 								<p>
-									<b><u>Extra Certifications and Courses</u></b>📝
+									<u>Extra Certifications and Courses</u>📝
 								</p>
 								{
 									state.author.certifications?.map(certification => {
