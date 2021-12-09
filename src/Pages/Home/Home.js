@@ -15,7 +15,7 @@ const Home = () => {
 			<Hero>
 				<HeroTitle className="overflow--hidden">		
 					<SubtitleBanner>¡Hi! i&apos;m,</SubtitleBanner>
-					<TitleBanner>{ state.author.name }</TitleBanner>
+					<TitleBanner><u>{ state.author.name }</u></TitleBanner>
 					<HeroDescription>
 						<Typing messages={state.author.phrases} />
 					</HeroDescription>

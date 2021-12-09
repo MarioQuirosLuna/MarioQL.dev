@@ -53,7 +53,7 @@ export const Container = styled.div`
       padding: 0 15vw;
     }
 
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1600px) {
       padding: 0 20vw;
     }
 `

@@ -36,6 +36,7 @@ export const HeaderPresentation = styled.div`
         img{
             padding: 10px;
             border: 1px solid ${({ theme }) => theme.colors.textColor};
+            margin: 0 3em 0 0;
         }
     }
 
@@ -70,7 +71,12 @@ export const ItemList = styled.ul`
     margin: 0 0 1em 0;
 
     @media screen and (min-width: 768px) {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5em 1em;
+    }
+
+    @media screen and (min-width: 1440px) {
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 1.5em 1em;
     }
 `

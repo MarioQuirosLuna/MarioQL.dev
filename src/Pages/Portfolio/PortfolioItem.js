@@ -9,7 +9,7 @@ import { ContainerItem } from './Portfolio.styles'
 const PortfolioItem = ({ project, align }) => {
 
 	return (
-		<ContainerItem id="dataPortfolio">
+		<ContainerItem>
 			{align % 2 ===0 && window.screen.width>1023 ? 
 				<>
 					<TextPortfolio 
@@ -36,11 +36,13 @@ const PortfolioItem = ({ project, align }) => {
 				</>
 			}
 		</ContainerItem>
+		
 	)
 }
 
 PortfolioItem.propTypes = {
-	project: PropTypes.object.isRequired
+	project: PropTypes.object.isRequired,
+	align: PropTypes.number.isRequired
 }
 
 export default PortfolioItem

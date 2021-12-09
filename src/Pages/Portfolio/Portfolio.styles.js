@@ -2,14 +2,28 @@ import styled from 'styled-components'
 
 export const Gallery = styled.div`
     margin: 6em 0 0 0;
+
+    h3{
+        margin: 0 0 1em 0;
+
+        u{
+            font-size: calc(0.8em + 0.8vw);
+        }
+    }
 `
 
 export const ContainerItem = styled.div`
     display: inline-block;
     align-items: center;
-    margin: 5em 0 0 0;
+    padding: 1em 0 1em 0;
+    min-width: 100%;
+    border-top: 1px solid ${({ theme }) => theme.colors.textColor};
 
-    @media screen and (min-width: 1024px){
+    :last-child {
+        border-bottom: 1px solid ${({ theme }) => theme.colors.textColor};  
+    }
+
+    @media screen and (min-width: 768px){
         display: flex;
     }
 `
@@ -39,7 +53,6 @@ export const ItemText = styled.div`
 `
 
 export const TitleItem = styled.div`
-    
     width: 100%;
     margin: 0 0 1em 0;
 `

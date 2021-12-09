@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h3, p {
-        font-size: calc(0.6em + 0.5vw);
+        font-size: calc(0.8em + 0.4vw);
     }
 
     b, u{
