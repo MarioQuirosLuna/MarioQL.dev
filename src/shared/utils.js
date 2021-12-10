@@ -47,7 +47,7 @@ export const Container = styled.div`
     text-align: center;
     width: 100%;
     padding: 0 5vw;
-    margin: 0 auto;
+    margin: 4em auto 0 auto;
     opacity: 0;
 
     @media screen and (min-width: 1024px) {

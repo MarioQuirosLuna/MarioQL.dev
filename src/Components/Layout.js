@@ -8,7 +8,7 @@ import ChangeVisibility from '../shared/components/ChangeOpacity'
 const Layout = (props) => {
 
 	const { menu } = useContext(MenuContext)
-	const { children } = props
+	const { children, goBack } = props
 
 	return (
 		<>
@@ -16,7 +16,7 @@ const Layout = (props) => {
 				<Blur className={menu ? 'slideLeft' : 'slideRight'} />
 			}/>
 			<Content>
-				<Header />
+				<Header goBack={goBack}/>
 				<Body>
 					{ children }
 				</Body>

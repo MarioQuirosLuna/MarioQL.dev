@@ -1,11 +1,7 @@
 [
     {
         "nameProject": "MarioQL.dev",
-        "images": [
-            {
-                "image": ""
-            }
-        ],
+        "preview": "",
         "technologiesProject": [
             {
                 "tag": "React",
@@ -22,11 +18,7 @@
     },
     {
         "nameProject": "Backend-SewingShop",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Codigo_r5ims3.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Codigo_r5ims3.png",
         "technologiesProject": [
             {
                 "tag": "Node",
@@ -47,11 +39,7 @@
     },
     {
         "nameProject": "Frontend-SewingShop",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/TallerdeCostura_jhuarb.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/TallerdeCostura_jhuarb.png",
         "technologiesProject": [
             {
                 "tag": "React",
@@ -68,11 +56,7 @@
     },
     {
         "nameProject": "Pokedex-React",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/PokeAPI_pffdtu.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/PokeAPI_pffdtu.png",
         "technologiesProject": [
             {
                 "tag": "React",
@@ -89,11 +73,7 @@
     },
     {
         "nameProject": "PaginaWeb-Hospital",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Hospital_cmxmpd.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Hospital_cmxmpd.png",
         "technologiesProject": [
             {
                 "tag": "Java",
@@ -114,11 +94,7 @@
     },
     {
         "nameProject": "CleaningProducts",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/YourProductOnline_sc85re.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/YourProductOnline_sc85re.png",
         "technologiesProject": [
             {
                 "tag": "PHP",
@@ -144,11 +120,7 @@
     ,
     {
         "nameProject": "TurismoTurrialba",
-        "images": [
-            {
-                "image": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Tours_ri7xsc.png"
-            }
-        ],
+        "preview": "https://res.cloudinary.com/dusx4zdpz/image/upload/v1638990442/portfolio/portfolio/Tours_ri7xsc.png",
         "technologiesProject": [
             {
                 "tag": "HTML",

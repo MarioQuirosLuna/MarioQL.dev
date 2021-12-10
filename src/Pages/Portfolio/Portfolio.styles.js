@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Gallery = styled.div`
-    margin: 6em 0 0 0;
+
+    padding: 2em 0 0 0;
 
     h3{
         margin: 0 0 1em 0;
@@ -40,13 +41,8 @@ export const ImgContainer = styled.div`
 `
 
 export const Image = styled.img`
-    width: 18em;
-    height: 9em;
-
-    @media screen and (min-width: 1440px){
-        width: 37em;
-        height: 18em;
-    }
+    width: 100%;
+    height: auto;
 `
 
 export const ItemText = styled.div`
@@ -64,4 +60,25 @@ export const ButtonContainer = styled.div`
     margin: 1em 0 0 0;
     width: 100%;
     justify-content: center;
+`
+
+export const ContentDetails = styled.div`
+    padding: 2em 0 0 0;
+`
+
+export const TextDetails = styled.div`
+    margin: 0 10% 0 10%;
+    text-align: left;
+
+    p{
+        line-height: 1.5;
+    }
+
+    u{
+        line-height: 3em;
+    }
+`
+
+export const ContainerTechnologies = styled.div`
+    margin: 1em 0 0 0;
 `

@@ -19,12 +19,12 @@ const PortfolioItem = ({ project, align }) => {
 						repository={project.repository}
 					/>
 					<ImagePortfolio 
-						src={project.images[0].image}
+						src={project.preview}
 						alt={project.nameProject}
 					/>
 				</>:<>										
 					<ImagePortfolio
-						src={project.images[0].image}
+						src={project.preview}
 						alt={project.nameProject}
 					/>
 					<TextPortfolio 

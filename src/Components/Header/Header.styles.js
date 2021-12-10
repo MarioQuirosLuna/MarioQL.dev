@@ -15,7 +15,52 @@ export const HeaderBackground = styled.div`
     `}
 `
 
+export const LogoContainer = styled.div`
+    //TODO: Need Refactor
+    display: flex;
+    @media screen and (max-width: 1023px) {
+        height: 70px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        transition: all 300ms ease-out;
+        transform: translateY(-70px);
+    }
+
+    @media screen and (min-width: 1024px) {
+        justify-content: start;
+    }
+`
+
+export const GoBackBtn = styled.div`
+    //TODO: Need Refactor
+    width: 8em;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 2em auto 0 1em;
+    position: relative;
+    z-index: 30;
+    outline: none;
+    cursor: pointer;
+
+    @media screen and (min-width: 768px){
+        margin: 3em auto 0 2.3em;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin: 3em auto 0 2em;
+        position: fixed;
+    }
+
+    @media screen and (min-width: 1600px){
+        margin: 3em auto 0 5em;
+    }
+`
+
 export const NavbarButton = styled.div`
+    //TODO: Need Refactor
     display: flex;
     @media screen and (max-width: 1023px) {
         height: 70px;
@@ -34,11 +79,11 @@ export const NavbarButton = styled.div`
 
 `
 
-export const BurguerButton = styled.div`
+export const BurgerButton = styled.div`
+    //TODO: Need Refactor
     width: 30px;
     height: 50px;
-    margin-left: auto;
-    margin-right: 1em;
+    margin: 0 1em 0 auto;
     position: relative;
     z-index: 30;
     outline: none;
@@ -94,16 +139,21 @@ export const BurguerButton = styled.div`
 
     @media screen and (min-width: 768px) {
         width: 50px;
+        margin: 1em 2em 0 auto;
+
     }
 
     @media screen and (min-width: 1024px) {
         width: 50px;
-        margin-top: 2em;
-        margin-right: 2em;
+        margin: 2em 2em 0 auto;
         position: fixed;
         i{
             height: 5px;
         }
+    }
+
+    @media screen and (min-width: 1600px){
+        margin: 2em 5em 0 auto;
     }
 `
 

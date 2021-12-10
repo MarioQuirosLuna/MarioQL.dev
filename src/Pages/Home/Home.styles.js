@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const Hero = styled.div`
     display: inline-block;
-    margin-top: 12em;
+    margin: 8em 0 0 0;
     align-items: center;
     text-align: center;
     justify-content: space-around;
 
     @media screen and (min-width: 768px) {
-        margin-top: 15em;
+        margin: 11em 0 0 0;
     }
 
 `
@@ -23,8 +23,7 @@ export const HeroTitle = styled.div`
 
     @media screen and (min-width: 1024px){
         padding: 0 3vw;
-        margin-right: 3em;
-        margin-top: 6em;
+        margin: 6em 3em 0 0;
     }
 `
 

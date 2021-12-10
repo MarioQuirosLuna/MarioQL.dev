@@ -1,53 +1,45 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
 import StateContext from '../../Context/AppContext'
-import { Item } from '../../shared/utils'
+
+import scrollTop from '../../helpers/scrollTop'
+
+import { Container, Item } from '../../shared/utils'
+
+import { ContainerTechnologies, ContentDetails, Image, TextDetails, TitleItem } from './Portfolio.styles'
 
 const PortfolioDetails = () => {
 
 	const { state } = useContext(StateContext)
-	const [project, setProject] = useState(null)
+	const { projectDetail } = useParams()
 
-	const getElement = () => {
-		let nameElement = window.location.href.split('/')
-		setProject(state.projects.filter(project => project.nameProject === nameElement[nameElement.length - 1])[0])
-	}
+	const project = state.projects.find((project) => project.nameProject === projectDetail)
 
 	useEffect(() => {
-		getElement()
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+		scrollTop()
 	}, [])
-
 	return (
-		<div>
-			{project &&
-				<div>
-					<div>{project.nameProject}</div>
-					<div>
-						{
-							project.images?.map((img) => {
-								return (							
-									<img key={img} src={img.image} alt="ImgPreview"/>
-								)
-							})
-						}
-					</div>
-					<div>{project.description}</div>
-					<div>
-						{
-							project.technologiesProject?.map((technology) => {
-								return (
-									<Item key={technology.tag}>
-										<img src={technology.icon} alt={technology.tag} />
-										<p>{technology.tag}</p>
-									</Item>	
-								)
-							})
-						}
-					</div>
-				</div>
-			}
-		</div>
+		<Container className="fadeIn">
+			<ContentDetails>
+				<TitleItem>
+					<p><u><b>{project.nameProject}</b></u></p>
+				</TitleItem>
+				<Image src={project.preview} alt="image_preview" /> 
+				<TextDetails>
+					<p><u>Description</u></p>
+					<p>{project.description}</p>
+					<ContainerTechnologies>
+						{project.technologiesProject?.map((technology) =>  (
+							<Item key={technology.tag}>
+								<img src={technology.icon} alt={technology.tag} />
+								<p>{technology.tag}</p>
+							</Item>	
+						))}
+					</ContainerTechnologies>		
+				</TextDetails>
+			</ContentDetails>
+		</Container>
 	)
 }
 

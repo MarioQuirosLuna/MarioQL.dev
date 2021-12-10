@@ -36,7 +36,7 @@ function App() {
 							<Route path='/portfolio/:projectDetail' element={
 								<PageWrapper component={
 									<PortfolioDetails />
-								} /> 
+								} goBack /> 
 							} />
 							<Route path='/blog' element={
 								<PageWrapper component={

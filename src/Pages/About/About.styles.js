@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const ContainerAbout = styled.div`
     width: 100%;
-    margin: 4em 0 0 0;
     text-align: left;
     display: inline-block;
 
@@ -15,7 +14,7 @@ export const ContainerAbout = styled.div`
     }
 
     @media screen and (min-width: 768px){
-        margin: 6em 0 0 0;
+        margin: 2em 0 0 0;
     }
 
 `
