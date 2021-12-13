@@ -1,11 +1,21 @@
 import React, { useContext } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
+
 import MenuContext from '../../Context/MenuContext'
+
 import useScroll from '../../Hooks/useScroll'
 
 import HamburgerMenu from '../Menu/HamburgerMenu'
 
-import { BurgerButton, GoBackBtn, HeaderBackground, LogoContainer, MenuContainer, NavbarButton, NavbarMenu } from './Header.styles'
+import {
+	BurgerButton,
+	GoBackBtn,
+	HeaderBackground,
+	LogoContainer,
+	MenuContainer,
+	NavbarButton,
+	NavbarMenu
+} from './Header.styles'
 
 const Header = ({ goBack }) => {
 	const { menu, setMenu } = useContext(MenuContext)

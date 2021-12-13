@@ -2,12 +2,24 @@ import React, { useContext } from 'react'
 
 import StateContext from '../../Context/AppContext'
 
-import TabBar from './AboutContext'
+import TabBar from '../../Context/AboutContext'
 import TabPanel from './TabPanel'
 import Tab from './Tab'
 
-import { BtnLink, Container, Item, LinkStyled } from '../../shared/utils'
-import { ContainerAbout, ContentExtras, HeaderPresentation, ItemList, TabList, Titles } from './About.styles'
+import {
+	BtnLink,
+	Container,
+	Item,
+	LinkStyled
+} from '../../shared/utils'
+import {
+	ContainerAbout,
+	ContentExtras,
+	HeaderPresentation,
+	ItemList,
+	TabList,
+	Titles
+} from './About.styles'
 
 const About = () => {
 

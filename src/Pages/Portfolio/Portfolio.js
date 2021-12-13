@@ -2,10 +2,9 @@ import React, { useContext } from 'react'
 
 import StateContext from '../../Context/AppContext'
 
-import { Container } from '../../shared/utils'
-
 import PortfolioItem from './PortfolioItem'
 
+import { Container } from '../../shared/utils'
 import { Gallery } from './Portfolio.styles'
 
 const Portfolio = () => {

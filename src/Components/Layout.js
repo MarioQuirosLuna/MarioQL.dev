@@ -1,9 +1,16 @@
 import React, { useContext } from 'react'
+
 import MenuContext from '../Context/MenuContext'
+
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import { Blur, Body, Content } from '../shared/utils'
 import ChangeVisibility from '../shared/components/ChangeOpacity'
+
+import {
+	Blur,
+	Body,
+	Content
+} from '../shared/utils'
 
 const Layout = (props) => {
 

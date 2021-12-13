@@ -1,7 +1,9 @@
 import React from 'react'
-import ChangeVisibility from '../../shared/components/ChangeOpacity'
-import { MenuContainerStyled, MenuItemStyled } from './HamburgerMenu.styled'
+
 import ItemMenu from './ItemMenu'
+import ChangeVisibility from '../../shared/components/ChangeOpacity'
+
+import { MenuContainerStyled, MenuItemStyled } from './HamburgerMenu.styled'
 
 const HamburgerMenu = (props) => {
 
@@ -20,7 +22,13 @@ const HamburgerMenu = (props) => {
 				{
 					optionsMenu.map((option) => 
 						<MenuItemStyled key={option.url}>
-							<ItemMenu key={option.url} url={option.url} label={option.label} menu={menu} handleClick={handleClick} />
+							<ItemMenu
+								key={option.url}
+								url={option.url}
+								label={option.label}
+								menu={menu}
+								handleClick={handleClick}
+							/>
 						</MenuItemStyled> )
 				}
 			</MenuContainerStyled>

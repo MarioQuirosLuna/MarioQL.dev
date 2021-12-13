@@ -1,4 +1,5 @@
 import React from 'react'
+
 import initialState from '../shared/initialState'
 
 const StateContext = React.createContext({})

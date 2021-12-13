@@ -1,15 +1,15 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 
+import { MenuContextProvider } from '../Context/MenuContext'
+import { StateContextProvider } from '../Context/AppContext'
+
 import PageWrapper from '../Pages/PageWrapper'
 import Home from '../Pages/Home/Home'
 import Portfolio from '../Pages/Portfolio/Portfolio'
 import PortfolioDetails from '../Pages/PortfolioDetails/PortfolioDetails'
 import Blog from '../Pages/Blog/Blog'
 import About from '../Pages/About/About'
-
-import { MenuContextProvider } from '../Context/MenuContext'
-import { StateContextProvider } from '../Context/AppContext'
 
 import theme from '../shared/theme'
 import GlobalStyle from '../shared/GlobalStyle'

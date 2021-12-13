@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import PropTypes from 'prop-types'
 
-import { TabBarContext } from './AboutContext'
+import { TabBarContext } from '../../Context/AboutContext'
 
 const TabPanel = ({ whenActive, children }) => {
 

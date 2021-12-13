@@ -1,8 +1,19 @@
 import React, { useContext } from 'react'
-import { Container, ContainerFooter, Copyright, MediaIcon, SocialMedia } from './Footer.styles'
 
-import { faTwitterSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import StateContext from '../../Context/AppContext'
+
+import {
+	faTwitterSquare,
+	faGithubSquare,
+	faLinkedin
+} from '@fortawesome/free-brands-svg-icons'
+import {
+	Container,
+	ContainerFooter,
+	Copyright,
+	MediaIcon,
+	SocialMedia
+} from './Footer.styles'
 
 const Footer = () => {
 

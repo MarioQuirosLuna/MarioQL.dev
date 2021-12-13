@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import PropTypes from 'prop-types'
 
-import { TabBarContext } from './AboutContext'
+import { TabBarContext } from '../../Context/AboutContext'
 
 import { TabItem } from './About.styles'
 

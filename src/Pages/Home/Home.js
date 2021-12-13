@@ -1,11 +1,18 @@
 import React, { useContext } from 'react'
 
-import { Container } from '../../shared/utils'
-import { Hero, HeroTitle, HeroDescription, SubtitleBanner, TitleBanner } from './Home.styles'
+import StateContext from '../../Context/AppContext'
 
 import Typing from '../../shared/components/Typing'
-import StateContext from '../../Context/AppContext'
+
+import { Container } from '../../shared/utils'
 import { Cube } from '../../shared/components/BgAnimation.styles'
+import { 
+	Hero,
+	HeroTitle,
+	HeroDescription,
+	SubtitleBanner,
+	TitleBanner 
+} from './Home.styles'
 
 const Home = () => {
 	const { state } = useContext(StateContext)

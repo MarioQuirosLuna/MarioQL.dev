@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { ButtonContainer } from './ContainerButtons.styles'
 import { BtnLink, BtnLinkReactRouter } from '../../shared/utils'
+import { ButtonContainer } from './ContainerButtons.styles'
 
 const ContainerButtons = ({ nameProject, liveUrl, repository, isDetails }) => {
 	return (
@@ -14,7 +14,7 @@ const ContainerButtons = ({ nameProject, liveUrl, repository, isDetails }) => {
 			}
 			{liveUrl &&
 				<BtnLink href={liveUrl} target="_blank" rel="noopener" >
-					Online
+					Live preview
 				</BtnLink>
 			}
 			<BtnLink href={repository} target="_blank" rel="noopener" >

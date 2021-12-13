@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import ContainerButtons from '../../Components/ContainerButtons/ContainerButtons'
 
-import { ItemText } from './Portfolio.styles'
 import { TitleItem } from '../../shared/utils'
+import { ItemText } from './Portfolio.styles'
 
 
 const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {

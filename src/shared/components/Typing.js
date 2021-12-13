@@ -11,9 +11,8 @@ const initialState = {
 	typingSpeed: TYPING_SPEED
 }
   
-const Typing = (props) => {
+const Typing = ({ messages = ['Phrase default'] }) => {
 
-	const { messages = ['Phrase default'] } = props
 	const [state, setState] = useState(initialState)
   
 	const changeSpeed = (state) => {

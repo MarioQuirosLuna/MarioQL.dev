@@ -6,9 +6,17 @@ import StateContext from '../../Context/AppContext'
 
 import scrollTop from '../../helpers/scrollTop'
 
-import { Container, Image, Item, TitleItem } from '../../shared/utils'
-
-import { ContainerTechnologies, ContentDetails, TextDetails } from './PortfolioDetails.styles'
+import {
+	Container,
+	Image,
+	Item,
+	TitleItem
+} from '../../shared/utils'
+import {
+	ContainerTechnologies,
+	ContentDetails,
+	TextDetails
+} from './PortfolioDetails.styles'
 
 const PortfolioDetails = () => {
 

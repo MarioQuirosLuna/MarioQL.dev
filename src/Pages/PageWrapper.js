@@ -1,9 +1,8 @@
 import React from 'react'
+
 import Layout from '../Components/Layout'
 
-const PageWrapper = (props) => {
-
-	const { component: Component, isHome, goBack } = props
+const PageWrapper = ({ component: Component, isHome, goBack }) => {
 
 	return (
 		<Layout isHome={isHome} goBack={goBack}>

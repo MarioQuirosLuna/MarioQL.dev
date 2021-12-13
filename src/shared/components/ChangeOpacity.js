@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const ChangeOpacity = (props) => {
-
-	const { component: Component } = props
+const ChangeOpacity = ({ component: Component }) => {
 
 	const [opacity, setOpacity] = useState('opacity')//opacity: 0
 

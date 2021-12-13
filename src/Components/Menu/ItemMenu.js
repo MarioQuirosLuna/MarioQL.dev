@@ -1,6 +1,8 @@
 import React from 'react'
-import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { Item, SpaceStyled } from './HamburgerMenu.styled'
 
 const ItemMenu = (props) => {
