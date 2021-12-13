@@ -65,6 +65,33 @@ export const GoBackBtn = styled.div`
     }
 `
 
+export const TranslateBtn = styled.div`
+    //TODO: Need Refactor
+    width: 32px;
+    height: 32px;
+    margin: 0 1em 0 0;
+    position: relative;
+    z-index: 30;
+    cursor: pointer;
+
+    img{
+        width: 100%;
+    }
+
+    @media screen and (min-width: 768px){
+        margin: 1em 1em 0 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+        position: fixed;
+        margin: 2.5em 6.5em 0 0;
+    }
+
+    @media screen and (min-width: 1600px){
+        margin: 2.5em 9.5em 0 0;
+    }
+`
+
 export const NavbarButton = styled.div`
     //TODO: Need Refactor
     display: flex;

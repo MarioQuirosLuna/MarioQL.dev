@@ -41,7 +41,7 @@ const About = () => {
 						/>
 					</div>
 				</HeaderPresentation>
-				<BtnLink href="/cv-marioql.pdf" download>
+				<BtnLink href="/cvMarioQuirósLuna.pdf" download>
 					Download CV
 				</BtnLink>
 				<TabBar tab="Profile">

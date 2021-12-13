@@ -17,7 +17,9 @@ const Author = {
 		'Software developer',
 		'I love web technologies',
 		'Responsive web design',
-		'I like programming'
+		'I like programming',
+		'Javascript and React',
+
 	]
 }
 

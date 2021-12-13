@@ -43,18 +43,6 @@ const Stack = {
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/js_l2gveb.png'
 		},
 		{
-			tag: 'Java',
-			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/java_fuexzh.png'
-		},
-		{
-			tag: 'PHP',
-			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/php_bvlguk.png'
-		},
-		{
-			tag: 'C#',
-			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/c-sharp_rjqpqh.png'
-		},
-		{
 			tag: 'React',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
 		},
@@ -75,6 +63,22 @@ const Stack = {
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png'
 		},
 		{
+			tag: 'Git',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+		},
+		{
+			tag: 'Java',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/java_fuexzh.png'
+		},
+		{
+			tag: 'PHP',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/php_bvlguk.png'
+		},
+		{
+			tag: 'C#',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/c-sharp_rjqpqh.png'
+		},
+		{
 			tag: '.NetCore',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/NET_Core_jfsgq5.png'
 		},
@@ -89,10 +93,6 @@ const Stack = {
 		{
 			tag: 'Mongo',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
-		},
-		{
-			tag: 'Git',
-			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 		}
 	]
 }

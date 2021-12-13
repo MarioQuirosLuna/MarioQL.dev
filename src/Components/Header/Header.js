@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import MenuContext from '../../Context/MenuContext'
 
 import useScroll from '../../Hooks/useScroll'
+import { Image } from '../../shared/utils'
 
 import HamburgerMenu from '../Menu/HamburgerMenu'
 
@@ -14,7 +15,8 @@ import {
 	LogoContainer,
 	MenuContainer,
 	NavbarButton,
-	NavbarMenu
+	NavbarMenu,
+	TranslateBtn
 } from './Header.styles'
 
 const Header = ({ goBack }) => {
@@ -66,9 +68,15 @@ const Header = ({ goBack }) => {
 							className='fadeIn'
 						>MarioQL-Dev
 						</GoBackBtn>
-					)}
+					)}					
 			</LogoContainer>
 			<NavbarButton className={header ? 'header--visible' : ''}>
+				<TranslateBtn className='fadeIn'>
+					<Image
+						src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
+						alt="Translate Spanish"
+					/>
+				</TranslateBtn>
 				<BurgerButton 
 					onClick={handleClick} 
 					onKeyPress={handleClick} 
