@@ -1,12 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
+import Author from '../Data/Author'
+import Stack from '../Data/Stack'
+import Projects from '../Data/ProjectsData'
 
-const projects = require('../Data/ProjectsData.json')
-const author = require('../Data/Author.json')
-const stack = require('../Data/Stack.json')
-
-export default {
-	author: author,
-	stack: stack,
-	projects: projects,
+const initialState = {
+	author: Author,
+	stack: Stack,
+	projects: Projects,
 	posts: []
 }
+
+export default initialState

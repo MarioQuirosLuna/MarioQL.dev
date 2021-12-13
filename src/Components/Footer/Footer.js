@@ -9,9 +9,9 @@ const Footer = () => {
 	const { state } = useContext(StateContext)
 
 	const socialMediaIcons = [
-		{ 'icon': faTwitterSquare, 'url': state.author.twitter.url },
-		{ 'icon': faLinkedin, 'url': state.author.linkedin.url },
-		{ 'icon': faGithubSquare, 'url': state.author.github.url }
+		{ 'icon': faTwitterSquare, 'url': state.author.Social.twitter.url },
+		{ 'icon': faLinkedin, 'url': state.author.Social.linkedin.url },
+		{ 'icon': faGithubSquare, 'url': state.author.Social.github.url }
 	]
 
 	return (

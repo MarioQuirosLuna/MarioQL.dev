@@ -50,7 +50,7 @@ const About = () => {
 									<u>Extra Certifications and Courses</u>📝
 								</p>
 								{
-									state.author.certifications?.map(certification => {
+									state.author.Certifications?.map(certification => {
 										return <ContentExtras key={certification.name}>
 											<LinkStyled href={certification.url} target="_blank" rel="noreferrer" ><p>{certification.name}</p></LinkStyled>
 											<b>&nbsp;-&nbsp;{certification.company}</b>
