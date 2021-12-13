@@ -10,6 +10,10 @@ const ProjectsData = [
 			{
 				tag: 'Style-components',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/styledComponets_laq7fu.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
 		description: 'This project is my personal website. Which works as a place to show my work and where people can get to know me better as a job.',
@@ -28,6 +32,10 @@ const ProjectsData = [
 			{
 				tag: 'Bootstrap5',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/bootstrap_flhcus.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
 		description: 'It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show and manage the products that she made.',
@@ -50,6 +58,10 @@ const ProjectsData = [
 			{
 				tag: 'Mongo',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
 		description: 'It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show the products that she made',
@@ -68,6 +80,10 @@ const ProjectsData = [
 			{
 				tag: 'CSS',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/css-3_msdndh.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
 		description: 'This was my first project with react, which I used as an introduction to this technology.',

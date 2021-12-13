@@ -89,6 +89,10 @@ const Stack = {
 		{
 			tag: 'Mongo',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+		},
+		{
+			tag: 'Git',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 		}
 	]
 }
