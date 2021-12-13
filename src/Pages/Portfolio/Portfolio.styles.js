@@ -43,11 +43,3 @@ export const ImgContainer = styled.div`
 export const ItemText = styled.div`
     width: 100%;
 `
-
-export const ButtonContainer = styled.div`
-    display: flex;
-    gap: 1em;
-    margin: 1em 0 0 0;
-    width: 100%;
-    justify-content: center;
-`

@@ -7,7 +7,10 @@ import { Image } from '../../shared/utils'
 const ImagePortfolio = ({ src, alt}) => {
 	return (
 		<ImgContainer>
-			<Image src={src} alt={alt} />
+			<Image
+				src={src}
+				alt={alt}
+			/>
 		</ImgContainer>
 	)
 }

@@ -44,6 +44,12 @@ export const GoBackBtn = styled.div`
     z-index: 30;
     outline: none;
     cursor: pointer;
+    transition: all 0.8s ease-out;
+    color: ${({ theme }) => theme.colors.textTransparentColor};
+
+    &:hover{
+        color: ${({ theme }) => theme.colors.textColor}; 
+    }
 
     @media screen and (min-width: 768px){
         margin: 3em auto 0 2.3em;

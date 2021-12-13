@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { ButtonContainer, ItemText } from './Portfolio.styles'
-import { BtnLink, BtnLinkReactRouter, TitleItem } from '../../shared/utils'
+import ContainerButtons from '../../Components/ContainerButtons/ContainerButtons'
+
+import { ItemText } from './Portfolio.styles'
+import { TitleItem } from '../../shared/utils'
 
 
 const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {
@@ -14,19 +16,11 @@ const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {
 				</h3>
 			</TitleItem>
 			<p>{description}</p>
-			<ButtonContainer>
-				<BtnLinkReactRouter to={`/portfolio/${nameProject}`} >
-                    Details
-				</BtnLinkReactRouter>
-				{liveUrl &&
-					<BtnLink href={liveUrl} target="_blank" rel="noopener" >
-						Online
-					</BtnLink>
-				}
-				<BtnLink href={repository} target="_blank" rel="noopener" >
-                    Code
-				</BtnLink>
-			</ButtonContainer>
+			<ContainerButtons 
+				nameProject={nameProject}
+				liveUrl={liveUrl}
+				repository={repository}
+			/>
 		</ItemText>
 	)
 }

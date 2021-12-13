@@ -5,7 +5,6 @@ export const Hero = styled.div`
     margin: 8em 0 0 0;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
 
     @media screen and (min-width: 768px) {
         margin: 11em 0 0 0;
@@ -15,7 +14,6 @@ export const Hero = styled.div`
 
 export const HeroTitle = styled.div`
     text-align: left;
-    justify-content: space-around;
 
     @media screen and (min-width: 768px){
         padding: 0 3vw;

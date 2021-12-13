@@ -9,7 +9,7 @@ const ItemMenu = (props) => {
 
 	return (
 		<Item to={url} onClick={handleClick} className={menu ? 'fadeIn' : 'fadeOut'}>
-			{ label }<SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/>
+			<h3>{ label }</h3><SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/>
 		</Item>
 	)
 }

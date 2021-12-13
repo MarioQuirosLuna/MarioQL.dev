@@ -82,6 +82,7 @@ export const IconStyled = styled.div`
 `
 
 export const BtnLink = styled.a`
+    //TODO: Need Refactor
     & {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.purples[0]};
@@ -106,6 +107,7 @@ export const BtnLink = styled.a`
 `
 
 export const BtnLinkReactRouter = styled(Link)`
+    //TODO: Need Refactor
     & {
         background-color: transparent;
         color: ${({ theme }) => theme.colors.purples[0]};
@@ -149,4 +151,5 @@ export const Item = styled.li`
 export const Image = styled.img`
     width: 100%;
     height: auto;
+    object-fit: contain;
 `

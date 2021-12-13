@@ -22,7 +22,11 @@ const About = () => {
 						<h1>{state.author.name}🤓</h1>
 					</Titles>
 					<div>
-						<img src={ state.author.image } alt={ state.author.name } className="FadeIn" />
+						<img
+							src={ state.author.image }
+							alt={ state.author.name }
+							className="FadeIn"
+						/>
 					</div>
 				</HeaderPresentation>
 				<BtnLink href="/cv-marioql.pdf" download>
@@ -66,7 +70,10 @@ const About = () => {
 									state.stack.abilities?.map((ability) => {
 										return (
 											<Item key={ability.tag}>
-												<img src={ability.icon} alt={ability.tag} />
+												<img
+													src={ability.icon}
+													alt={ability.tag}
+												/>
 												<p>{ability.tag}</p>
 											</Item>
 										)
@@ -80,7 +87,10 @@ const About = () => {
 									state.stack.technologies.map((technology) => {
 										return (
 											<Item key={technology.tag}>
-												<img src={technology.icon} alt={technology.tag} />
+												<img
+													src={technology.icon}
+													alt={technology.tag}
+												/>
 												<p>{technology.tag}</p>
 											</Item>
 										)
