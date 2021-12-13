@@ -119,7 +119,7 @@ const ProjectsData = [
 			}
 		],
 		description: 'Second project of the course Languages for commercial applications of the Business Informatics career of the UCR.',
-		specifications: 'This was the project I did for a university course, in which I implemented a cleanup page in PHP, using Session to manage user sessions for both client and administrator and JQuery for ajax application implementations. In the case of the administrator, he can carry out the complete CRUD of products and has a Dashboard in which he sees the purchases made by customers, in the case of the customer it has functionalities such as favorite products or add to cart, in which he can see a view Before buying the products, the prices are converted from dollars to colones using the BCCR API, for styles, use Bootstrap 5 for responsive design and a MYSql database hosted on the university servers was used to store the data .',
+		specifications: 'This was the project I did for a university course, in which I implemented a cleanup page in PHP, using Session to manage user sessions for both client and administrator and JQuery for ajax application implementations. In the case of the administrator, he can carry out the complete CRUD of products and has a Dashboard in which he sees the purchases made by customers, in the case of the customer it has functionalities such as favorite products or add to cart, in which he can see a view Before buying the products, the prices are converted from dollars to colones using the BCCR API, for styles, use Bootstrap 5 for responsive design and a MySql database hosted on the university servers was used to store the data .',
 		repository: 'https://github.com/MarioQuirosLuna/MarioQuirosLuna-PaginaWeb-CleaningProducts',
 		liveUrl: ''
 	}
