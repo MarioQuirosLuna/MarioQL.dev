@@ -66,7 +66,8 @@ const Header = ({ goBack }) => {
 							tabIndex='0'
 							aria-label='Go Home'
 							className='fadeIn'
-						>MarioQL-Dev
+						>
+							<img src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png" alt="Logo"/>
 						</GoBackBtn>
 					)}					
 			</LogoContainer>

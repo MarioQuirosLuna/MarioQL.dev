@@ -47,6 +47,12 @@ export const GoBackBtn = styled.div`
     transition: all 0.8s ease-out;
     color: ${({ theme }) => theme.colors.textTransparentColor};
 
+    img{
+        width: 5em;
+        height: auto;
+        object-fit: contain;
+    }
+
     &:hover{
         color: ${({ theme }) => theme.colors.textColor}; 
     }
