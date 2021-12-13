@@ -29,6 +29,7 @@ const PortfolioDetails = () => {
 				<TextDetails>
 					<p><u>Description</u></p>
 					<p>{project.description}</p>
+					<p><u>Technologies</u></p>
 					<ContainerTechnologies>
 						{project.technologiesProject?.map((technology) =>  (
 							<Item key={technology.tag}>
@@ -36,7 +37,9 @@ const PortfolioDetails = () => {
 								<p>{technology.tag}</p>
 							</Item>	
 						))}
-					</ContainerTechnologies>		
+					</ContainerTechnologies>	
+					<p><u>About</u></p>
+					<p>{project.specifications}</p>	
 				</TextDetails>
 			</ContentDetails>
 		</Container>
