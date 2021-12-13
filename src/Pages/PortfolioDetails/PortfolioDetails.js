@@ -5,9 +5,9 @@ import StateContext from '../../Context/AppContext'
 
 import scrollTop from '../../helpers/scrollTop'
 
-import { Container, Item } from '../../shared/utils'
+import { Container, Image, Item, TitleItem } from '../../shared/utils'
 
-import { ContainerTechnologies, ContentDetails, Image, TextDetails, TitleItem } from './Portfolio.styles'
+import { ContainerTechnologies, ContentDetails, TextDetails } from './PortfolioDetails.styles'
 
 const PortfolioDetails = () => {
 
@@ -23,7 +23,7 @@ const PortfolioDetails = () => {
 		<Container className="fadeIn">
 			<ContentDetails>
 				<TitleItem>
-					<p><u><b>{project.nameProject}</b></u></p>
+					<p><u>{project.nameProject}</u></p>
 				</TitleItem>
 				<Image src={project.preview} alt="image_preview" /> 
 				<TextDetails>

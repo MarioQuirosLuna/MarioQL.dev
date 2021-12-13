@@ -129,6 +129,12 @@ export const BtnLinkReactRouter = styled(Link)`
     }
 `
 
+export const TitleItem = styled.div`
+    width: 100%;
+    margin: 0 0 1em 0;
+    font-weight: bold;
+`
+
 export const Item = styled.li`
     display: flex;
     align-items: center;
@@ -138,4 +144,9 @@ export const Item = styled.li`
         height: 24px;
         margin: 0 0.8em 0 0;
     }
+`
+
+export const Image = styled.img`
+    width: 100%;
+    height: auto;
 `

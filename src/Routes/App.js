@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import PageWrapper from '../Pages/PageWrapper'
 import Home from '../Pages/Home/Home'
 import Portfolio from '../Pages/Portfolio/Portfolio'
-import PortfolioDetails from '../Pages/Portfolio/PortfolioDetails'
+import PortfolioDetails from '../Pages/PortfolioDetails/PortfolioDetails'
 import Blog from '../Pages/Blog/Blog'
 import About from '../Pages/About/About'
 

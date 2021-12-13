@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Image, ImgContainer } from './Portfolio.styles'
+import { ImgContainer } from './Portfolio.styles'
+import { Image } from '../../shared/utils'
 
 const ImagePortfolio = ({ src, alt}) => {
 	return (

@@ -40,18 +40,8 @@ export const ImgContainer = styled.div`
     }
 `
 
-export const Image = styled.img`
-    width: 100%;
-    height: auto;
-`
-
 export const ItemText = styled.div`
     width: 100%;
-`
-
-export const TitleItem = styled.div`
-    width: 100%;
-    margin: 0 0 1em 0;
 `
 
 export const ButtonContainer = styled.div`
@@ -60,25 +50,4 @@ export const ButtonContainer = styled.div`
     margin: 1em 0 0 0;
     width: 100%;
     justify-content: center;
-`
-
-export const ContentDetails = styled.div`
-    padding: 2em 0 0 0;
-`
-
-export const TextDetails = styled.div`
-    margin: 0 10% 0 10%;
-    text-align: left;
-
-    p{
-        line-height: 1.5;
-    }
-
-    u{
-        line-height: 3em;
-    }
-`
-
-export const ContainerTechnologies = styled.div`
-    margin: 1em 0 0 0;
 `

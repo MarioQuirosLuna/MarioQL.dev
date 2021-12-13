@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { ButtonContainer, ItemText, TitleItem } from './Portfolio.styles'
-import { BtnLink, BtnLinkReactRouter } from '../../shared/utils'
+import { ButtonContainer, ItemText } from './Portfolio.styles'
+import { BtnLink, BtnLinkReactRouter, TitleItem } from '../../shared/utils'
 
 
 const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {
