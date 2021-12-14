@@ -1,6 +1,6 @@
-import Author from '../Data/Author-es'
-import Stack from '../Data/Stack-es'
-import Projects from '../Data/ProjectsData-es'
+import Author from '../Data/es/Author-es'
+import Stack from '../Data/es/Stack-es'
+import Projects from '../Data/es/ProjectsData-es'
 
 const initialStateSpanish = {
 	author: Author,

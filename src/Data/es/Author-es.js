@@ -1,4 +1,4 @@
-import Social from './Social'
+import Social from '../Social'
 import Certifications from './Certifications-es'
 
 const Author = {
