@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 
 import MenuContext from '../../Context/MenuContext'
+import TranslationContext from '../../Context/TranslationContext'
 
 import useScroll from '../../Hooks/useScroll'
 import { Image } from '../../shared/utils'
@@ -21,6 +22,7 @@ import {
 
 const Header = ({ goBack }) => {
 	const { menu, setMenu } = useContext(MenuContext)
+	const { language, setLanguage } = useContext(TranslationContext)
 	const { header, background } = useScroll()
 
 	const navigate = useNavigate()
@@ -41,6 +43,14 @@ const Header = ({ goBack }) => {
 
 	const handleGoHome = () => {
 		navigate('/')
+	}
+
+	const changeLanguage = () => {
+		if(language === 'en'){
+			setLanguage('es')
+		}else{
+			setLanguage('en')
+		}
 	}
 
 	return (
@@ -72,11 +82,18 @@ const Header = ({ goBack }) => {
 					)}					
 			</LogoContainer>
 			<NavbarButton className={header ? 'header--visible' : ''}>
-				<TranslateBtn className='fadeIn'>
-					<Image
-						src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
-						alt="Translate Spanish"
-					/>
+				<TranslateBtn className='fadeIn' onClick={() => changeLanguage()}>
+					{language === 'en' ?				
+						<Image							
+							src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
+							alt="Traducir a Ingles"
+						/>
+						:
+						<Image
+							src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
+							alt="Translate Spanish"
+						/>
+					}
 				</TranslateBtn>
 				<BurgerButton 
 					onClick={handleClick} 

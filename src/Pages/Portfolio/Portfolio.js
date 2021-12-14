@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 
 import StateContext from '../../Context/AppContext'
+import useTranslation from '../../Hooks/useTranslation'
 
 import PortfolioItem from './PortfolioItem'
 
@@ -10,12 +11,13 @@ import { Gallery } from './Portfolio.styles'
 const Portfolio = () => {
 
 	const { state } = useContext(StateContext)
+	const staticData = useTranslation()
 
 	return (
 		<Container className="fadeIn">
 			<Gallery>
 				<h3>
-					<u>Some of the personal projects that I have done</u>
+					<u>{staticData.TitlePortfolio}</u>
 				</h3>
 				{
 					state.projects?.map((project, index) => (

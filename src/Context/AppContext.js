@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
-import initialState from '../shared/initialState'
+import initialStateSpanish from '../shared/initialStateSpanish'
+import initialStateEnglish from '../shared/initialStateEnglish'
+import TranslationContext from './TranslationContext'
 
 const StateContext = React.createContext({})
 
 export const StateContextProvider = ({ children }) => {
-	const state = initialState
+	const { language } = useContext(TranslationContext)
+	const state = language === 'en' ? initialStateEnglish : initialStateSpanish
 
 	return (
 		<StateContext.Provider value={{ state }}>

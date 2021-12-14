@@ -1,7 +1,7 @@
 const ProjectsData = [
 	{
 		nameProject: 'MarioQL.dev',
-		preview: '',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639441717/portfolio/portfolio/Portafolio_io00ou.png',
 		technologiesProject: [
 			{
 				tag: 'React',
@@ -16,8 +16,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
-		description: 'This project is my personal website. Which works as a place to show my work and where people can get to know me better as a job.',
-		specifications: 'I really liked this project. Since I learned a lot about React while developing it, looking to implement best practices, clean and orderly code. In this project use react-router for navigation, also practice the use of Hooks and Context, to the styles use styled-component in which it use global styles which are repeat in different places and also use ThemeProvider to handle the theme of my application.',
+		description: 'Este proyecto es mi sitio web personal. Eso funciona como un lugar para mostrar mi trabajo y proporcionar un lugar donde la gente pueda conocer mejor cómo trabajo.',
+		specifications: 'Realmente me gustó este proyecto. Ya que aprendí mucho sobre React mientras lo desarrollaba, buscando implementar mejores prácticas, código limpio y ordenado. En este proyecto use react-router para la navegación, también practique el uso de Hooks y Context, para los estilos use styled-component en el cual use estilos globales que se repiten en diferentes lugares y también use ThemeProvider para manejar el tema de mi aplicación.',
 		repository: 'https://github.com/MarioQuirosLuna/MarioQL.dev',
 		liveUrl: ''
 	},
@@ -38,8 +38,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
-		description: 'It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show and manage the products that she made.',
-		specifications: 'Use this project to practice React, implement a login to handle the data, for this create a complete CRUD of products using axios and for styling use bootstrap 5 for adaptive design.',
+		description: 'Es un proyecto que hice para el pequeño negocio de costura que pertenece a mi madre, en el que necesitaba mostrar y administrar los productos que ella confeccionaba.',
+		specifications: 'Use este proyecto para practicar React, implemente un inicio de sesión para manejar los datos, para esto cree un CRUD completo de productos usando axios y para el estilo use bootstrap 5 para el diseño adaptativo.',
 		repository: 'https://github.com/MarioQuirosLuna/Frontend-SewingShop',
 		liveUrl: 'https://tallerdecosturacintyaluna.vercel.app/'
 	},
@@ -64,8 +64,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
-		description: 'It is a project that I did for the small sewing business that belongs to my mother, in which I needed to show the products that she made',
-		specifications: 'For this project I practiced the implementation of a Rest API using Node and Express, giving security to the requests using Json Web Tokens and for the encryption of Bcrypt passwords also to store the information use Mongo and to save the images use Cloudinary through its api .',
+		description: 'Es un proyecto que hice para el pequeño negocio de costura que pertenece a mi madre, en el que necesitaba mostrar los productos que ella hacía.',
+		specifications: 'Para este proyecto practiqué la implementación de una API Rest usando Node y Express, dando seguridad a las solicitudes usando Json Web Tokens y para el cifrado de contraseñas Bcrypt también para almacenar la información use Mongo y para guardar las imágenes use Cloudinary a través de su api.',
 		repository: 'https://github.com/MarioQuirosLuna/Backend-SewingShop',
 		liveUrl: 'https://backend-sewingshop.herokuapp.com/api/products'
 	},
@@ -86,8 +86,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
 		],
-		description: 'This was my first project with react, which I used as an introduction to this technology.',
-		specifications: 'Use this project to see how React works. Use the Pokémon API to obtain basic data through Fetch requests and implement a functionality in which you can mark your favorite Pokémon, using Context and Local Storage.',
+		description: 'Este fue mi primer proyecto con react, que utilicé como introducción a esta tecnología.',
+		specifications: 'Utilice este proyecto para ver cómo funciona React. Utilizo la API de Pokémon para obtener datos básicos a través de solicitudes de búsqueda e implementa una funcionalidad en la que puedes marcar tu Pokémon favorito, usando Contexto y Almacenamiento local.',
 		repository: 'https://github.com/MarioQuirosLuna/Pokedex-React',
 		liveUrl: 'https://pokedex-react-nine.vercel.app/'
 	},
@@ -108,8 +108,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mssql_jt6qvy.png'
 			}
 		],
-		description: 'Third project of the course Languages for commercial applications of the Business Informatics career of the UCR.',
-		specifications: 'This was the final project that I did in a university course, for which I had to implement two modules, one for mobile and one for the web, in which the information of patients and doctors was simulated. The web application made with .Net with Razor tags was used by doctors to make appointments and update patient information, while the mobile application made in Android using Java, was used for patients to consult their personal information and future appointments. To manage the data, an Api Rest .Net was used that was connected to a MSSql database that was hosted on the university\'s servers.',
+		description: 'Tercer proyecto del curso Idiomas para aplicaciones comerciales de la carrera de Informática Empresarial de la UCR.',
+		specifications: 'Este fue el proyecto final que hice en un curso universitario, para el cual tuve que implementar dos módulos, uno para móvil y otro para la web, en los que se simulaba la información de pacientes y médicos. La aplicación web realizada con .Net con etiquetas Razor fue utilizada por los médicos para concertar citas y actualizar la información del paciente, mientras que la aplicación móvil realizada en Android con Java, se utilizó para que los pacientes consultaran su información personal y futuras citas. Para administrar los datos, se utilizó un Api Rest .Net que se conectó a una base de datos MSSql que estaba alojada en los servidores de la universidad.',
 		repository: 'https://github.com/MarioQuirosLuna/PaginaWeb-Hospital',
 		liveUrl: ''
 	},
@@ -134,8 +134,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/mysql_tggysf.png'
 			}
 		],
-		description: 'Second project of the course Languages for commercial applications of the Business Informatics career of the UCR.',
-		specifications: 'This was the project I did for a university course, in which I implemented a cleanup page in PHP, using Session to manage user sessions for both client and administrator and JQuery for ajax application implementations. In the case of the administrator, he can carry out the complete CRUD of products and has a Dashboard in which he sees the purchases made by customers, in the case of the customer it has functionalities such as favorite products or add to cart, in which he can see a view Before buying the products, the prices are converted from dollars to colones using the BCCR API, for styles, use Bootstrap 5 for responsive design and a MySql database hosted on the university servers was used to store the data .',
+		description: 'Segundo proyecto del curso Idiomas para aplicaciones comerciales de la carrera de Informática Empresarial de la UCR.',
+		specifications: 'Este fue el proyecto que hice para un curso universitario, en el que implementé una página de productos de limpieza en PHP, usando Session para administrar sesiones de usuario tanto para el cliente como para el administrador y JQuery para las implementaciones ajax. En el caso del administrador puede realizar el CRUD completo de productos y dispone de un Dashboard en el que ve las compras realizadas por los clientes, en el caso del cliente tiene funcionalidades como productos favoritos o añadir al carrito, en el que él puede ver una vista Antes de comprar los productos, los precios se convierten de dólares a colones usando la API de BCCR, para estilos, use Bootstrap 5 para diseño adaptativo y se usó una base de datos MySql alojada en los servidores de la universidad para almacenar los datos.',
 		repository: 'https://github.com/MarioQuirosLuna/MarioQuirosLuna-PaginaWeb-CleaningProducts',
 		liveUrl: ''
 	}
@@ -157,8 +157,8 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/js_l2gveb.png'
 			}
 		],
-		description: 'First web page that I elaborated, was the first project of the course Languages for commercial applications of the Business Informatics career of the UCR.',
-		specifications: 'In this project I made my first website, with a tourism theme, a tourism company was simulated in the area where we live, using Html, Css and Javascript vanilla to enter the world of web development.',
+		description: 'La primera página web que elaboré, fue el primer proyecto del curso Idiomas para aplicaciones comerciales de la carrera de Informática Empresarial de la UCR.',
+		specifications: 'En este proyecto realicé mi primer sitio web, con un tema turístico, se simuló una empresa de turismo en la zona donde vivo, utilizando Html, Css y Javascript vanilla para adentrarme en el mundo del desarrollo web.',
 		repository: 'https://github.com/MarioQuirosLuna/PaginaWeb-TurismoTurrialba',
 		liveUrl: 'https://marioquirosluna.github.io/PaginaWeb-TurismoTurrialba/'
 	}

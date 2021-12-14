@@ -1,8 +1,10 @@
 import React, { useContext, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import ContainerButtons from '../../Components/ContainerButtons/ContainerButtons'
 
 import StateContext from '../../Context/AppContext'
+import useTranslation from '../../Hooks/useTranslation'
+
+import ContainerButtons from '../../Components/ContainerButtons/ContainerButtons'
 
 import scrollTop from '../../helpers/scrollTop'
 
@@ -21,6 +23,7 @@ import {
 const PortfolioDetails = () => {
 
 	const { state } = useContext(StateContext)
+	const staticData = useTranslation()
 	const { projectDetail } = useParams()
 
 	const project = state.projects.find((project) => project.nameProject === projectDetail)
@@ -43,9 +46,9 @@ const PortfolioDetails = () => {
 					isDetails
 				/>
 				<TextDetails>
-					<p><u>Description</u></p>
+					<p><u>{staticData.Description}</u></p>
 					<p>{project.description}</p>
-					<p><u>Technologies</u></p>
+					<p><u>{staticData.Technologies}</u></p>
 					<ContainerTechnologies>
 						{project.technologiesProject?.map((technology) =>  (
 							<Item key={technology.tag}>
@@ -57,7 +60,7 @@ const PortfolioDetails = () => {
 							</Item>	
 						))}
 					</ContainerTechnologies>	
-					<p><u>About</u></p>
+					<p><u>{staticData.About}</u></p>
 					<p>{project.specifications}</p>	
 				</TextDetails>
 			</ContentDetails>

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 
 import StateContext from '../../Context/AppContext'
+import useTranslation from '../../Hooks/useTranslation'
 
 import TabBar from '../../Context/AboutContext'
 import TabPanel from './TabPanel'
@@ -24,13 +25,14 @@ import {
 const About = () => {
 
 	const { state } = useContext(StateContext)
+	const staticData = useTranslation()
 
 	return (
 		<Container className="fadeIn">
 			<ContainerAbout>
 				<HeaderPresentation>
 					<Titles>
-						<p>About</p>
+						<p>{staticData.About}</p>
 						<h1>{state.author.name}🤓</h1>
 					</Titles>
 					<div>
@@ -42,28 +44,28 @@ const About = () => {
 					</div>
 				</HeaderPresentation>
 				<BtnLink href="/cvMarioQuirósLuna.pdf" download>
-					Download CV
+					{staticData.DownloadCV}
 				</BtnLink>
 				<TabBar tab="Profile">
 					<TabList>
-						<Tab tabTitle="Profile">Profile</Tab>
-						<Tab tabTitle="SoftSkills">SoftSkills</Tab>
-						<Tab tabTitle="Technologies">Technologies</Tab>
+						<Tab tabTitle="Profile">{staticData.Profile}</Tab>
+						<Tab tabTitle="SoftSkills">{staticData.SoftSkills}</Tab>
+						<Tab tabTitle="Technologies">{staticData.Technologies}</Tab>
 					</TabList>
 					<>
 						<TabPanel whenActive="Profile">
 							<div className="fadeIn">
 								<p>
-									<u>¿Who I am?</u>🤔
+									<u>{staticData.WhoIam}</u>🤔
 								</p>
 								<p>{state.author.whoIam}</p>
 								<p>{state.author.interests}</p>
 								<p>
-									<u>Studies</u>📘
+									<u>{staticData.Studies}</u>📘
 								</p>
 								<p>{state.author.studies}</p>
 								<p>
-									<u>Extra Certifications and Courses</u>📝
+									<u>{staticData.ExtraCertificationsCourses}</u>📝
 								</p>
 								{
 									state.author.Certifications?.map(certification => {

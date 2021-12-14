@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 
 import StateContext from '../../Context/AppContext'
+import useTranslation from '../../Hooks/useTranslation'
 
 import Typing from '../../shared/components/Typing'
 
@@ -16,12 +17,13 @@ import {
 
 const Home = () => {
 	const { state } = useContext(StateContext)
-
+	const staticData = useTranslation()
+	
 	return (
 		<Container className="fadeIn">
 			<Hero>
 				<HeroTitle className="overflow--hidden">		
-					<SubtitleBanner>¡Hi! i&apos;m,</SubtitleBanner>
+					<SubtitleBanner>{staticData.HiIm}</SubtitleBanner>
 					<TitleBanner><u>{ state.author.name }</u></TitleBanner>
 					<HeroDescription>
 						<Typing messages={state.author.phrases} />
