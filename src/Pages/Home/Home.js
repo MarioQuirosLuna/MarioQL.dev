@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { Helmet } from 'react-helmet'
 
 import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
@@ -21,6 +22,9 @@ const Home = () => {
 	
 	return (
 		<Container className="fadeIn">
+			<Helmet>
+				<title>{`${state.author.name} | ${staticData.TitleHome}`}</title>
+			</Helmet>
 			<Hero>
 				<HeroTitle className="overflow--hidden">		
 					<SubtitleBanner>{staticData.HiIm}</SubtitleBanner>

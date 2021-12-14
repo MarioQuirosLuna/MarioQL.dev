@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { Helmet } from 'react-helmet'
 
 import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
@@ -15,6 +16,9 @@ const Portfolio = () => {
 
 	return (
 		<Container className="fadeIn">
+			<Helmet>
+				<title>{`${state.author.name} | ${staticData.TitleProjects}`}</title>
+			</Helmet>
 			<Gallery>
 				<h3>
 					<u>{staticData.TitlePortfolio}</u>

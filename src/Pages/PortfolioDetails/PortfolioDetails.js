@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
@@ -34,6 +35,9 @@ const PortfolioDetails = () => {
 
 	return (
 		<Container className="fadeIn">
+			<Helmet>
+				<title>{`${state.author.name} | ${project.nameProject}`}</title>
+			</Helmet>
 			<ContentDetails>
 				<TitleItem>
 					<p><u>{project.nameProject}</u></p>
