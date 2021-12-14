@@ -12,7 +12,7 @@ const HamburgerMenu = (props) => {
 	const optionsMenu = [
 		{ url: '/', label: 'Home' },
 		{ url: '/portfolio', label: 'Portfolio' },
-		{ url: '/blog', label: 'Blog' },
+		// { url: '/blog', label: 'Blog' },
 		{ url: '/about', label: 'About' }
 	]
 
