@@ -25,9 +25,9 @@ const PortfolioDetails = () => {
 
 	const { state } = useContext(StateContext)
 	const staticData = useTranslation()
-	const { projectDetail } = useParams()
+	const { slug } = useParams()
 
-	const project = state.projects.find((project) => project.nameProject === projectDetail)
+	const project = state.projects.find((project) => project.nameProject === slug)
 
 	useEffect(() => {
 		scrollTop()

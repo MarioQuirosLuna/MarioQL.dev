@@ -6,13 +6,13 @@ import useTranslation from '../../Hooks/useTranslation'
 import { BtnLink, BtnLinkReactRouter } from '../../shared/utils'
 import { ButtonContainer } from './ContainerButtons.styles'
 
-const ContainerButtons = ({ nameProject, liveUrl, repository, isDetails }) => {
+const ContainerButtons = ({ slug, liveUrl, repository, isDetails }) => {
 	const staticData = useTranslation()
 
 	return (
 		<ButtonContainer>
 			{!isDetails &&
-				<BtnLinkReactRouter to={`/portfolio/${nameProject}`} >
+				<BtnLinkReactRouter to={`/portfolio/${slug}`} >
 					{staticData.Details}
 				</BtnLinkReactRouter>
 			}
@@ -29,7 +29,7 @@ const ContainerButtons = ({ nameProject, liveUrl, repository, isDetails }) => {
 }
 
 ContainerButtons.protoTypes = {
-	nameProject: PropTypes.string.isRequired,
+	slug: PropTypes.string.isRequired,
 	liveUrl: PropTypes.string.isRequired,
 	repository: PropTypes.string.isRequired,
 	isDetails: PropTypes.bool

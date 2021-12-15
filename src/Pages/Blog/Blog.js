@@ -4,7 +4,11 @@ import { Helmet } from 'react-helmet'
 import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
 
-import { Container } from '../../shared/utils'
+import BlogItem from '../../Components/BlogItem/BlogItem'
+
+import { Container, TitleItem } from '../../shared/utils'
+
+import { ContainerBlog, TitleContainer } from './Blog.styles'
 
 const Blog = () => {
 	const { state } = useContext(StateContext)
@@ -15,7 +19,17 @@ const Blog = () => {
 			<Helmet>
 				<title>{`${state.author.name} | ${staticData.TitleBlogs}`}</title>
 			</Helmet>
-			Blog
+			<TitleContainer>
+				<TitleItem>
+					<h1>{staticData.TitleBlogs}</h1>
+					<p>{staticData.DescriptionBlogs}</p>
+				</TitleItem>
+			</TitleContainer>
+			<ContainerBlog className="fadeIn delay-5">
+				{state.posts?.map((post) => 
+					<BlogItem key={post.document} post={post}/>)
+				}
+			</ContainerBlog>
 		</Container>
 	)
 }

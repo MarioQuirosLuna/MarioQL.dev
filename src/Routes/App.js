@@ -9,6 +9,7 @@ import Home from '../Pages/Home/Home'
 import Portfolio from '../Pages/Portfolio/Portfolio'
 import PortfolioDetails from '../Pages/PortfolioDetails/PortfolioDetails'
 import Blog from '../Pages/Blog/Blog'
+import BlogPost from '../Pages/BlogPost/BlogPost'
 import About from '../Pages/About/About'
 
 import theme from '../shared/theme'
@@ -27,27 +28,32 @@ function App() {
 								<Route path='/' element={ 
 									<PageWrapper component={
 										<Home />
-									} isHome />					
+									} isHome translate />					
 								} />
 								<Route path='/portfolio' element={
 									<PageWrapper component={
 										<Portfolio />
-									} /> 
+									} translate /> 
 								} />
-								<Route path='/portfolio/:projectDetail' element={
+								<Route path='/portfolio/:slug' element={
 									<PageWrapper component={
 										<PortfolioDetails />
-									} goBack /> 
+									} goBack translate/> 
 								} />
 								<Route path='/blog' element={
 									<PageWrapper component={
 										<Blog />
-									} /> 
+									} translate /> 
+								} />
+								<Route path='/blog/:slug' element={
+									<PageWrapper component={
+										<BlogPost />
+									} goBack/> 
 								} />
 								<Route path='/about' element={
 									<PageWrapper component={
 										<About />
-									} /> 
+									} translate /> 
 								} />
 								<Route path='*' element={
 									<Navigate to="/"/>

@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
 
-import PortfolioItem from './PortfolioItem'
+import PortfolioItem from '../../Components/PortfolioItem/PortfolioItem'
 
 import { Container } from '../../shared/utils'
 import { Gallery } from './Portfolio.styles'

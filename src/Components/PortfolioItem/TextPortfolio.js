@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import ContainerButtons from '../../Components/ContainerButtons/ContainerButtons'
+import ContainerButtons from '../ContainerButtons/ContainerButtons'
 
 import { TitleItem } from '../../shared/utils'
-import { ItemText } from './Portfolio.styles'
+
+import { ItemText } from '../../Pages/Portfolio/Portfolio.styles'
 
 
 const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {
@@ -17,7 +18,7 @@ const TextPortfolio = ({ nameProject, description, liveUrl, repository }) => {
 			</TitleItem>
 			<p>{description}</p>
 			<ContainerButtons 
-				nameProject={nameProject}
+				slug={nameProject}
 				liveUrl={liveUrl}
 				repository={repository}
 			/>

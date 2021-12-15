@@ -20,7 +20,7 @@ import {
 	TranslateBtn
 } from './Header.styles'
 
-const Header = ({ goBack }) => {
+const Header = ({ goBack, translate }) => {
 	const { menu, setMenu } = useContext(MenuContext)
 	const { language, setLanguage } = useContext(TranslationContext)
 	const { header, background } = useScroll()
@@ -35,10 +35,10 @@ const Header = ({ goBack }) => {
 
 	const handleGoBack = () => {
 		const isPortfolio = pathname.includes('/portfolio')
-
-		if (isPortfolio) {
-			navigate('/portfolio')
-		}
+		const isBlog = pathname.includes('/blog')
+		
+		if (isPortfolio) return navigate('/portfolio')
+		if(isBlog) return navigate('/blog')
 	}
 
 	const handleGoHome = () => {
@@ -82,19 +82,21 @@ const Header = ({ goBack }) => {
 					)}					
 			</LogoContainer>
 			<NavbarButton className={header ? 'header--visible' : ''}>
-				<TranslateBtn className='fadeIn' onClick={() => changeLanguage()}>
-					{language === 'en' ?				
-						<Image							
-							src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
-							alt="Traducir a Ingles"
-						/>
-						:
-						<Image
-							src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
-							alt="Translate Spanish"
-						/>
-					}
-				</TranslateBtn>
+				{translate &&
+					<TranslateBtn className='fadeIn' onClick={() => changeLanguage()}>
+						{language === 'en' ?				
+							<Image							
+								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
+								alt="Traducir a Ingles"
+							/>
+							:
+							<Image
+								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
+								alt="Translate Spanish"
+							/>
+						}
+					</TranslateBtn>
+				}
 				<BurgerButton 
 					onClick={handleClick} 
 					onKeyPress={handleClick} 

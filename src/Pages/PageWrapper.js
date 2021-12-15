@@ -2,10 +2,10 @@ import React from 'react'
 
 import Layout from '../Components/Layout'
 
-const PageWrapper = ({ component: Component, isHome, goBack }) => {
+const PageWrapper = ({ component: Component, isHome, goBack, translate }) => {
 
 	return (
-		<Layout isHome={isHome} goBack={goBack}>
+		<Layout isHome={isHome} goBack={goBack} translate={translate}>
 			{Component}
 		</Layout>
 	)

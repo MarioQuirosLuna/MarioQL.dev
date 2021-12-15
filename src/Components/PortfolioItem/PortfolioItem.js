@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 import ImagePortfolio from './ImagePortfolio'
 import TextPortfolio from './TextPortfolio'
 
-import { ContainerItem } from './Portfolio.styles'
+import { ContainerItem } from '../../shared/utils'
+
 
 const PortfolioItem = ({ project, align }) => {
 

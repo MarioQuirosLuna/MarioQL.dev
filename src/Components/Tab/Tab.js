@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import { TabBarContext } from '../../Context/AboutContext'
 
-import { TabItem } from './About.styles'
+import { TabItem } from '../../Pages/About/About.styles'
 
 const Tab = ({ tabTitle, children }) => {
 	
@@ -14,7 +14,7 @@ const Tab = ({ tabTitle, children }) => {
 
 	return (
 		<TabItem isActive={isActive} onClick={handleActive}>
-			{children}            
+			{children}          
 		</TabItem>
 	)
 }

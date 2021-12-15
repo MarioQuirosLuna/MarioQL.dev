@@ -13,33 +13,6 @@ export const Gallery = styled.div`
     }
 `
 
-export const ContainerItem = styled.div`
-    display: inline-block;
-    align-items: center;
-    padding: 1em 0 1em 0;
-    min-width: 100%;
-    border-top: 1px solid ${({ theme }) => theme.colors.textColor};
-
-    :last-child {
-        border-bottom: 1px solid ${({ theme }) => theme.colors.textColor};  
-    }
-
-    @media screen and (min-width: 768px){
-        display: flex;
-        padding: 2em 0 2em 0;
-    }
-`
-
-export const ImgContainer = styled.div`
-    min-width: 18em;
-    min-height: 9em;
-
-    @media screen and (min-width: 1440px){
-        min-width: 37em;
-        min-height: 18em;
-    }
-`
-
 export const ItemText = styled.div`
     width: 100%;
 `

@@ -15,15 +15,14 @@ import {
 const Layout = (props) => {
 
 	const { menu } = useContext(MenuContext)
-	const { children, goBack } = props
-
+	const { children, goBack, translate } = props
 	return (
 		<>
 			<ChangeVisibility component={
 				<Blur className={menu ? 'slideLeft' : 'slideRight'} />
 			}/>
 			<Content>
-				<Header goBack={goBack}/>
+				<Header goBack={goBack} translate={translate}/>
 				<Body>
 					{ children }
 				</Body>

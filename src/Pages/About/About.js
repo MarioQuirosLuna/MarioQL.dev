@@ -5,8 +5,8 @@ import StateContext from '../../Context/AppContext'
 import useTranslation from '../../Hooks/useTranslation'
 
 import TabBar from '../../Context/AboutContext'
-import TabPanel from './TabPanel'
-import Tab from './Tab'
+import TabPanel from '../../Components/TabPanel/TabPanel'
+import Tab from '../../Components/Tab/Tab'
 
 import {
 	BtnLink,
@@ -51,11 +51,13 @@ const About = () => {
 					{staticData.DownloadCV}
 				</BtnLink>
 				<TabBar tab="Profile">
-					<TabList>
-						<Tab tabTitle="Profile">{staticData.Profile}</Tab>
-						<Tab tabTitle="SoftSkills">{staticData.SoftSkills}</Tab>
-						<Tab tabTitle="Technologies">{staticData.Technologies}</Tab>
-					</TabList>
+					{staticData.Profile && staticData.SoftSkills && staticData.Technologies && 
+						<TabList>
+							<Tab tabTitle="Profile">{staticData.Profile}</Tab>
+							<Tab tabTitle="SoftSkills">{staticData.SoftSkills}</Tab>
+							<Tab tabTitle="Technologies">{staticData.Technologies}</Tab>
+						</TabList>
+					}
 					<>
 						<TabPanel whenActive="Profile">
 							<div className="fadeIn">
