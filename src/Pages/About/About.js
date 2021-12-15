@@ -32,6 +32,7 @@ const About = () => {
 		<Container className="fadeIn">
 			<Helmet>
 				<title>{`${state.author.name} | ${staticData.TitleAbout}`}</title>
+				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
 			<ContainerAbout>
 				<HeaderPresentation>

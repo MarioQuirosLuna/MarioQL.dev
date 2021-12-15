@@ -18,6 +18,7 @@ const Blog = () => {
 		<Container className="fadeIn">
 			<Helmet>
 				<title>{`${state.author.name} | ${staticData.TitleBlogs}`}</title>
+				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
 			<TitleContainer>
 				<TitleItem>

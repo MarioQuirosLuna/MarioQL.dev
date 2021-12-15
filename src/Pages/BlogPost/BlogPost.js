@@ -28,6 +28,7 @@ const BlogPost = () => {
 		<Container className="fadeIn">
 			<Helmet>
 				<title>{`${state.author.name} | ${slug}`}</title>
+				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
 			<ContainerPost>
 				<Markdown children={post}/>
