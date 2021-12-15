@@ -19,7 +19,10 @@ export const ESP = {
 	/** 
 	 * BLOG
 	*/
-	TitleBlogs: 'Blogs',
+	TitleBlogs: 'Blog',
+	DescriptionBlogs: 'Algunos artículos que he realizado o en los que he contribuido, en idioma español.',
+	Author: 'Autor',
+	TimeReading: 'Tiempo de lectura',
 	/** 
 	 * ABOUT
 	*/
