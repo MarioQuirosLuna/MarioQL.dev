@@ -84,13 +84,13 @@ export const TabItem = styled.li`
     cursor: pointer;
     font-weight: 700;
     text-align: center;
-    color: ${({ isActive, theme }) => isActive ? theme.colors.purples[0] : 'inherit'};
+    color: ${({ isActive, theme }) => isActive ? theme.colors.foregroundColor : 'inherit'};
     pointer-events: ${({ isActive }) => isActive && 'none' };
     position: relative;
 
     @media(hover: hover) {
         &:hover {
-            color: ${({ theme }) => theme.colors.purples[0]};
+            color: ${({ theme }) => theme.colors.foregroundColor};
         }
     }
 
@@ -99,7 +99,7 @@ export const TabItem = styled.li`
             content: '';
             width: 100%;
             height: 2px;
-            background-color: ${({ theme }) => theme.colors.purples[0]};
+            background-color: ${({ theme }) => theme.colors.foregroundColor};
             position: absolute;
             bottom: 0;
             left: 0;
