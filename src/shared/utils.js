@@ -2,14 +2,6 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import setPosition from './mixins/setPosition'
 
-export const Background = styled.div`
-    background: linear-gradient(
-        to bottom,
-        ${({ theme }) => theme.color.secondary},
-        transparent
-    );
-    ${setPosition('absolute', -100)}
-`
 export const Content = styled.section`
     min-height: 70vh;
 `
@@ -24,7 +16,7 @@ export const LinkStyled = styled.a`
         content: '';
         width: 100%;
         height: 2px;
-        background-color: ${({ theme }) => theme.colors.purples[0]};
+        background-color: ${({ theme }) => theme.colors.foregroundColor};
         position: absolute;
         bottom: -2px;
         transition: transform 0.3s ease ;
@@ -32,7 +24,7 @@ export const LinkStyled = styled.a`
     }
     @media (hover: hover) {
         &:hover {
-            color: ${({ theme }) => theme.colors.purples[0]};
+            color: ${({ theme }) => theme.colors.foregroundColor};
             text-decoration: none;
             &::before {
                 transition: transform 0.3s ease 0.2s;
@@ -85,11 +77,11 @@ export const BtnLink = styled.a`
     //TODO: Need Refactor
     & {
         background-color: transparent;
-        color: ${({ theme }) => theme.colors.purples[0]};
+        color: ${({ theme }) => theme.colors.foregroundColor};
         padding: 0.5em;
         margin: 0 0 1em 0;
         cursor: pointer;
-        border: 3px solid ${({ theme }) => theme.colors.purples[0]};
+        border: 3px solid ${({ theme }) => theme.colors.foregroundColor};
         border-radius: 3em;
         display: inline-flex;
         font-weight: 700;
@@ -110,11 +102,11 @@ export const BtnLinkReactRouter = styled(Link)`
     //TODO: Need Refactor
     & {
         background-color: transparent;
-        color: ${({ theme }) => theme.colors.purples[0]};
+        color: ${({ theme }) => theme.colors.foregroundColor};
         padding: 0.5em;
         margin: 0 0 1em 0;
         cursor: pointer;
-        border: 3px solid ${({ theme }) => theme.colors.purples[0]};
+        border: 3px solid ${({ theme }) => theme.colors.foregroundColor};
         border-radius: 3em;
         display: inline-flex;
         font-weight: 700;
@@ -152,4 +144,46 @@ export const Image = styled.img`
     width: 100%;
     height: auto;
     object-fit: contain;
+`
+
+export const ContainerItem = styled.div`
+    display: inline-block;
+    align-items: center;
+    padding: 1em 0 1em 0;
+    min-width: 100%;
+    min-height: 250px;
+    border-top: 1px solid ${({ theme }) => theme.colors.foregroundColor};
+
+    :last-child {
+        border-bottom: 1px solid ${({ theme }) => theme.colors.foregroundColor};  
+    }
+
+    @media screen and (min-width: 768px){
+        display: flex;
+        padding: 2em 0 2em 0;
+    }
+`
+
+export const ContainerTagCategory = styled.div`
+    text-align: start;
+    @media screen and (min-width: 768px){
+        margin: 0 2em;
+    }
+
+    @media screen and (min-width: 1440px){
+        margin: 0 3em;
+    }
+`
+
+export const TagCategory = styled.div`
+    display: inline-flex;
+    padding: 0 0.5em;
+    margin: 0.5em;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid ${({ theme }) => theme.colors.foregroundColor};
+    box-shadow: 0 0 4px ${({ theme }) => theme.colors.foregroundColor};
+    cursor: default;
+    font-size: 0.8em;
+    color: ${({ theme }) => theme.colors.foregroundColor}
 `

@@ -34,7 +34,6 @@ const GlobalStyle = createGlobalStyle`
 
     h1 {    
         font-size: calc(1.1em + 1vw);
-        
     }
 
     h3, p {
