@@ -81,8 +81,6 @@ const Header = ({ goBack, translate }) => {
 								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png"
 								alt="Logo"
 								loading="lazy"
-								width="1532"
-								height="530"
 							/>
 						</GoBackBtn>
 					)}					

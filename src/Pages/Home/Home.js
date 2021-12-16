@@ -29,7 +29,7 @@ const Home = () => {
 			<Hero>
 				<HeroTitle className="overflow--hidden">		
 					<SubtitleBanner>{staticData.HiIm}</SubtitleBanner>
-					<TitleBanner><u>{ state.author.name }</u></TitleBanner>
+					<u><TitleBanner>{ state.author.name }</TitleBanner></u>
 					<HeroDescription>
 						<Typing messages={state.author.phrases} />
 					</HeroDescription>
