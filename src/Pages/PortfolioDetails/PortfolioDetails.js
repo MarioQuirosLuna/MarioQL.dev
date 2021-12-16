@@ -37,7 +37,6 @@ const PortfolioDetails = () => {
 		<Container className="fadeIn">
 			<Helmet>
 				<title>{`${state.author.name} | ${project.nameProject}`}</title>
-				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
 			<ContentDetails>
 				<TitleItem>
