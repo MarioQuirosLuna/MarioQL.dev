@@ -1,7 +1,5 @@
-import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
-import ReactGA from 'react-ga'
 
 import { MenuContextProvider } from '../Context/MenuContext'
 import { StateContextProvider } from '../Context/AppContext'
@@ -20,15 +18,6 @@ import GlobalStyle from '../shared/GlobalStyle'
 
 
 function App() {
-	useEffect(() => {
-		ReactGA.initialize('G-GN84N11N4Z',{
-			debug: false,
-			titleCase: false,
-			gaOptions: {
-			  userId: 123
-			}})
-		ReactGA.pageview(window.location.pathname + window.location.search)
-	}, [])
 	return (
 		<ThemeProvider theme={theme}>
 			<TranslationContextProvider>
