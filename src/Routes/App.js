@@ -1,5 +1,3 @@
-import { useEffect } from 'react'
-import ReactGA from 'react-ga'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 
@@ -19,11 +17,6 @@ import theme from '../shared/theme'
 import GlobalStyle from '../shared/GlobalStyle'
 
 function App() {
-	
-	useEffect(() => {
-		ReactGA.initialize(process.env.REACT_APP_ID_GOOGLE_ANALYTICS)
-		ReactGA.pageview(window.location.pathname + window.location.search)
-	}, [])
 
 	return (
 		<ThemeProvider theme={theme}>
