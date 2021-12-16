@@ -18,7 +18,7 @@ import About from '../Pages/About/About'
 import theme from '../shared/theme'
 import GlobalStyle from '../shared/GlobalStyle'
 
-ReactGA.initialize('UA-000000-01')
+ReactGA.initialize('G-GN84N11N4Z')
 
 function App() {
 	useEffect(() => {
