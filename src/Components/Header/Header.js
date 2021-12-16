@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
+import ReactGA from 'react-ga'
 
 import MenuContext from '../../Context/MenuContext'
 import TranslationContext from '../../Context/TranslationContext'
@@ -29,6 +30,10 @@ const Header = ({ goBack, translate }) => {
 	const { pathname } = useLocation()
 
 	const handleClick = () => {
+		ReactGA.event({
+			category: 'Button',
+			action: 'Click the button menu'
+		})
 		setMenu(!menu)
 		document.getElementById('body').classList.toggle('overflow--hidden')
 	}
