@@ -30,7 +30,7 @@ const BlogPost = () => {
 				<title>{`${state.author.name} | ${slug}`}</title>
 				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
-			<ContainerPost>
+			<ContainerPost className="fadeIn">
 				<Markdown children={post}/>
 			</ContainerPost>
 		</Container>
