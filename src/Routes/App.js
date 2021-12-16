@@ -1,8 +1,11 @@
+import { useEffect } from 'react'
+import ReactGA from 'react-ga'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 
 import { MenuContextProvider } from '../Context/MenuContext'
 import { StateContextProvider } from '../Context/AppContext'
+import { TranslationContextProvider } from '../Context/TranslationContext'
 
 import PageWrapper from '../Pages/PageWrapper'
 import Home from '../Pages/Home/Home'
@@ -14,9 +17,14 @@ import About from '../Pages/About/About'
 
 import theme from '../shared/theme'
 import GlobalStyle from '../shared/GlobalStyle'
-import { TranslationContextProvider } from '../Context/TranslationContext'
 
 function App() {
+	
+	useEffect(() => {
+		ReactGA.initialize(process.env.REACT_APP_ID_GOOGLE_ANALYTICS)
+		ReactGA.pageview(window.location.pathname + window.location.search)
+	}, [])
+
 	return (
 		<ThemeProvider theme={theme}>
 			<TranslationContextProvider>
