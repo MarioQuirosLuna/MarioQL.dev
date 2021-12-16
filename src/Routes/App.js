@@ -23,6 +23,7 @@ function App() {
 	useEffect(() => {
 		ReactGA.initialize(process.env.REACT_APP_ID_GOOGLE_ANALYTICS)
 		ReactGA.pageview(window.location.pathname + window.location.search)
+		console.log(process.env.REACT_APP_ID_GOOGLE_ANALYTICS)
 	}, [])
 
 	return (
