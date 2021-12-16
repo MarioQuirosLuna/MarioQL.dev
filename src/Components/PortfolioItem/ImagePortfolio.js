@@ -10,6 +10,7 @@ const ImagePortfolio = ({ src, alt}) => {
 			<Image
 				src={src}
 				alt={alt}
+				loading="lazy"
 			/>
 		</ImgContainer>
 	)

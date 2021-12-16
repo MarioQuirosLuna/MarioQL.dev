@@ -45,6 +45,7 @@ const About = () => {
 							src={ state.author.image }
 							alt={ state.author.name }
 							className="FadeIn"
+							loading="lazy"
 						/>
 					</div>
 				</HeaderPresentation>
@@ -94,6 +95,9 @@ const About = () => {
 												<img
 													src={ability.icon}
 													alt={ability.tag}
+													loading="lazy"
+													width="24"
+													height="24"
 												/>
 												<p>{ability.tag}</p>
 											</Item>
@@ -111,6 +115,9 @@ const About = () => {
 												<img
 													src={technology.icon}
 													alt={technology.tag}
+													loading="lazy"
+													width="24"
+													height="24"
 												/>
 												<p>{technology.tag}</p>
 											</Item>

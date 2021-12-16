@@ -43,7 +43,7 @@ const PortfolioDetails = () => {
 				<TitleItem>
 					<p><u>{project.nameProject}</u></p>
 				</TitleItem>
-				<Image src={project.preview} alt="image_preview" /> 
+				<Image src={project.preview} alt="image_preview" loading="lazy" /> 
 				<ContainerButtons 
 					nameProject={project.nameProject}
 					liveUrl={project.liveUrl}
@@ -60,6 +60,9 @@ const PortfolioDetails = () => {
 								<img
 									src={technology.icon}
 									alt={technology.tag}
+									loading="lazy"
+									width="24"
+									height="24"
 								/>
 								<p>{technology.tag}</p>
 							</Item>	

@@ -77,7 +77,13 @@ const Header = ({ goBack, translate }) => {
 							aria-label='Go Home'
 							className='fadeIn'
 						>
-							<img src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png" alt="Logo"/>
+							<img
+								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png"
+								alt="Logo"
+								loading="lazy"
+								width="128"
+								height="50"
+							/>
 						</GoBackBtn>
 					)}					
 			</LogoContainer>
@@ -88,11 +94,17 @@ const Header = ({ goBack, translate }) => {
 							<Image							
 								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
 								alt="Traducir a Ingles"
+								loading="lazy"
+								width='32'
+								height='32'
 							/>
 							:
 							<Image
 								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
 								alt="Translate Spanish"
+								loading="lazy"
+								width='32'
+								height='32'
 							/>
 						}
 					</TranslateBtn>
