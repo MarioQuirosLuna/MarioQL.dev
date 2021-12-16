@@ -27,7 +27,7 @@ const BlogItem = ({ post }) => {
 		<ContainerItem>
 			<ItemContent>
 				<Link to={`/blog/${post.document}`}>
-					<h1><u>{post.title}</u></h1>
+					<h2><u>{post.title}</u></h2>
 				</Link>
 				<span className="date">
 					{new Date(post.date).toLocaleDateString('en-US', dateOptions)}

@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
         animation: ${gradientAnimation} 15s ease infinite;
     }
 
-    h1 {    
+    h1, h2 {    
         font-size: calc(1.1em + 1vw);
     }
 

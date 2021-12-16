@@ -41,7 +41,7 @@ const PortfolioDetails = () => {
 			</Helmet>
 			<ContentDetails>
 				<TitleItem>
-					<p><u>{project.nameProject}</u></p>
+					<h1><u>{project.nameProject}</u></h1>
 				</TitleItem>
 				<Image src={project.preview} alt="image_preview" loading="lazy" /> 
 				<ContainerButtons 

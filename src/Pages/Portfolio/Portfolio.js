@@ -21,9 +21,9 @@ const Portfolio = () => {
 				<link rel="canonical" href="https://marioql-dev.vercel.app/" />
 			</Helmet>
 			<Gallery>
-				<h3>
+				<h1>
 					<u>{staticData.TitlePortfolio}</u>
-				</h3>
+				</h1>
 				{
 					state.projects?.map((project, index) => (
 						<PortfolioItem key={project.nameProject} project={project} align={index} />

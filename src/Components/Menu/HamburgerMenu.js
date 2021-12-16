@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ItemMenu from './ItemMenu'
+import ItemMenu from '../ItemMenu/ItemMenu'
 import ChangeVisibility from '../../shared/components/ChangeOpacity'
 
 import { MenuContainerStyled, MenuItemStyled } from './HamburgerMenu.styled'

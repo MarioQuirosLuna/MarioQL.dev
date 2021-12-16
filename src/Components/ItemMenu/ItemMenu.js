@@ -3,7 +3,7 @@ import React from 'react'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { Item, SpaceStyled } from './HamburgerMenu.styled'
+import { Item, SpaceStyled } from '../Menu/HamburgerMenu.styled'
 
 const ItemMenu = (props) => {
 
