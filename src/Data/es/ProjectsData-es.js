@@ -14,12 +14,16 @@ const ProjectsData = [
 			{
 				tag: 'Git',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			},
+			{
+				tag: 'MarkDown',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639688243/portfolio/md_rfwrlm.png'
 			}
 		],
 		description: 'Este proyecto es mi sitio web personal. Eso funciona como un lugar para mostrar mi trabajo y proporcionar un lugar donde la gente pueda conocer mejor cómo trabajo.',
 		specifications: 'Realmente me gustó este proyecto. Ya que aprendí mucho sobre React mientras lo desarrollaba, buscando implementar mejores prácticas, código limpio y ordenado. En este proyecto use react-router para la navegación, también practique el uso de Hooks y Context, para los estilos use styled-component en el cual use estilos globales que se repiten en diferentes lugares y también use ThemeProvider para manejar el tema de mi aplicación.',
 		repository: 'https://github.com/MarioQuirosLuna/MarioQL.dev',
-		liveUrl: ''
+		liveUrl: 'https://marioql-dev.vercel.app/'
 	},
 	{
 		nameProject: 'Frontend-SewingShop',
