@@ -18,10 +18,15 @@ import About from '../Pages/About/About'
 import theme from '../shared/theme'
 import GlobalStyle from '../shared/GlobalStyle'
 
-ReactGA.initialize('G-GN84N11N4Z')
 
 function App() {
 	useEffect(() => {
+		ReactGA.initialize('G-GN84N11N4Z',{
+			debug: false,
+			titleCase: false,
+			gaOptions: {
+			  userId: 123
+			}})
 		ReactGA.pageview(window.location.pathname + window.location.search)
 	}, [])
 	return (
