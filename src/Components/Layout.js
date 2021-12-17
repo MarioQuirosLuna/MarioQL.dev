@@ -8,7 +8,6 @@ import ChangeVisibility from '../shared/components/ChangeOpacity'
 
 import {
 	Blur,
-	Body,
 	Content
 } from '../shared/utils'
 
@@ -23,9 +22,9 @@ const Layout = (props) => {
 			}/>
 			<Content>
 				<Header goBack={goBack} translate={translate}/>
-				<Body>
+				<section>
 					{ children }
-				</Body>
+				</section>
 			</Content>
 			<Footer />
 		</>

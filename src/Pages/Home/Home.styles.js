@@ -26,21 +26,21 @@ export const HeroTitle = styled.div`
 `
 
 export const TitleBanner = styled.h1`
-  font-weight: 900;
-  font-size: calc(1.5em + 1vw);
-  
-  @media screen and (min-width: 768px) {
-    line-height: 2em;
-  }
+	font-weight: 900;
+	font-size: calc(1.5em + 1vw);
+	
+	@media screen and (min-width: 768px) {
+		line-height: 2em;
+	}
 `
 
 export const SubtitleBanner = styled.p`
-  font-weight: 500;
-  font-family: ${({ theme }) => theme.fonts[1]}, sans-serif;
-  margin: 0;
-  @media screen and (min-width: 768px) {
-    line-height: 2em;
-  }
+	font-weight: 500;
+	font-family: ${({ theme }) => theme.fonts[1]}, sans-serif;
+	margin: 0;
+	@media screen and (min-width: 768px) {
+		line-height: 2em;
+	}
 `
 
 export const HeroDescription = styled.div`

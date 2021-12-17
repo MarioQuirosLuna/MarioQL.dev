@@ -34,10 +34,7 @@ export const LogoContainer = styled.div`
     }
 `
 
-export const GoBackBtn = styled.div`
-    //TODO: Need Refactor
-    width: 8em;
-    height: 50px;
+export const ActionBtn = styled.div`
     font-size: 1.2em;
     margin: 2em auto 0 1em;
     position: relative;
@@ -45,17 +42,24 @@ export const GoBackBtn = styled.div`
     outline: none;
     cursor: pointer;
     transition: all 0.8s ease-out;
-    color: ${({ theme }) => theme.colors.textTransparentColor};
 
-    img{
-        width: 5em;
-        height: auto;
-        object-fit: contain;
-    }
+    ${({ isBack }) => isBack && css`
+        color: ${({ theme }) => theme.colors.textColor};
+        @media screen and (min-width: 1024px){
+            color: ${({ theme }) => theme.colors.textTransparentColor};
+            &:hover{
+                color: ${({ theme }) => theme.colors.textColor}; 
+            }
+        }
+    `}
 
-    &:hover{
-        color: ${({ theme }) => theme.colors.textColor}; 
-    }
+    ${({ isLogo }) => isLogo && css`
+        img{
+            width: 5em;
+            height: auto;
+            object-fit: contain;
+        }
+    `}
 
     @media screen and (min-width: 768px){
         margin: 3em auto 0 2.3em;
@@ -134,7 +138,7 @@ export const BurgerButton = styled.div`
         border-radius: 5px;
         position: absolute;
         transition: all 0.8s ease-out;
-        background: ${({ theme }) => theme.colors.textTransparentColor};
+        background: ${({ theme }) => theme.colors.textColor};
 
         &:first-child{
             top: 10px;
@@ -148,12 +152,6 @@ export const BurgerButton = styled.div`
         &:last-child{
             top: 40px;
         }
-    }
-
-    &:hover{
-        i{
-            background: ${({ theme }) => theme.colors.textColor}; 
-        }   
     }
     
     &.active{
@@ -188,6 +186,13 @@ export const BurgerButton = styled.div`
         position: fixed;
         i{
             height: 5px;
+            background: ${({ theme }) => theme.colors.textTransparentColor};
+        }
+
+        &:hover{
+            i{
+                background: ${({ theme }) => theme.colors.textColor}; 
+            }   
         }
     }
 
@@ -202,7 +207,6 @@ export const NavbarMenu = styled.nav`
 
     @media screen and (min-width: 1024px) {
         justify-content: flex-end;
-        grid-area: auto / margin1-start / auto / margin4-end;
     }
 `
 

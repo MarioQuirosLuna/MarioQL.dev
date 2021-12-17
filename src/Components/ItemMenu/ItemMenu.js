@@ -11,7 +11,7 @@ const ItemMenu = (props) => {
 
 	return (
 		<Item to={url} onClick={handleClick} className={menu ? 'fadeIn' : 'fadeOut'}>
-			<h3>{ label }</h3><SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/>
+			<h4>{ label }</h4><SpaceStyled /> <FontAwesomeIcon icon={faArrowLeft}/>
 		</Item>
 	)
 }

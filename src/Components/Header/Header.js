@@ -11,7 +11,7 @@ import HamburgerMenu from '../Menu/HamburgerMenu'
 
 import {
 	BurgerButton,
-	GoBackBtn,
+	ActionBtn,
 	HeaderBackground,
 	LogoContainer,
 	MenuContainer,
@@ -59,47 +59,49 @@ const Header = ({ goBack, translate }) => {
 			<LogoContainer className={header ? 'header--visible': ''}>
 				{goBack ? 
 					(
-						<GoBackBtn
+						<ActionBtn
 							onClick={handleGoBack}
 							onKeyPress={handleGoBack}
 							role='button'
 							tabIndex='0'
 							aria-label='Go Back'
 							className='fadeIn'
+							isBack
 						>Back
-						</GoBackBtn>
+						</ActionBtn>
 					):(
-						<GoBackBtn
+						<ActionBtn
 							onClick={handleGoHome}
 							onKeyPress={handleGoHome}
 							role='button'
 							tabIndex='0'
 							aria-label='Go Home'
 							className='fadeIn'
+							isLogo
 						>
 							<img
 								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png"
 								alt="Logo"
 								loading="lazy"
 							/>
-						</GoBackBtn>
+						</ActionBtn>
 					)}					
 			</LogoContainer>
 			<NavbarButton className={header ? 'header--visible' : ''}>
 				{translate &&
 					<TranslateBtn className='fadeIn' onClick={() => changeLanguage()}>
 						{language === 'en' ?				
-							<Image							
-								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
-								alt="Traducir a Ingles"
+							<Image
+								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
+								alt="Active English"
 								loading="lazy"
 								width='32'
 								height='32'
 							/>
 							:
-							<Image
-								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/estados-unidos_y0z3kh.png"
-								alt="Translate Spanish"
+							<Image							
+								src="https://res.cloudinary.com/dusx4zdpz/image/upload/v1639430396/portfolio/espana_mskndi.png"
+								alt="Activo Español"
 								loading="lazy"
 								width='32'
 								height='32'

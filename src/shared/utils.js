@@ -6,10 +6,6 @@ export const Content = styled.section`
     min-height: 70vh;
 `
 
-export const Body = styled.section`
-
-`
-
 export const LinkStyled = styled.a`
     position: relative;
     &:before {

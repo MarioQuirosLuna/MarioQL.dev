@@ -3,7 +3,7 @@ import React from 'react'
 import ItemMenu from '../ItemMenu/ItemMenu'
 import ChangeVisibility from '../../shared/components/ChangeOpacity'
 
-import { MenuContainerStyled, MenuItemStyled } from './HamburgerMenu.styled'
+import { MenuItemStyled } from './HamburgerMenu.styled'
 
 const HamburgerMenu = (props) => {
 
@@ -18,7 +18,7 @@ const HamburgerMenu = (props) => {
 
 	return (
 		<ChangeVisibility component={
-			<MenuContainerStyled>	
+			<ul>	
 				{optionsMenu.map((option) => 
 					<MenuItemStyled key={option.url}>
 						<ItemMenu
@@ -30,7 +30,7 @@ const HamburgerMenu = (props) => {
 						/>
 					</MenuItemStyled> )
 				}
-			</MenuContainerStyled>
+			</ul>
 		}/>
 	)
 }

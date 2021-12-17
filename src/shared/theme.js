@@ -48,26 +48,7 @@ const theme = {
 		tagsColor: 		 colors.purples[1],
 		...colors
 	},
-	fonts: ['Merriweather', 'Raleway'],
-	sizes: {
-		movil: {
-			xl: '6vw',
-			m: '4vw',
-			s: '3.5vw'
-		},
-		ipad: {
-			xl: '5vw',
-			l: '3vw',
-			m: '2.5vw',
-			s: '2vw'
-		},
-		desktop: {
-			xxl: '3vw',
-			xl: '2.5vw',
-			m: '1.5vw',
-			s: '1vw'
-		}
-	}
+	fonts: ['Merriweather', 'Raleway']
 }
 
 export default theme
