@@ -29,6 +29,7 @@ export const ESP = {
 	TitleAbout: 'Acerca de',
 	About: 'Acerca de',
 	DownloadCV: 'Descargar CV',
+	UrlCV: '/cvMarioQuirósLuna_es.pdf',
 	Profile: 'Perfil',
 	SoftSkills: 'HabilidadesBlandas',
 	Technologies: 'Tecnologías',

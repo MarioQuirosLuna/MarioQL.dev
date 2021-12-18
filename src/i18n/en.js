@@ -29,6 +29,7 @@ export const ENG = {
 	TitleAbout: 'About',
 	About: 'About',
 	DownloadCV: 'Download CV',
+	UrlCV: '/cvMarioQuirósLuna_en.pdf',
 	Profile: 'Profile',
 	SoftSkills: 'SoftSkills',
 	Technologies: 'Technologies',

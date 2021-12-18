@@ -48,7 +48,7 @@ const About = () => {
 						/>
 					</div>
 				</HeaderPresentation>
-				<BtnLink href="/cvMarioQuirósLuna.pdf" download>
+				<BtnLink href={staticData.UrlCV} download>
 					{staticData.DownloadCV}
 				</BtnLink>
 				<TabBar tab="Profile">
