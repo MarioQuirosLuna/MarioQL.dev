@@ -1,5 +1,10 @@
 const Certifications = [
 	{
+		name: 'SEO Foundations',
+		url: 'https://www.linkedin.com/learning/certificates/779c0ad5a7747e969d1c06bf01a4bf9e024ec5b72a3d401aee422ff205b843ef?trk=share_certificate',
+		company: 'LinkedIn'
+	},
+	{
 		name: 'Javascript Course 2021',
 		url: 'https://www.udemy.com/certificate/UC-4ae12af7-c2ca-4a1b-b901-8c8c6ea2c984/',
 		company: 'Udemy'
