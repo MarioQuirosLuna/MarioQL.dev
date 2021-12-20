@@ -5,6 +5,16 @@ const Certifications = [
 		company: 'Udemy'
 	},
 	{
+		name: 'Curso Aprende CSS Completo 2021',
+		url: 'https://www.udemy.com/certificate/UC-ce3c4ffa-f927-4f96-8234-9da3657a08c2/',
+		company: 'Udemy'
+	},
+	{
+		name: 'Curso Aprende HTML5 2021',
+		url: 'https://www.udemy.com/certificate/UC-bfeab77b-dfae-4aa3-8ccb-1102f40c6e22/',
+		company: 'Udemy'
+	},
+	{
 		name: 'Curso de Programación Básica',
 		url: 'https://platzi.com/p/mario-quiros/curso/1050-programacion-basica/diploma/detalle/',
 		company: 'Platzi'
