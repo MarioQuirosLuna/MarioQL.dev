@@ -1,5 +1,10 @@
 const Certifications = [
 	{
+		name: 'Git + GitHub Desde Cero',
+		url: 'https://www.udemy.com/certificate/UC-6b107b2e-f350-4afd-9359-55a4ab0efb2a/',
+		company: 'Udemy'
+	},
+	{
 		name: 'Fundamentos de SEO ',
 		url: 'https://www.linkedin.com/learning/certificates/779c0ad5a7747e969d1c06bf01a4bf9e024ec5b72a3d401aee422ff205b843ef?trk=share_certificate',
 		company: 'LinkedIn'
