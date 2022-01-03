@@ -55,6 +55,10 @@ const Stack = {
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/bootstrap_flhcus.png'
 		},
 		{
+			tag: 'Sass/Scss',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1641225280/portfolio/sass_caidl2.png'
+		},
+		{
 			tag: 'Node',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png'
 		},
