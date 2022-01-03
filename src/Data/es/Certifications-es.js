@@ -1,5 +1,10 @@
 const Certifications = [
 	{
+		name: 'React desde cero (2021) ',
+		url: 'https://www.linkedin.com/feed/update/urn:li:activity:6880284512937357313/',
+		company: 'EDteam'
+	},
+	{
 		name: 'Git + GitHub Desde Cero',
 		url: 'https://www.udemy.com/certificate/UC-6b107b2e-f350-4afd-9359-55a4ab0efb2a/',
 		company: 'Udemy'
