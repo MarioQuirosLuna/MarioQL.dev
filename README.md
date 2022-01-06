@@ -48,7 +48,7 @@ Deployed in: https://marioql-dev.vercel.app/
   ![Git](https://custom-icon-badges.herokuapp.com/badge/-Git-%23F05032?style=flat&logo=git&logoColor=white&labelColor=111)
   ![GitHub](https://custom-icon-badges.herokuapp.com/badge/-GitHub-%23181717?style=flat&logo=github&logoColor=white&labelColor=111)
   ![ESlint](https://custom-icon-badges.herokuapp.com/badge/-ESlint-%234B32C3?style=flat&logo=ESlint&logoColor=white&labelColor=111)
-  * MarkDownX
+  ![Markdown](https://custom-icon-badges.herokuapp.com/badge/-Markdown-%23000000?style=flat&logo=Markdown&logoColor=white&labelColor=111)
 
   ![Vercel](https://custom-icon-badges.herokuapp.com/badge/-Vercel-%23000000?style=flat&logo=Vercel&logoColor=white&labelColor=111)
 
@@ -63,6 +63,8 @@ Deployed in: https://marioql-dev.vercel.app/
    ### ⚡ Executing.
 
 ## ☕ Collaborators.
+
+[![Mario Quiros Luna](https://custom-icon-badges.herokuapp.com/badge/-Mario%20Quirós%20Luna-%23181717?style=flat&logo=github&logoColor=white&labelColor=111)](https://github.com/MarioQuirosLuna)
 
 ## 📝 License.
 
