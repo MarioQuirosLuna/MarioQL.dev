@@ -9,7 +9,7 @@ const Author = {
         '🧑🏻‍💻 Desarrollador de software con experiencia trabajando en proyectos personales. 🔍 Me caracterizo por querer obtener mucho conocimiento de las cosas que me gustan, organizado, autodidacta, apasionado por la programación, 🖥️ tecnología y 🕹️ videojuegos.',
 	interests: 
         'Con gran interés en encontrar retos, trabajar en equipos de personas positivas y aprender muchas cosas. 😎',
-	studies:'Actualmente curso el tercer año de Informática Empresarial en la Universidad de Costa Rica.',
+	studies:'Actualmente curso el cuarto (último) año de Informática Empresarial en la Universidad de Costa Rica.',
 	Certifications,
 	extra: 'Con ganas de aprender muchas herramientas y tecnologías nuevas.',
 	Social,
