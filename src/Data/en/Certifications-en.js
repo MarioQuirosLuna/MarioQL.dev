@@ -5,12 +5,12 @@ const Certifications = [
 		company: 'LinkedIn'
 	},
 	{
-		name: 'JavaScript Avanzado 2 (2023)',
+		name: 'Advanced JavaScript 2 (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/281ff5851b6b2acb5a543d30f6486ac40c1f79183f301b4c68c6dd5123b4ead1',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'JavaScript Avanzado 1 (2023)',
+		name: 'Advanced JavaScript 1 (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/ad886dfa3df048956136ed5d9bc5293241fe979b7df235f0ac80d659830bb8da',
 		company: 'LinkedIn'
 	},
@@ -20,32 +20,32 @@ const Certifications = [
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Angular avanzado: Trabajo con API (2023)',
+		name: 'Advanced Angular: Work with API (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/4bfc9517e7f2d825ba25b848a743d6fb8299a6cbfa8f92f5126eb12e39799b52',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Angular Esencial (2023)',
+		name: 'Angular Essential (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/6e866d93fdceaf6322aac5228f3f65a843dcc1c4b541ee6e1e595e24852b1449',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Diseño de interfaz (UI) avanzado (2023)',
+		name: 'Interface Design (UI) advanced (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/c2f36fc779843b38c7fea5b6cf596c7b0a4ff86a5855ff4d3c042f07cb3cdb5e',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Diseño de interfaz (UI) esencial (2023)',
+		name: 'Interface Design (UI) essential (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/9800b3cbd63c4b331cb4f30ca512cb80c1733d5cad2dbc9f9e0a86a92c4e2f80',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Experiencia de usuario (UX) avanzado (2023)',
+		name: 'User Experience (UX) advanced (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/c561ab5f17a55f30ad9faed81c267c36dd258f5930835417e45fefb5d7c6f0be',
 		company: 'LinkedIn'
 	},
 	{
-		name: 'Experiencia de usuario (UX) esencial (2023)',
+		name: 'User Experience (UX) essential (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/487353e56afdb160d5dc7fe89915adc618477f5b78e69c34ef9fa95bb7b19429',
 		company: 'LinkedIn'
 	},
@@ -60,7 +60,7 @@ const Certifications = [
 		company: 'LinkedIn'
 	},
 	{
-		name: ' React Native Essential Training (2023)',
+		name: 'React Native Essential Training (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/257e170cd43075f93b99274f75c6a1cfec0c925a429f6160dcbfabf1f1210b5a',
 		company: 'LinkedIn'
 	},
