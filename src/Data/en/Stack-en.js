@@ -43,7 +43,15 @@ const Stack = {
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/js_l2gveb.png'
 		},
 		{
+			tag: 'Angular',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1679101252/portfolio/angular_qmv8sr.png'
+		},
+		{
 			tag: 'React',
+			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+		},
+		{
+			tag: 'React Native',
 			icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
 		},
 		{
