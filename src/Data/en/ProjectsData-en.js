@@ -12,6 +12,18 @@ const ProjectsData = [
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1641225280/portfolio/sass_caidl2.png'
 			},
 			{
+				tag: 'Node',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png'
+			},
+			{
+				tag: 'Express',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png'
+			},
+			{
+				tag: 'Mongo',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+			},
+			{
 				tag: 'Git',
 				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
 			}
