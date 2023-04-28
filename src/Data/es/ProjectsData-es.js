@@ -1,5 +1,105 @@
 const ProjectsData = [
 	{
+		nameProject: 'Twitter Clone',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'SASS',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1641225280/portfolio/sass_caidl2.png'
+			},
+			{
+				tag: 'Node',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png'
+			},
+			{
+				tag: 'Express',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png'
+			},
+			{
+				tag: 'Mongo',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Esta es una versión inicial de un proyecto con fines educativos, por lo que aún no está completamente desarrollado, por lo que puede presentar diferentes errores. Asimismo, solo se han implementado algunas funcionalidades. Con el tiempo, se agregarán algunas otras características que tiene Twitter.',
+		specifications: 'Consiste en una recreación de Twitter, para poner en práctica conocimientos tanto de Front-end como de Back-end implementando el MERN Stack junto con otras tecnologías para agregar más valor al proyecto, mientras se ponen en práctica habilidades blandas fundamentales como el trabajo en equipo y la comunicación. práctica.',
+		repository: 'https://github.com/MarioQuirosLuna/TwitterClone_FrontEnd-React',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Aplicación BakeSale',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: ' Creé este proyecto mientras aprendia React Native.',
+		specifications: 'Cargar datos, se usaron React Hooks, se usaron animaciones de react-native, se creó una barra de búsqueda, se usó renderizado condicional, se implementó la imagen Swipe Gesture, PropTypes',
+		repository: 'https://github.com/MarioQuirosLuna/BakesaleApp-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Catalogo de Colores',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Cataloga tus colores. Guarda tus colores favoritos en una lista y miralos detalles para cada color.',
+		specifications: 'Usando Expor para React native. Fue usado Async Storage. Fue usado React Navigation para la navegación. Fuerón usados React Hooks. Se creo un formulario para los datos.',
+		repository: 'https://github.com/MarioQuirosLuna/ColorCatalog-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Chat Client',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'Node',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png'
+			},
+			{
+				tag: 'Express',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png'
+			},
+			{
+				tag: 'Mongo',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+			},
+			{
+				tag: 'HTML',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/html-5_d9vbhr.png'
+			},
+			{
+				tag: 'Bootstrap5',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/bootstrap_flhcus.png'
+			},
+		],
+		description: 'Chat usando sockets',
+		specifications: 'Chat usando socket.io, Probado con jasmine',
+		repository: 'https://github.com/MarioQuirosLuna/ChatClient_NodeJS',
+		liveUrl: ''
+	},
+	{
 		nameProject: 'MarioQL.dev',
 		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639441717/portfolio/portfolio/Portafolio_io00ou.png',
 		technologiesProject: [
