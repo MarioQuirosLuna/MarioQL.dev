@@ -6,10 +6,10 @@ const Author = {
 	image: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638989356/portfolio/Perfil_400x400_n7cd3x.jpg',
 	logo: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639432893/portfolio/LogoMQL.dev_khumu1.png',
 	whoIam: 
-        '🧑🏻‍💻 Software developer with experience working on personal projects. 🔍 I am characterized by wanting to obtain a lot of knowledge of the things that I like, organized, self-taught, passionate about programming, 🖥️ technology and 🕹️ video games.',
+        '🧑🏻‍💻 Software developer with experience working on personal projects. 🔍 I am characterized as organized, responsible, a group leader, positive, and self-taught, passionate about programming and 🖥️ technology.',
 	interests: 
         'With great interest in finding challenges, working in teams of positive people and learning many things. 😎',
-	studies:'Currently studying in the third year of Business Informatics at the University of Costa Rica',
+	studies:'Currently studying in the fourth (last) year of Business Informatics at the University of Costa Rica. Seeking an internship opportunity',
 	Certifications,
 	extra: 'Eager to learn many more tools and technologies.',
 	Social,
