@@ -1,7 +1,7 @@
 const ProjectsData = [
 	{
 		nameProject: 'Twitter Clone',
-		preview: '',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/twitter_rqqdg0.png',
 		technologiesProject: [
 			{
 				tag: 'React',
@@ -35,7 +35,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'Aplicación BakeSale',
-		preview: '',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/bakesale_p3kwhz.png',
 		technologiesProject: [
 			{
 				tag: 'React Native',
@@ -53,7 +53,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'Catalogo de Colores',
-		preview: '',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/colorcatalog_t8legz.png',
 		technologiesProject: [
 			{
 				tag: 'React Native',
@@ -71,7 +71,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'Chat Client',
-		preview: '',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/chat_uzglwj.png',
 		technologiesProject: [
 			{
 				tag: 'Node',
