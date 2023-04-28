@@ -45,7 +45,7 @@ const ProjectsData = [
 		description: 'Es un proyecto que hice para el pequeño negocio de costura que pertenece a mi madre, en el que necesitaba mostrar y administrar los productos que ella confeccionaba.',
 		specifications: 'Use este proyecto para practicar React, implemente un inicio de sesión para manejar los datos, para esto cree un CRUD completo de productos usando axios y para el estilo use bootstrap 5 para el diseño adaptativo.',
 		repository: 'https://github.com/MarioQuirosLuna/Frontend-SewingShop',
-		liveUrl: 'https://tallerdecosturacintyaluna.vercel.app/'
+		liveUrl: ''
 	},
 	{
 		nameProject: 'Backend-SewingShop',
@@ -71,7 +71,7 @@ const ProjectsData = [
 		description: 'Es un proyecto que hice para el pequeño negocio de costura que pertenece a mi madre, en el que necesitaba mostrar los productos que ella hacía.',
 		specifications: 'Para este proyecto practiqué la implementación de una API Rest usando Node y Express, dando seguridad a las solicitudes usando Json Web Tokens y para el cifrado de contraseñas Bcrypt también para almacenar la información use Mongo y para guardar las imágenes use Cloudinary a través de su api.',
 		repository: 'https://github.com/MarioQuirosLuna/Backend-SewingShop',
-		liveUrl: 'https://backend-sewingshop.herokuapp.com/api/products'
+		liveUrl: ''
 	},
 	{
 		nameProject: 'Pokedex-React',
