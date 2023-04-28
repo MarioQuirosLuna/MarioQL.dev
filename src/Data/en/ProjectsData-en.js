@@ -1,5 +1,93 @@
 const ProjectsData = [
 	{
+		nameProject: 'Twitter Clone',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'SASS',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1641225280/portfolio/sass_caidl2.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'This is an initial version of a project for educational purposes, so it is not fully developed yet, so it may present different errors. Likewise, only some functionalities have been implemented. Over time, some other features that twitter has will be added.',
+		specifications: 'It consists of a recreation of Twitter, to put into practice knowledge of both Front-end and Back-end implementing the MERN Stack along with other technologies to add more value to the project, while fundamental soft skills such as teamwork and communication are put into practice.',
+		repository: 'https://github.com/MarioQuirosLuna/TwitterClone_FrontEnd-React',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'BakeSale App',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'I made this project while learning react native',
+		specifications: 'Load data, React Hooks were used, Animated from react-native were used, A search bar was created, Conditional render were used, Swipe Gesture image were implements, PropTypes',
+		repository: 'https://github.com/MarioQuirosLuna/BakesaleApp-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Color Catalog',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Catalog your colors. Save your favorite wen colors in a list and view the details for each color.',
+		specifications: 'Use Expo for React Native. Async Storage were used. React Navigation for native were used. React Hooks were used. A form data was created.',
+		repository: 'https://github.com/MarioQuirosLuna/ColorCatalog-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Chat Client',
+		preview: '',
+		technologiesProject: [
+			{
+				tag: 'Node',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/node_k24mps.png'
+			},
+			{
+				tag: 'Express',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639086560/portfolio/expressjs_gqenna.png'
+			},
+			{
+				tag: 'Mongo',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/mongodb_sdecyc.png'
+			},
+			{
+				tag: 'HTML',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987538/portfolio/html-5_d9vbhr.png'
+			},
+			{
+				tag: 'Bootstrap5',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987537/portfolio/bootstrap_flhcus.png'
+			},
+		],
+		description: 'Chat with sockets',
+		specifications: 'Chat client with socket.io, Test with jasmine',
+		repository: 'https://github.com/MarioQuirosLuna/ChatClient_NodeJS',
+		liveUrl: ''
+	},
+	{
 		nameProject: 'MarioQL.dev',
 		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639441717/portfolio/portfolio/Portafolio_io00ou.png',
 		technologiesProject: [
