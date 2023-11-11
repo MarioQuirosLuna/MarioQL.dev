@@ -9,16 +9,17 @@ const Author = {
         '🧑🏻‍💻 Desarrollador de software con experiencia trabajando en proyectos personales. 🔍 Me caracterizo por ser organizado, responsable, líder de grupo, positivo y autodidacta, apasionado por la programación y 🖥️ tecnología.',
 	interests: 
         'Con gran interés en encontrar retos, trabajar en equipos de personas positivas y aprender muchas cosas. 😎',
-	studies:'Actualmente curso el cuarto (último) año de Informática Empresarial en la Universidad de Costa Rica. En busca de oportunidad para práctica empresarial supervisada',
+	studies:'Actualmente curso el cuarto (último) año de Informática Empresarial en la Universidad de Costa Rica. Apunto de graduarme. 🎓',
 	Certifications,
 	extra: 'Con ganas de aprender muchas herramientas y tecnologías nuevas.',
 	Social,
 	phrases: [
-		'Desarrollador de software',
-		'Me encantan las tecnologias web',
+		'Desarrollador Movil',
+		'Flutter, React Native y Kotlin',
+		'Desarrollador FrontEnd',
 		'Diseño web adaptable',
 		'Me encanta la programación',
-		'Javascript and React'
+		'Javascript, React y .Net',
 	]
 }
 
