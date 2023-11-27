@@ -1,5 +1,10 @@
 const Certifications = [
 	{
+		name: 'Desarrollo de Apps Moviles (2023)',
+		url: 'https://www.linkedin.com/feed/update/urn:li:activity:7079924145114771456/',
+		company: 'Google Active'
+	},
+	{
 		name: 'Aprendiendo NodeJS (2023)',
 		url: 'https://www.linkedin.com/learning/certificates/43b4733dd555a79fb0d6ae21617386106a6104889fb50f4dbce151604824ac11',
 		company: 'LinkedIn'
