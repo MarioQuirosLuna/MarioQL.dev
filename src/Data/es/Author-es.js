@@ -6,20 +6,22 @@ const Author = {
 	image: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638989356/portfolio/Perfil_400x400_n7cd3x.jpg',
 	logo: 'https://raw.githubusercontent.com/MarioQuirosLuna/Multimedias/master/Portfolio/Images/logo.png',
 	whoIam: 
-        '🧑🏻‍💻 Desarrollador de software con experiencia trabajando en proyectos personales. 🔍 Me caracterizo por ser organizado, responsable, líder de grupo, positivo y autodidacta, apasionado por la programación y 🖥️ tecnología.',
+        '🧑🏻‍💻Soy una persona con una gran pasión por la tecnología. 🖥️ Tengo 6 meses de experiencia en prácticas supervisadas y también más de 3 años trabajando en proyectos personales para adquirir habilidades en diversas tecnologías. 🔍Me caracterizo por ser organizado, responsable, líder de equipo y positivo.',
 	interests: 
-        'Con gran interés en encontrar retos, trabajar en equipos de personas positivas y aprender muchas cosas. 😎',
-	studies:'Actualmente curso el cuarto (último) año de Informática Empresarial en la Universidad de Costa Rica. Apunto de graduarme. 🎓',
+        'Como profesional, me defino como una persona autónoma, autodidacta, analítica y orientada a la solución, con la capacidad de trabajar en equipo y una gran disposición para enfrentar nuevos desafíos y proyectos. 😎',
+	studies:'Último año de Informática Empresarial en la Universidad de Costa Rica. Apunto de graduarme. 🎓',
 	Certifications,
 	extra: 'Con ganas de aprender muchas herramientas y tecnologías nuevas.',
 	Social,
 	phrases: [
 		'Desarrollador Movil',
-		'Flutter, React Native y Kotlin',
+		'Flutter, React Native, Kotlin y Java',
 		'Desarrollador FrontEnd',
 		'Diseño web adaptable',
 		'Me encanta la programación',
-		'Javascript, React y .Net',
+		'Javascript, React, Angular, .Net y NodeJS',
+		'Desarrollo FullStack',
+		'SQLServer, MySQL y Mongo'
 	]
 }
 
