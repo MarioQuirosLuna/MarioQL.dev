@@ -1,5 +1,167 @@
 const ProjectsData = [
 	{
+		nameProject: 'RecipeBook_Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701122746/recipeBook_q0dvvr.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Este proyecto es un libro de recetas',
+		specifications: 'ListView usado. GridView usado. Detector de gestos usado. API de comidas gratuita usada (FreeMealdb). Providers. Almacenamiento local. TabBar y TabBarViews',
+		repository: 'https://github.com/MarioQuirosLuna/Recipe_Book_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'BMI_Calculator_Kotlin',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121722/BMICalculator_ka1rd2.png',
+		technologiesProject: [
+			{
+				tag: 'Kotlin',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1678570423/portfolio/android_xvzuym.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Calculadora de IMC',
+		specifications: 'Aumente o disminuya la altura con un control deslizante de rango. Aumente o disminuya el peso con dos botones de acción flotante. Dos vistas con navegación con Intent. Uso de diseños (Contraint, linear), Cards, TextView y botones.',
+		repository: 'https://github.com/MarioQuirosLuna/IMC_Calculator_Kotlin',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Task_Manager-Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/TaskManager_ijo3v4.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El proyecto es un administrador de tareas',
+		specifications: 'Agregar tareas. Eliminar tareas al deslizar. Marcar tareas como completadas usando un cheque. Filtrado de tareas. Almacenamiento de datos local para tareas. Almacenamiento local de datos sobre preferencias de configuración visual. Uso del proveedor para gestionar tareas. Uso del proveedor para gestionar el tema. Utilice Uuid para identificaciones únicas. Validaciones al ingresar datos. Usar selector de fechas. Utilice ShowDialog para agregar tarea',
+		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Task_Manager-Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/TaskManager_ijo3v4.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El proyecto es un administrador de tareas',
+		specifications: 'Agregar tareas. Eliminar tareas al deslizar. Marcar tareas como completadas usando un cheque. Filtrado de tareas. Almacenamiento de datos local para tareas. Almacenamiento local de datos sobre preferencias de configuración visual. Uso del proveedor para gestionar tareas. Uso del proveedor para gestionar el tema. Utilice Uuid para identificaciones únicas. Validaciones al ingresar datos. Usar selector de fechas. Utilice ShowDialog para agregar tarea',
+		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Age_Calculator-Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/ageCalculator_v3rz98.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El proyecto es una calculadora de edad',
+		specifications: 'Ingreso de fecha de nacimiento y la app muestra, el siguiente cumpleaños, cuanto falta para este en diferentes formatos. Se uso provider para manejo de datos.',
+		repository: 'https://github.com/MarioQuirosLuna/Age_Calculator_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'MessageApp-Flutter',
+		preview: 'https://media.licdn.com/dms/image/D562DAQEBIUlkeSu_xA/profile-treasury-image-shrink_800_800/0/1698092874557?e=1701727200&v=beta&t=LUJVO-Mzo85Wpl55tR30MpPokEGNDh4N-LYq-jemkY4',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El proyecto simula una app de mensajes, recibiendo una respuesta según las preguntas que se hagan.',
+		specifications: 'Si escribe alguna pregunta que termine con ?. Recibirás una respuesta de sí o no, junto con un meme. Utilizar entidades, modelos, mapeadores, proveedores, temas.',
+		repository: 'https://github.com/MarioQuirosLuna/Message_App_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'CounterApp-Flutter',
+		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El proyecto tiene un contador.',
+		specifications: 'Agregar elemento al contador. Remover elemento del contador. Reiniciar el contador',
+		repository: 'https://github.com/MarioQuirosLuna/Hello_World_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'MultipleIntelligences-ReactNative',
+		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'El objetivo de este proyecto es desarrollar una aplicación móvil que utilice el algoritmo de Euclides para calcular y asignar el tipo de inteligencia predominante de un individuo.',
+		specifications: 'Use Expo para React Native. Aplicación movil hibrida. N usuarios. Algoritmo de euclides. Relaciones con otrs usuario según inteligencias.',
+		repository: 'https://github.com/MarioQuirosLuna/InteligenciasMultiples-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Pokedex-ReactNative',
+		preview: 'https://media.licdn.com/dms/image/D562DAQFqH3FQBmdFHw/profile-treasury-image-shrink_800_800/0/1698093326348?e=1701727200&v=beta&t=D6qpIk9hsYIDHvDiXw7kIH0kUPz2XZ-2QeYkQMyDiqA',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Migración de una app en React a React Native',
+		specifications: 'Se usa Expo, un API pública llamada PokeAPI, React context, React Hooks, Animaciones, barra de busqueda',
+		repository: 'https://github.com/MarioQuirosLuna/Pokedex-ReactNative',
+		liveUrl: ''
+	},
+	{
 		nameProject: 'Twitter Clone',
 		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/twitter_rqqdg0.png',
 		technologiesProject: [

@@ -1,5 +1,149 @@
 const ProjectsData = [
 	{
+		nameProject: 'RecipeBook_Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701122746/recipeBook_q0dvvr.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The project is an recipe book',
+		specifications: 'Used ListView. Used GridView. Used GestureDetector. Used free Meal API (FreeMealdb). Providers. Localstorage. TabBar and TabBarViews',
+		repository: 'https://github.com/MarioQuirosLuna/Recipe_Book_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'BMI_Calculator_Kotlin',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121722/BMICalculator_ka1rd2.png',
+		technologiesProject: [
+			{
+				tag: 'Kotlin',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1678570423/portfolio/android_xvzuym.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'BMI Calculator',
+		specifications: 'Increase or decrease height with a Range Slider. Increase or decrease weight with two Floating Action Button. Two Views with navigation with intent. Use of layouts (constraint, linear), cards, textview and buttons',
+		repository: 'https://github.com/MarioQuirosLuna/IMC_Calculator_Kotlin',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Task_Manager-Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/TaskManager_ijo3v4.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The project is an task manager',
+		specifications: 'Add tasks. Delete tasks on swipe. Mark tasks as completed using a check. Task filtering. Local data storage for tasks. Local storage of data about visual configuration preferences. Using provider to manage tasks. Use of provider to manage the theme. Use Uuid for unique ids. Validations when entering data. Use Datepicker. Use ShowDialog for add task',
+		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Age_Calculator-Flutter',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/ageCalculator_v3rz98.png',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The project is an age calculator',
+		specifications: 'Enter your date of birth to see your age and your next brithday. Also show the age in differents formats, years, months, weeks, days, hoursa and minutes. You can choose your color theme and ligth or dark mode in the settings. In this project do not use external libraries for date management. Do not use the date library because it is not compatible with darv3 at the time of creation of this project. Use provider for theme management.',
+		repository: 'https://github.com/MarioQuirosLuna/Age_Calculator_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'MessageApp-Flutter',
+		preview: 'https://media.licdn.com/dms/image/D562DAQEBIUlkeSu_xA/profile-treasury-image-shrink_800_800/0/1698092874557?e=1701727200&v=beta&t=LUJVO-Mzo85Wpl55tR30MpPokEGNDh4N-LYq-jemkY4',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The project is a messaging app.',
+		specifications: 'If you write any question that ends with ? You will receive a yes or no answer, along with a meme. Use entities, models, mappers, providers, themes.',
+		repository: 'https://github.com/MarioQuirosLuna/Message_App_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'CounterApp-Flutter',
+		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
+		technologiesProject: [
+			{
+				tag: 'Flutter',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The project have a counter.',
+		specifications: 'Add element to counter. Remove element to counter. Restard the counter',
+		repository: 'https://github.com/MarioQuirosLuna/Hello_World_Flutter',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'MultipleIntelligences-ReactNative',
+		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'The objective of this project is to develop a mobile application that uses the Euclidean algorithm to calculate and assign the predominant type of intelligence of an individual.',
+		specifications: 'Use Expo for React Native. Hibrid Mobile app. N Users. Euclides Algorithm. Relationship with other users.',
+		repository: 'https://github.com/MarioQuirosLuna/InteligenciasMultiples-ReactNative',
+		liveUrl: ''
+	},
+	{
+		nameProject: 'Pokedex-ReactNative',
+		preview: 'https://media.licdn.com/dms/image/D562DAQFqH3FQBmdFHw/profile-treasury-image-shrink_800_800/0/1698093326348?e=1701727200&v=beta&t=D6qpIk9hsYIDHvDiXw7kIH0kUPz2XZ-2QeYkQMyDiqA',
+		technologiesProject: [
+			{
+				tag: 'React Native',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1638987539/portfolio/react_lriiap.png'
+			},
+			{
+				tag: 'Git',
+				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
+			}
+		],
+		description: 'Project migration from React to React Native',
+		specifications: 'Use Expo for React Native. Use PokeAPI. React Context were used. React Hooks were used. Animated from react-native were used. A search bar was created',
+		repository: 'https://github.com/MarioQuirosLuna/Pokedex-ReactNative',
+		liveUrl: ''
+	},
+	{
 		nameProject: 'Twitter Clone',
 		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1682723233/twitter_rqqdg0.png',
 		technologiesProject: [
