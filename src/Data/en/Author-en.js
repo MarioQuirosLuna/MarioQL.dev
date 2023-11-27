@@ -19,7 +19,7 @@ const Author = {
 		'FrontEnd Developer',
 		'Responsive Web Design',
 		'I love programming',
-		'Javascript, React, Angular, .Net, and NodeJS',
+		'Javascript, React, Angular, .Net, and Node',
 		'FullStack Development',
 		'SQL Server, MySQL, and Mongo'
 	]
