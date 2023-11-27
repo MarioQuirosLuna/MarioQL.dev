@@ -1,5 +1,20 @@
 const Certifications = [
 	{
+		name: 'Amazon AWS Fundamentals (2023)',
+		url: 'https://www.udemy.com/certificate/UC-156a0478-df07-4fe6-8067-164327fa91df/',
+		company: 'Udemy'
+	},
+	{
+		name: 'Real Android App with Kotlin (2023)',
+		url: 'https://www.udemy.com/certificate/UC-82c11b1c-d1ff-4d26-ad12-158b48ca1c15/',
+		company: 'Udemy'
+	},
+	{
+		name: 'Learning Flutter and Dart (2023)',
+		url: 'https://www.udemy.com/certificate/UC-81884da0-6492-4a2f-bc8a-d63a2693dbd7/',
+		company: 'Udemy'
+	},
+	{
 		name: 'Mobile apps development (2023)',
 		url: 'https://www.linkedin.com/feed/update/urn:li:activity:7079924145114771456/',
 		company: 'Google Active'
