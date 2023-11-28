@@ -49,7 +49,7 @@ const ProjectsData = [
 			}
 		],
 		description: 'The project is an task manager',
-		specifications: 'Add tasks. Delete tasks on swipe. Mark tasks as completed using a check. Task filtering. Local data storage for tasks. Local storage of data about visual configuration preferences. Using provider to manage tasks. Use of provider to manage the theme. Use Uuid for unique ids. Validations when entering data. Use Datepicker. Use ShowDialog for add task',
+		specifications: 'Add tasks. Delete tasks on swipe. Mark tasks as completed using a check. Task filtering. Local data storage for tasks. Local storage of data about visual configuration preferences. Using provider to manage tasks. Use of provider to manage the theme. Use Uuid for unique ids. Validations when entering data. Use Datepicker. Use ShowDialog for add task.',
 		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
 		liveUrl: ''
 	},
