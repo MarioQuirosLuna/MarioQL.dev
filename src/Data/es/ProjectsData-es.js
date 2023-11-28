@@ -54,24 +54,6 @@ const ProjectsData = [
 		liveUrl: ''
 	},
 	{
-		nameProject: 'Task_Manager-Flutter',
-		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/TaskManager_ijo3v4.png',
-		technologiesProject: [
-			{
-				tag: 'Flutter',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
-			},
-			{
-				tag: 'Git',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
-			}
-		],
-		description: 'El proyecto es un administrador de tareas',
-		specifications: 'Agregar tareas. Eliminar tareas al deslizar. Marcar tareas como completadas usando un cheque. Filtrado de tareas. Almacenamiento de datos local para tareas. Almacenamiento local de datos sobre preferencias de configuración visual. Uso del proveedor para gestionar tareas. Uso del proveedor para gestionar el tema. Utilice Uuid para identificaciones únicas. Validaciones al ingresar datos. Usar selector de fechas. Utilice ShowDialog para agregar tarea',
-		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
-		liveUrl: ''
-	},
-	{
 		nameProject: 'Age_Calculator-Flutter',
 		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701121130/ageCalculator_v3rz98.png',
 		technologiesProject: [
@@ -105,24 +87,6 @@ const ProjectsData = [
 		description: 'El proyecto simula una app de mensajes, recibiendo una respuesta según las preguntas que se hagan.',
 		specifications: 'Si escribe alguna pregunta que termine con ?. Recibirás una respuesta de sí o no, junto con un meme. Utilizar entidades, modelos, mapeadores, proveedores, temas.',
 		repository: 'https://github.com/MarioQuirosLuna/Message_App_Flutter',
-		liveUrl: ''
-	},
-	{
-		nameProject: 'CounterApp-Flutter',
-		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
-		technologiesProject: [
-			{
-				tag: 'Flutter',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
-			},
-			{
-				tag: 'Git',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
-			}
-		],
-		description: 'El proyecto tiene un contador.',
-		specifications: 'Agregar elemento al contador. Remover elemento del contador. Reiniciar el contador',
-		repository: 'https://github.com/MarioQuirosLuna/Hello_World_Flutter',
 		liveUrl: ''
 	},
 	{

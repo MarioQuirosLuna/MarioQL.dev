@@ -90,24 +90,6 @@ const ProjectsData = [
 		liveUrl: ''
 	},
 	{
-		nameProject: 'CounterApp-Flutter',
-		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
-		technologiesProject: [
-			{
-				tag: 'Flutter',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1699389705/portfolio/flutter_awlreq.png'
-			},
-			{
-				tag: 'Git',
-				icon: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1639372535/portfolio/git_l7ljml.png'
-			}
-		],
-		description: 'The project have a counter.',
-		specifications: 'Add element to counter. Remove element to counter. Restard the counter',
-		repository: 'https://github.com/MarioQuirosLuna/Hello_World_Flutter',
-		liveUrl: ''
-	},
-	{
 		nameProject: 'MultipleIntelligences-ReactNative',
 		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
 		technologiesProject: [
