@@ -49,7 +49,7 @@ const ProjectsData = [
 			}
 		],
 		description: 'El proyecto es un administrador de tareas',
-		specifications: 'Agregar tareas. Eliminar tareas al deslizar. Marcar tareas como completadas usando un cheque. Filtrado de tareas. Almacenamiento de datos local para tareas. Almacenamiento local de datos sobre preferencias de configuración visual. Uso del proveedor para gestionar tareas. Uso del proveedor para gestionar el tema. Utilice Uuid para identificaciones únicas. Validaciones al ingresar datos. Usar selector de fechas. Utilice ShowDialog para agregar tarea.',
+		specifications: 'Agregar tareas. Eliminar tareas al deslizar. Marcar tareas como completadas usando un cheque. Filtrado de tareas. Almacenamiento de datos local para tareas. Almacenamiento local de datos sobre preferencias de configuración visual. Uso del proveedor para gestionar tareas. Uso del proveedor para gestionar el tema. Utilice Uuid para identificaciones únicas. Validaciones al ingresar datos. Usar selector de fechas. Utilice ShowDialog para agregar tarea. ',
 		repository: 'https://github.com/MarioQuirosLuna/Task_Manager_Flutter',
 		liveUrl: ''
 	},
