@@ -73,7 +73,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'MessageApp-Flutter',
-		preview: 'https://media.licdn.com/dms/image/D562DAQEBIUlkeSu_xA/profile-treasury-image-shrink_800_800/0/1698092874557?e=1701727200&v=beta&t=LUJVO-Mzo85Wpl55tR30MpPokEGNDh4N-LYq-jemkY4',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701974174/1_yrpnox.png',
 		technologiesProject: [
 			{
 				tag: 'Flutter',
@@ -91,7 +91,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'MultipleIntelligences-ReactNative',
-		preview: 'https://media.licdn.com/dms/image/D562DAQE-iz2ISkMk0w/profile-treasury-image-shrink_800_800/0/1698092254330?e=1701727200&v=beta&t=o7iUIuamH5tG5k1pqmOQ9hrVOPQYlc_i64avIGCE-dA',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701974174/3_hdwdsf.png',
 		technologiesProject: [
 			{
 				tag: 'React Native',
@@ -109,7 +109,7 @@ const ProjectsData = [
 	},
 	{
 		nameProject: 'Pokedex-ReactNative',
-		preview: 'https://media.licdn.com/dms/image/D562DAQFqH3FQBmdFHw/profile-treasury-image-shrink_800_800/0/1698093326348?e=1701727200&v=beta&t=D6qpIk9hsYIDHvDiXw7kIH0kUPz2XZ-2QeYkQMyDiqA',
+		preview: 'https://res.cloudinary.com/dusx4zdpz/image/upload/v1701974173/2_kb4lak.png',
 		technologiesProject: [
 			{
 				tag: 'React Native',
